@@ -147,8 +147,61 @@ def chat(
     }
 
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(".tmp")
+    tmp = path.with_suffix(f".{threading.get_ident()}.tmp")
     tmp.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")
     tmp.replace(path)  # atomic, so a crash never leaves a half-written cache file
     _log_usage(record)
     return record
+
+
+def parse_json(text: str) -> dict[str, Any] | None:
+    """The first JSON object in a model answer, ignoring code fences and thinking tags."""
+    import re
+
+    text = re.sub(r"<think>.*?</think>", "", text or "", flags=re.DOTALL).strip()
+    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text)
+    start, end = text.find("{"), text.rfind("}")
+    if start == -1 or end == -1:
+        return None
+    try:
+        data = json.loads(text[start:end + 1])
+    except json.JSONDecodeError:
+        return None
+    return data if isinstance(data, dict) else None
+
+
+_json_mode_ok: dict[str, bool] = {}
+
+
+def chat_json(model: str, messages: list[dict[str, str]], *, thinking: str | None = "off",
+              max_tokens: int = 2000, temperature: float = 0.0) -> tuple[dict[str, Any] | None, dict[str, Any]]:
+    """Ask for a JSON object. Falls back gracefully when JSON mode is unsupported or
+    the model spends its budget reasoning. Returns (data or None, usage stats)."""
+    from openai import BadRequestError
+
+    stats = {"calls": 0, "cached_calls": 0, "prompt_tokens": 0, "completion_tokens": 0}
+
+    def call(tokens: int) -> dict[str, Any]:
+        kwargs: dict[str, Any] = {"temperature": temperature, "max_tokens": tokens, "thinking": thinking}
+        if _json_mode_ok.get(model, True):
+            kwargs["response_format"] = {"type": "json_object"}
+        try:
+            rec = chat(model, messages, **kwargs)
+        except BadRequestError:
+            _json_mode_ok[model] = False
+            kwargs.pop("response_format", None)
+            rec = chat(model, messages, **kwargs)
+        stats["calls"] += 1
+        if rec["cached"]:
+            stats["cached_calls"] += 1
+        else:
+            stats["prompt_tokens"] += rec["prompt_tokens"] or 0
+            stats["completion_tokens"] += rec["completion_tokens"] or 0
+        return rec
+
+    rec = call(max_tokens)
+    data = parse_json(rec["content"])
+    if data is None and (not rec["content"].strip() or rec.get("finish_reason") == "length"):
+        rec = call(max_tokens * 3)  # it ran out of room, usually while reasoning
+        data = parse_json(rec["content"])
+    return data, stats

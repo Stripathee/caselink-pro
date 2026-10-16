@@ -188,6 +188,27 @@ accounts, which complaints were linked by story and with what probability, and p
 duplicate filings (identical leads, amount and date), which are flagged for an officer and
 counted once in losses and victims.
 
+## Case reports
+
+```bash
+python scripts/make_reports.py --top 3    # verified reports for the 3 costliest rings
+```
+
+Each ring gets an investigation report in `data/reports/` (Markdown and JSON), written so
+that nothing reaches an investigator without checked evidence:
+
+1. **Python computes every number** (victims, losses, dates, how often each lead appears and
+   when each phone was in use) as numbered facts F1, F2, and so on.
+2. **Nemotron 3 Ultra** reads those facts and up to 40 of the ring's complaints, chosen so
+   every lead, every alias and the whole active period are covered, and writes how the scam
+   works, the key leads and concrete next steps. Every claim must cite complaint IDs or
+   fact IDs.
+3. **Evidence rules** remove any claim that cites nothing, cites a complaint outside the
+   ring, names an identifier that is not one of the ring's leads, or states a number that is
+   not in its cited evidence.
+4. **Nemotron 3 Super** reads each remaining claim next to the evidence it cites and keeps
+   only claims the evidence fully supports. Removed claims are listed with the reason.
+
 ## Project structure
 
 ```
