@@ -1,0 +1,75 @@
+{
+  "mode": "cascade",
+  "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+  "n": 30,
+  "identifiers": {
+    "by_type": {
+      "phone": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 31
+      },
+      "wallet": {
+        "precision": 0.9474,
+        "recall": 1.0,
+        "f1": 0.973,
+        "support": 18
+      },
+      "bank_account": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "url": {
+        "precision": 0.5714,
+        "recall": 1.0,
+        "f1": 0.7273,
+        "support": 4
+      },
+      "telegram": {
+        "precision": 0.1429,
+        "recall": 1.0,
+        "f1": 0.25,
+        "support": 1
+      },
+      "crypto_address": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "facebook_page": {
+        "precision": 0.7143,
+        "recall": 1.0,
+        "f1": 0.8333,
+        "support": 5
+      }
+    },
+    "overall": {
+      "precision": 0.8462,
+      "recall": 1.0,
+      "f1": 0.9167,
+      "support": 66
+    },
+    "numbers_any_label": {
+      "precision": 0.98,
+      "recall": 1.0,
+      "f1": 0.9899,
+      "support": 49
+    }
+  },
+  "names": {
+    "precision": 0.52,
+    "recall": 0.9286,
+    "f1": 0.6667,
+    "support": 28
+  },
+  "scam_type_accuracy": 0.9666666666666667,
+  "amount_accuracy": 0.9666666666666667,
+  "parse_failed": 0,
+  "dropped": 4,
+  "tokens_in": 18129,
+  "tokens_out": 5325
+}
