@@ -87,6 +87,9 @@ def build_facts(ring: dict, extracted: dict, complaints: dict) -> list[dict[str,
         for i in extracted[m]["identifiers"]:
             t = "number" if i["type"] in ("phone", "wallet") else i["type"]
             seen[f"{t}:{i['value']}"].append(_date(m, extracted, complaints))
+    kinds = Counter(_TYPE_WORDS.get(x["type"], x["type"]) for x in ring["identifiers"])
+    add("Distinct leads: " + ", ".join(f"{n} {k}{'s' if n > 1 else ''}" for k, n in kinds.most_common())
+        + f" ({len(ring['identifiers'])} in total).", lead_counts=dict(kinds))
     for lead in ring["identifiers"][:12]:
         dates = sorted(seen.get(lead["key"], []))
         kind = _TYPE_WORDS.get(lead["type"], lead["type"])
@@ -94,7 +97,9 @@ def build_facts(ring: dict, extracted: dict, complaints: dict) -> list[dict[str,
         add(f"Lead: {kind} {lead['value']} appears in {lead['complaints']} complaints{span}.",
             lead=lead["value"], lead_type=lead["type"], count=lead["complaints"])
     for n in ring["names"][:6]:
-        add(f"Name used: \"{n['name']}\" appears in {n['mentions']} complaints.", name=n["name"])
+        pct = round(100 * n["mentions"] / ring["complaints"])
+        add(f"Name used: \"{n['name']}\" appears in {n['mentions']} of {ring['complaints']} complaints ({pct}%).",
+            name=n["name"])
     for mule in ring["shared_mules"]:
         add(f"Shared mule: {mule['identifier'].split(':', 1)[1]} is also used by {', '.join(mule['also_used_by'])}.")
     if ring["linked_by_story"]:
@@ -213,7 +218,7 @@ def write_report(ring: dict, extracted: dict, complaints: dict, model: str,
     prompt = build_prompt(ring, facts, evidence, extracted, complaints)
     data, stats = llm.chat_json(model, [{"role": "system", "content": SYSTEM_PROMPT},
                                         {"role": "user", "content": prompt}],
-                                thinking=thinking, max_tokens=4000, temperature=0.2)
+                                thinking=thinking, max_tokens=10000, temperature=0.2)  # room to reason, then write
     data = data or {}
     claims: list[dict[str, Any]] = []
     for section, key in (("summary", "summary"), ("modus_operandi", "modus_operandi"),

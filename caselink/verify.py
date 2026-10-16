@@ -35,23 +35,66 @@ def _digits(s: str) -> str:
     return d[3:] if d.startswith("977") and len(d) >= 12 else d
 
 
+_PERCENT = re.compile(r"(\d{1,3})\s?%")
+
+
 def _numbers(text: str) -> set[int]:
+    """Numbers stated in a text, leaving out dates, years, identifiers and complaint IDs."""
     text = _DATE.sub(" ", text)
     for p in _ID_PATTERNS:
         text = p.sub(" ", text)
     text = _CID.sub(" ", text)
-    return {int(n.replace(",", "")) for n in _NUMBER.findall(text)}
+    text = _PERCENT.sub(" ", text)
+    return {n for n in (int(x.replace(",", "")) for x in _NUMBER.findall(text)) if not 1990 <= n <= 2100}
+
+
+def _percents(text: str) -> set[int]:
+    return {int(p) for p in _PERCENT.findall(text)}
+
+
+_STOP = {"of", "the", "in", "and", "a", "an", "to", "for", "at", "on", "by", "from", "with", "across", "all",
+          "is", "are", "was", "were", "about", "around", "over", "under", "total", "per"}
+
+
+def _context(text: str, n: int) -> set[str]:
+    """Word stems right around each place a number is written ('152 complaints' -> {'compl'})."""
+    out: set[str] = set()
+    pattern = re.compile(rf"(?<![\d,]){n:,}(?![\d,])|(?<![\d,]){n}(?![\d,])")
+    for m in pattern.finditer(text):
+        before = re.findall(r"[a-z]+", text[max(0, m.start() - 25):m.start()].lower())[-2:]
+        after = re.findall(r"[a-z]+", text[m.end():m.end() + 30].lower())[:3]
+        out |= {w[:5] for w in before + after if w not in _STOP and len(w) > 2}
+    return out
+
+
+def _repair_citation(cid: str, members: set[str]) -> str | None:
+    """'CMP-000744' is a typo for 'CMP-00744' when that complaint is in the ring."""
+    digits = re.sub(r"\D", "", cid)
+    fixed = f"CMP-{int(digits):05d}" if digits else None
+    return fixed if fixed in members else None
 
 
 def rule_check(claim: dict[str, Any], ring: dict, facts: dict[str, dict], extracted: dict,
                complaints: dict) -> list[str]:
+    """Problems with a claim (empty list = passes). May repair citations in place.
+
+    Repairs are recorded in claim["repairs"]: a mistyped complaint ID, or a number
+    that is one of the ring's computed facts but whose fact was not cited.
+    """
     problems: list[str] = []
+    repairs = claim.setdefault("repairs", [])
     cited = claim["evidence"]
     if not cited:
         return ["cites no evidence"]
+    members = set(ring["members"])
+    for i, c in enumerate(cited):
+        if c.startswith("CMP") and c not in members:
+            fixed = _repair_citation(c, members)
+            if fixed:
+                cited[i] = fixed
+                repairs.append(f"citation {c} read as {fixed}")
     cids = [c for c in cited if c.startswith("CMP-")]
     fids = [c for c in cited if re.fullmatch(r"F\d+", c)]
-    members = set(ring["members"])
     if any(c not in members for c in cids):
         problems.append("cites a complaint outside this ring")
     if any(f not in facts for f in fids):
@@ -79,9 +122,27 @@ def rule_check(claim: dict[str, Any], ring: dict, facts: dict[str, dict], extrac
                 problems.append(f"identifier {m.group()} is not a lead of this ring")
 
     allowed = set().union(*(_numbers(s) for s in sources)) | amounts if sources else amounts
-    for n in _numbers(text):
-        if n >= 10 and n not in allowed:
+    for n in sorted(_numbers(text)):
+        if n < 10 or n in allowed:
+            continue
+        # A number the ring's computed facts state about the same thing, but whose fact was
+        # not cited: cite it. The words around the number must match, so "11 phone numbers"
+        # is not "confirmed" by a fact that happens to say "Morang 11".
+        claim_ctx = _context(text, n)
+        holder = next((fid for fid, f in facts.items()
+                       if n in _numbers(f["text"]) and claim_ctx & _context(f["text"], n)), None)
+        if holder:
+            cited.append(holder)
+            allowed |= _numbers(facts[holder]["text"])
+            repairs.append(f"added {holder}, which states {n:,}")
+        else:
             problems.append(f"number {n:,} is not in the cited evidence")
+    # A percentage must be stated in a fact, or be exactly a share of two cited numbers.
+    stated = set().union(*(_percents(f["text"]) for f in facts.values()))
+    for pct in _percents(text):
+        derivable = any(b and a <= b and round(100 * a / b) == pct for a in allowed for b in allowed)
+        if pct not in stated and not derivable:
+            problems.append(f"percentage {pct}% is not supported by the cited numbers")
     return problems
 
 
@@ -106,17 +167,21 @@ def llm_check(claims: list[dict[str, Any]], facts: dict[str, dict], complaints: 
     """Verdict per claim id: supported, partly or not_supported, with a short reason."""
     if not claims:
         return {}, {"calls": 0}
-    blocks = []
+    # Each source appears once; claims refer to sources by ID. Far fewer tokens than
+    # repeating every complaint under every claim that cites it.
+    cited = list(dict.fromkeys(e for c in claims for e in c["evidence"]))
+    lines = []
     for c in claims:
         what = f"{c['lead']}: {c['text']}" if c.get("lead") else c["text"]
-        blocks.append(f"CLAIM {c['id']}: {what}\nEVIDENCE:\n{_source_block(c['evidence'], facts, complaints)}")
-    prompt = ("For each claim, decide whether its evidence supports it.\n"
-              "- supported: every part of the claim is stated in or directly implied by the evidence\n"
+        lines.append(f"{c['id']}: {what}  [cites: {', '.join(c['evidence'])}]")
+    prompt = ("For each claim, decide whether the sources it cites support it.\n"
+              "- supported: every part of the claim is stated in or directly implied by its cited sources\n"
               "- partly: some part is supported, some part is not\n"
-              "- not_supported: the evidence does not support it\n"
-              "Recommendations (next steps) are supported when the evidence shows the lead or fact they act on.\n\n"
+              "- not_supported: its cited sources do not support it\n"
+              "Recommendations (next steps) are supported when their cited sources show the lead or fact they act on.\n"
+              "Judge each claim only against the sources it cites.\n\n"
               'Return {"verdicts": [{"id": "C1", "verdict": "supported", "reason": "under 15 words"}]}\n\n'
-              + "\n\n".join(blocks))
+              "SOURCES\n" + _source_block(cited, facts, complaints) + "\n\nCLAIMS\n" + "\n".join(lines))
     data, stats = llm.chat_json(model, [{"role": "system", "content": VERIFY_SYSTEM},
                                         {"role": "user", "content": prompt}],
                                 thinking=thinking, max_tokens=3000)
@@ -151,6 +216,7 @@ def verify_report(report: dict[str, Any], ring: dict, extracted: dict, complaint
     n = len(report["claims"])
     report["verification"] = {
         "claims_written": n,
+        "citations_repaired": sum(bool(c.get("repairs")) for c in report["claims"]),
         "removed_by_rules": sum(bool(c["rule_problems"]) for c in report["claims"]),
         "removed_by_verifier": sum(c["status"] == "removed" and not c["rule_problems"] for c in report["claims"]),
         "kept": sum(c["status"] == "kept" for c in report["claims"]),
