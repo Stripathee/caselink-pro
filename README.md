@@ -81,6 +81,40 @@ addresses contain a character base58 never uses, and bank, agency and app names 
 Output in `data/synthetic/`: `complaints.jsonl` (what the system sees), `ground_truth.jsonl`
 and `rings.json` (the hidden answers, used only for evaluation), and `summary.json`.
 
+## Extraction
+
+Investigators link cases on identifiers, so extraction comes first. It runs in tiers:
+
+1. **Rules (free, instant).** Patterns for phone numbers, wallet IDs, bank accounts, links,
+   Telegram handles, crypto addresses and Facebook page names, normalised so that
+   `985-555-012` and `+977985555012` become the same key. Phone vs wallet is decided from
+   the surrounding words ("called from" vs "sent to eSewa").
+2. **Nemotron 3 Nano.** Reads what rules cannot: scammer aliases, fake agency, app,
+   platform and courier names, pages mentioned without the word "Facebook", the scam type
+   and the amount lost. Its answer is validated: anything not present in the complaint
+   text is dropped, so the model cannot invent a lead.
+
+```bash
+python scripts/run_extraction.py --mode rules                 # free
+python scripts/run_extraction.py --mode cascade --limit 30    # rules + Nemotron Nano
+```
+
+Rule-based extraction on the held-out test split (245 complaints, never used for tuning):
+
+| Identifier | Precision | Recall | F1 |
+| --- | --- | --- | --- |
+| Phone number | 99.6% | 98.9% | 99.2% |
+| Wallet ID | 98.2% | 99.1% | 98.6% |
+| Bank account | 100% | 100% | 100% |
+| Link / URL | 100% | 100% | 100% |
+| Telegram handle | 100% | 100% | 100% |
+| Crypto address | 100% | 100% | 100% |
+| Facebook page name | 98.1% | 82.5% | 89.7% |
+| **All** | **99.3%** | **97.3%** | **98.3%** |
+
+Phone and wallet numbers are found with 100% precision and 99.7% recall regardless of label,
+which is what ring linking depends on.
+
 ## Project structure
 
 ```

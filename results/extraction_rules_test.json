@@ -1,0 +1,63 @@
+{
+  "mode": "rules",
+  "model": null,
+  "n": 245,
+  "identifiers": {
+    "by_type": {
+      "phone": {
+        "precision": 0.9962,
+        "recall": 0.9888,
+        "f1": 0.9925,
+        "support": 267
+      },
+      "wallet": {
+        "precision": 0.9818,
+        "recall": 0.9908,
+        "f1": 0.9863,
+        "support": 109
+      },
+      "bank_account": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 83
+      },
+      "url": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 27
+      },
+      "telegram": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 8
+      },
+      "crypto_address": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "facebook_page": {
+        "precision": 0.9811,
+        "recall": 0.8254,
+        "f1": 0.8966,
+        "support": 63
+      }
+    },
+    "overall": {
+      "precision": 0.9927,
+      "recall": 0.9733,
+      "f1": 0.9829,
+      "support": 562
+    },
+    "numbers_any_label": {
+      "precision": 1.0,
+      "recall": 0.9973,
+      "f1": 0.9987,
+      "support": 376
+    }
+  }
+}
