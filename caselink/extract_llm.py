@@ -40,8 +40,10 @@ INSTRUCTIONS = f"""Read the complaint and return this JSON object:
   "amount_lost_npr": total money the victim lost, as an integer, or null,
   "incident_date": "YYYY-MM-DD" if the date is stated, else null,
   "identifiers": [{{"type": ..., "value": ...}}],
-  "people": [names or aliases the scammers used, and the holder name of any bank account money went to],
-  "organisations": [agency, company, app, platform or courier names the scammers used],
+  "people": list of plain strings: names or aliases the scammers used, and the holder name of any
+            bank account money went to, for example ["Kiran sir", "Nabin R."],
+  "organisations": list of plain strings: agency, company, app, platform or courier names the
+                   scammers used, for example ["Quorix Loan"],
   "modus_operandi": one sentence, at most 20 words, on how the scam worked
 }}
 
@@ -161,9 +163,39 @@ def clean_name(name: Any, text: str, identifier_values: set[str]) -> str | None:
         return None  # not in the complaint: invented
     if is_legitimate_entity(name) or is_generic_role(name):
         return None  # a real bank, wallet, platform or agency, or just a job title
-    if URL_RE.fullmatch(name) or normalize_name(name) in identifier_values:
+    if re.search(r"\d{5,}", name) or any(p.fullmatch(name) for p in _FORMATS.values()):
+        return None  # an identifier, or a phrase with one inside ("eSewa wallet ID 98...")
+    if normalize_name(name) in identifier_values:
         return None  # already captured as an identifier (link or page)
     return name
+
+
+def drop_names_that_are_identifiers(names: list[str], identifiers: list[dict[str, Any]]) -> list[str]:
+    """A Facebook page or address found by the rules is a lead already, not a person or company."""
+    values = {normalize_name(str(i["value"])) for i in identifiers}
+    values |= {normalize_name(str(i.get("written", ""))) for i in identifiers}
+    return [n for n in names if normalize_name(n) not in values]
+
+
+_NAME_META_KEYS = {"type", "role", "kind", "category", "label", "relation", "description"}
+
+
+def flatten_names(items: Any) -> list[str]:
+    """Names as plain strings, whatever shape the model used.
+
+    Models sometimes answer ["Kiran"], sometimes [{"type": "name", "value": "Kiran"}]
+    or [{"name": "Kiran", "holder": "Nabin G."}]. Every string value that is not a
+    label like "type" is a candidate name; validation decides which survive.
+    """
+    out: list[str] = []
+    if isinstance(items, (str, dict)):
+        items = [items]
+    for item in items or []:
+        if isinstance(item, str):
+            out.append(item)
+        elif isinstance(item, dict):
+            out += [v for k, v in item.items() if isinstance(v, str) and k.lower() not in _NAME_META_KEYS]
+    return out
 
 
 def clean_llm_output(data: dict[str, Any] | None, text: str, filed_date: str | None = None) -> dict[str, Any]:
@@ -181,8 +213,7 @@ def clean_llm_output(data: dict[str, Any] | None, text: str, filed_date: str | N
         out["amount_lost_npr"] = int(re.sub(r"\D", "", amount))
     out["incident_date"] = plausible_date(data.get("incident_date"), filed_date)
 
-    named = {normalize_name(n) for key in ("people", "organisations")
-             for n in (data.get(key) or []) if isinstance(n, str)}
+    named = {normalize_name(n) for key in ("people", "organisations") for n in flatten_names(data.get(key))}
     for item in data.get("identifiers") or []:
         if not isinstance(item, dict):
             continue
@@ -198,7 +229,7 @@ def clean_llm_output(data: dict[str, Any] | None, text: str, filed_date: str | N
     id_values = {i["value"] for i in out["identifiers"]}
     seen: set[str] = set()
     for key in ("people", "organisations"):
-        for raw in data.get(key) or []:
+        for raw in flatten_names(data.get(key)):
             name = clean_name(raw, text, id_values)
             if name and normalize_name(name) not in seen:
                 out[key].append(name)
@@ -262,6 +293,8 @@ def extract_complaint(text: str, model: str, mode: str = "cascade", filed_date: 
                                            "incident_date", "modus_operandi")})
     result["identifiers"] = merge(hits, cleaned) if mode == "cascade" else [
         {**i, "confidence": 0.8, "source": "nemotron"} for i in cleaned["identifiers"]]
+    for key in ("people", "organisations"):
+        result[key] = drop_names_that_are_identifiers(result[key], result["identifiers"])
     result["llm_called"] = True
     result["parse_failed"] = data is None
     result["raw"] = data  # the model's answer before validation, kept for error analysis

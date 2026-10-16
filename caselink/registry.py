@@ -33,6 +33,9 @@ GENERIC_WORDS = {
     "doctor", "engineer", "army", "soldier", "captain", "manager", "customer", "support", "team",
     "canadian", "american", "british", "uk", "us", "usa", "foreign", "foreigner", "indian",
     "telecom", "security", "customs", "bank", "staff", "executive", "representative",
+    # Romanized Nepali courtesy and everyday words that are not names.
+    "namaste", "namaskar", "dhanyabad", "dhanyabaad", "dhanyawad", "dhanbad", "hajur", "bahini",
+    "aama", "buwa", "paisa", "ramro", "garnuhos", "sahayog", "kripaya",
 }
 
 _LEGIT = {re.sub(r"[^a-z0-9]", "", n.lower()) for n in PAYMENT_PROVIDERS + GOVERNMENT_BODIES + PLATFORMS + BANKS}
@@ -53,5 +56,6 @@ def is_legitimate_entity(name: str) -> bool:
 def is_generic_role(name: str) -> bool:
     """'officer', 'telecom security officer', 'Canadian businesswoman': no actual name inside."""
     tokens = re.findall(r"[A-Za-z]+", name)
-    proper = [t for t in tokens if t[0].isupper() and t.lower() not in GENERIC_WORDS]
-    return not proper
+    proper = [t for t in tokens
+              if t[0].isupper() and t.lower() not in GENERIC_WORDS and _key(t) not in _LEGIT]
+    return not proper  # e.g. "CIB officer": an agency plus a job title, no person
