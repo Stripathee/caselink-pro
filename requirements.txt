@@ -1,0 +1,7 @@
+# Day 1: talking to Nemotron
+openai>=1.40
+python-dotenv>=1.0
+pydantic>=2.6
+
+# Added later in the plan (graph, student model, API):
+# networkx, scikit-learn, sentence-transformers, fastapi, uvicorn

@@ -1,0 +1,63 @@
+{
+  "seed": 42,
+  "writer": "llm",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "n_complaints": 1500,
+  "n_rings": 25,
+  "by_scam_type": {
+    "marketplace": 493,
+    "digital_arrest": 308,
+    "fake_foreign_job": 233,
+    "instant_loan_app": 190,
+    "crypto_investment": 149,
+    "romance": 127
+  },
+  "by_split": {
+    "train": 994,
+    "val": 261,
+    "test": 245
+  },
+  "noise": 225,
+  "script_only": 78,
+  "duplicates": 45,
+  "with_typo": 63,
+  "shared_mule": 36,
+  "ring_sizes": {
+    "R01": 17,
+    "R02": 27,
+    "R03": 58,
+    "R04": 23,
+    "R05": 45,
+    "R06": 83,
+    "R07": 292,
+    "R08": 19,
+    "R09": 15,
+    "R10": 18,
+    "R11": 32,
+    "R12": 18,
+    "R13": 67,
+    "R14": 39,
+    "R15": 23,
+    "R16": 24,
+    "R17": 29,
+    "R18": 113,
+    "R19": 36,
+    "R20": 17,
+    "R21": 34,
+    "R22": 49,
+    "R23": 22,
+    "R24": 21,
+    "R25": 154
+  },
+  "generation": {
+    "model_calls": 1547,
+    "cached_calls": 12,
+    "prompt_tokens": 684155,
+    "completion_tokens": 325375,
+    "empty_first_answer": 0,
+    "retried": 47,
+    "repaired": 2,
+    "failed_and_skipped": 0,
+    "with_extra_numbers": 0
+  }
+}

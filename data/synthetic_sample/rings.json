@@ -1,0 +1,1645 @@
+[
+  {
+    "ring_id": "R01",
+    "scam_type": "romance",
+    "active_from": "2026-03-10",
+    "active_to": "2026-08-19",
+    "loss_range_npr": [
+      45198,
+      620848
+    ],
+    "n_complaints": 17,
+    "phones": [
+      "971555094",
+      "971555367",
+      "979555270"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "968555300",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "bank_account",
+        "value": "6931034131647525",
+        "bank": "Morivan Finance",
+        "holder": "Manoj A."
+      },
+      {
+        "type": "bank_account",
+        "value": "2928327648350305",
+        "bank": "Zentaro Bank",
+        "holder": "Pooja K."
+      },
+      {
+        "type": "bank_account",
+        "value": "4953767242388496",
+        "bank": "Kalvex Bank",
+        "holder": "Pooja S."
+      }
+    ],
+    "web": [],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "David Collins"
+      },
+      {
+        "type": "organisation",
+        "value": "Zentara Logistics"
+      }
+    ],
+    "script": {
+      "persona": "David Collins",
+      "persona_role": "a businesswoman in Canada",
+      "met_on": "Instagram",
+      "gift": "a box with jewellery and a phone",
+      "courier": "Zentara Logistics",
+      "fee": "customs clearance fee"
+    }
+  },
+  {
+    "ring_id": "R02",
+    "scam_type": "fake_foreign_job",
+    "active_from": "2026-01-26",
+    "active_to": "2026-08-14",
+    "loss_range_npr": [
+      60508,
+      316385
+    ],
+    "n_complaints": 27,
+    "phones": [
+      "975555114",
+      "976555161",
+      "970555976",
+      "984555995",
+      "982555519",
+      "964555861"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "988555940",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "985555500",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "965555899",
+        "provider": "Khalti"
+      },
+      {
+        "type": "bank_account",
+        "value": "4039117182278248",
+        "bank": "Ovanta Bank",
+        "holder": "Anita A."
+      },
+      {
+        "type": "bank_account",
+        "value": "4465787133150983",
+        "bank": "Zentaro Bank",
+        "holder": "Deepak S."
+      },
+      {
+        "type": "bank_account",
+        "value": "1310518347382997",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Deepak B."
+      }
+    ],
+    "web": [
+      {
+        "type": "facebook_page",
+        "value": "Zentara Jobs Abroad"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Marivo Placement Agency"
+      },
+      {
+        "type": "person_alias",
+        "value": "Suresh dai"
+      }
+    ],
+    "script": {
+      "agency": "Marivo Placement Agency",
+      "recruiter": "Suresh dai",
+      "country": "Poland",
+      "job": "factory worker",
+      "promised_salary_npr": 200000,
+      "found_via": "a post a friend shared",
+      "fee_stages": [
+        "work permit fee",
+        "air ticket booking",
+        "visa processing fee"
+      ],
+      "ending": "the office address turned out to be fake"
+    }
+  },
+  {
+    "ring_id": "R03",
+    "scam_type": "crypto_investment",
+    "active_from": "2026-05-18",
+    "active_to": "2026-08-19",
+    "loss_range_npr": [
+      139570,
+      158854
+    ],
+    "n_complaints": 58,
+    "phones": [
+      "981555062",
+      "975555819"
+    ],
+    "payments": [
+      {
+        "type": "crypto_address",
+        "value": "TJWGx5Vtxwc740bv16qwGBTYXExSz4BR1R",
+        "network": "USDT (TRC20)"
+      },
+      {
+        "type": "bank_account",
+        "value": "8468723430980500",
+        "bank": "Zentaro Bank",
+        "holder": "Rekha G."
+      },
+      {
+        "type": "wallet",
+        "value": "981555871",
+        "provider": "eSewa"
+      }
+    ],
+    "web": [
+      {
+        "type": "url",
+        "value": "brivax-trade-62.example/download"
+      },
+      {
+        "type": "telegram",
+        "value": "@brivax_signals_8651"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Brivax Exchange"
+      }
+    ],
+    "script": {
+      "platform": "Brivax Exchange",
+      "hook": "a Telegram group sharing daily trading signals",
+      "early_profit": "my dashboard showed my money doubling in two weeks",
+      "blocked": "froze my account and asked for an unlock fee"
+    }
+  },
+  {
+    "ring_id": "R04",
+    "scam_type": "instant_loan_app",
+    "active_from": "2026-01-28",
+    "active_to": "2026-07-29",
+    "loss_range_npr": [
+      7218,
+      21328
+    ],
+    "n_complaints": 23,
+    "phones": [
+      "974555209",
+      "985555244",
+      "976555134",
+      "984555468",
+      "971555009",
+      "979555576"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "971555900",
+        "provider": "eSewa"
+      },
+      {
+        "type": "bank_account",
+        "value": "6427849808412411",
+        "bank": "Morivan Finance",
+        "holder": "Prakash K."
+      }
+    ],
+    "web": [
+      {
+        "type": "url",
+        "value": "quorix-loan-82.example/apply"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Quorix Loan"
+      },
+      {
+        "type": "person_alias",
+        "value": "Deepak sir"
+      }
+    ],
+    "script": {
+      "app": "Quorix Loan",
+      "recovery_agent": "Deepak sir",
+      "found_via": "a YouTube ad",
+      "mechanism": "asked for a processing fee before releasing the loan, then never released it",
+      "pressure": "sent threatening messages every day"
+    }
+  },
+  {
+    "ring_id": "R05",
+    "scam_type": "fake_foreign_job",
+    "active_from": "2026-04-04",
+    "active_to": "2026-08-05",
+    "loss_range_npr": [
+      345439,
+      457398
+    ],
+    "n_complaints": 45,
+    "phones": [
+      "986555574",
+      "961555077",
+      "982555558",
+      "965555596",
+      "982555440"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "965555215",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "bank_account",
+        "value": "4158692322602563",
+        "bank": "Zentaro Bank",
+        "holder": "Rajan G."
+      }
+    ],
+    "web": [
+      {
+        "type": "facebook_page",
+        "value": "Novamir Foreign Jobs Nepal"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Sorenta Manpower Services"
+      },
+      {
+        "type": "person_alias",
+        "value": "Rajan"
+      }
+    ],
+    "script": {
+      "agency": "Sorenta Manpower Services",
+      "recruiter": "Rajan",
+      "country": "Malaysia",
+      "job": "factory worker",
+      "promised_salary_npr": 200000,
+      "found_via": "a Viber group",
+      "fee_stages": [
+        "registration fee",
+        "insurance deposit",
+        "visa processing fee"
+      ],
+      "ending": "kept saying the visa was delayed, then stopped answering"
+    }
+  },
+  {
+    "ring_id": "R06",
+    "scam_type": "fake_foreign_job",
+    "active_from": "2026-06-02",
+    "active_to": "2026-08-13",
+    "loss_range_npr": [
+      129761,
+      288670
+    ],
+    "n_complaints": 83,
+    "phones": [
+      "978555409",
+      "988555339",
+      "961555898",
+      "972555594"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "976555620",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "wallet",
+        "value": "966555921",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "bank_account",
+        "value": "4406088356159514",
+        "bank": "Morivan Finance",
+        "holder": "Nabin R."
+      }
+    ],
+    "web": [
+      {
+        "type": "facebook_page",
+        "value": "Novamir Jobs Abroad"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Pexalon Overseas Pvt. Ltd."
+      },
+      {
+        "type": "person_alias",
+        "value": "Kiran"
+      }
+    ],
+    "script": {
+      "agency": "Pexalon Overseas Pvt. Ltd.",
+      "recruiter": "Kiran",
+      "country": "Japan",
+      "job": "hotel housekeeping",
+      "promised_salary_npr": 120000,
+      "found_via": "a Facebook page",
+      "fee_stages": [
+        "insurance deposit",
+        "medical test fee",
+        "air ticket booking"
+      ],
+      "ending": "switched off the phone after the last payment"
+    }
+  },
+  {
+    "ring_id": "R07",
+    "scam_type": "marketplace",
+    "active_from": "2026-06-18",
+    "active_to": "2026-09-14",
+    "loss_range_npr": [
+      6671,
+      29863
+    ],
+    "n_complaints": 292,
+    "phones": [
+      "980555311",
+      "973555440",
+      "989555670",
+      "977555452",
+      "973555523"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "989555343",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "964555230",
+        "provider": "eSewa"
+      },
+      {
+        "type": "bank_account",
+        "value": "3003791769367632",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Bikash T."
+      },
+      {
+        "type": "bank_account",
+        "value": "4287083172788957",
+        "bank": "Kalvex Bank",
+        "holder": "Anita B."
+      },
+      {
+        "type": "bank_account",
+        "value": "8743487347143455",
+        "bank": "Kalvex Bank",
+        "holder": "Ramesh G."
+      },
+      {
+        "type": "bank_account",
+        "value": "6004797480162456",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Manoj S.",
+        "shared_by": [
+          "R07",
+          "R19"
+        ]
+      }
+    ],
+    "web": [
+      {
+        "type": "facebook_page",
+        "value": "Orlenta Second Hand Market"
+      }
+    ],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "Mr. Adhikari"
+      }
+    ],
+    "script": {
+      "item": "gold jewellery",
+      "seller": "Mr. Adhikari",
+      "advance_reason": "a booking deposit",
+      "ending": "kept asking for more charges and never delivered"
+    }
+  },
+  {
+    "ring_id": "R08",
+    "scam_type": "romance",
+    "active_from": "2026-01-01",
+    "active_to": "2026-06-17",
+    "loss_range_npr": [
+      79971,
+      663889
+    ],
+    "n_complaints": 19,
+    "phones": [
+      "987555425",
+      "963555852",
+      "976555926",
+      "980555877"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "976555551",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "wallet",
+        "value": "988555819",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "wallet",
+        "value": "967555224",
+        "provider": "Khalti"
+      },
+      {
+        "type": "bank_account",
+        "value": "7706562729806990",
+        "bank": "Kalvex Bank",
+        "holder": "Ramesh R."
+      },
+      {
+        "type": "bank_account",
+        "value": "8204653755646417",
+        "bank": "Morivan Finance",
+        "holder": "Bikash S."
+      }
+    ],
+    "web": [],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "Robert Hayes"
+      },
+      {
+        "type": "organisation",
+        "value": "Pexalon Logistics"
+      }
+    ],
+    "script": {
+      "persona": "Robert Hayes",
+      "persona_role": "a US army officer",
+      "met_on": "Facebook",
+      "gift": "a box with jewellery and a phone",
+      "courier": "Pexalon Logistics",
+      "fee": "anti-money-laundering certificate fee"
+    }
+  },
+  {
+    "ring_id": "R09",
+    "scam_type": "crypto_investment",
+    "active_from": "2026-01-04",
+    "active_to": "2026-07-16",
+    "loss_range_npr": [
+      283545,
+      1442465
+    ],
+    "n_complaints": 15,
+    "phones": [
+      "963555129",
+      "971555577",
+      "967555716",
+      "975555171",
+      "989555986",
+      "981555796"
+    ],
+    "payments": [
+      {
+        "type": "crypto_address",
+        "value": "TRSnD5emvhG7mrLwkf08sds3PbUjQ5ZiN1",
+        "network": "USDT (TRC20)"
+      },
+      {
+        "type": "bank_account",
+        "value": "8165726284987769",
+        "bank": "Kalvex Bank",
+        "holder": "Rajan S."
+      },
+      {
+        "type": "bank_account",
+        "value": "2473799650752735",
+        "bank": "Morivan Finance",
+        "holder": "Rajan S."
+      },
+      {
+        "type": "wallet",
+        "value": "984555569",
+        "provider": "eSewa"
+      }
+    ],
+    "web": [
+      {
+        "type": "url",
+        "value": "kestra-trade-35.example/app"
+      },
+      {
+        "type": "telegram",
+        "value": "@kestra_signals_1333"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Kestra Exchange"
+      }
+    ],
+    "script": {
+      "platform": "Kestra Exchange",
+      "hook": "a person who befriended me on Facebook and taught me trading",
+      "early_profit": "showed small profits at first and let me withdraw once",
+      "blocked": "asked for a 20% tax before any withdrawal"
+    }
+  },
+  {
+    "ring_id": "R10",
+    "scam_type": "crypto_investment",
+    "active_from": "2026-04-06",
+    "active_to": "2026-09-06",
+    "loss_range_npr": [
+      101076,
+      253235
+    ],
+    "n_complaints": 18,
+    "phones": [
+      "987555458",
+      "961555301",
+      "966555708",
+      "964555679",
+      "985555484"
+    ],
+    "payments": [
+      {
+        "type": "crypto_address",
+        "value": "TWJLHF8oDM8pbq0CDEpXJoeqafK7vDKFQC",
+        "network": "USDT (TRC20)"
+      },
+      {
+        "type": "crypto_address",
+        "value": "T1nb9J34cKm9hxqY7x1d0XXVNC4HxX8u5S",
+        "network": "USDT (TRC20)"
+      },
+      {
+        "type": "crypto_address",
+        "value": "T5dhk40AtdL6G8cqTffsgFraRVVLxeULdg",
+        "network": "USDT (TRC20)"
+      },
+      {
+        "type": "bank_account",
+        "value": "2334123281206797",
+        "bank": "Kalvex Bank",
+        "holder": "Nabin S."
+      },
+      {
+        "type": "bank_account",
+        "value": "5471349361832421",
+        "bank": "Morivan Finance",
+        "holder": "Suresh G."
+      },
+      {
+        "type": "bank_account",
+        "value": "5717464887719065",
+        "bank": "Zentaro Bank",
+        "holder": "Rajan S."
+      },
+      {
+        "type": "wallet",
+        "value": "969555601",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "984555590",
+        "provider": "eSewa"
+      }
+    ],
+    "web": [
+      {
+        "type": "url",
+        "value": "vexium-trade-72.example/download"
+      },
+      {
+        "type": "telegram",
+        "value": "@vexium_signals_4937"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Vexium Trade"
+      }
+    ],
+    "script": {
+      "platform": "Vexium Trade",
+      "hook": "a Telegram group sharing daily trading signals",
+      "early_profit": "showed small profits at first and let me withdraw once",
+      "blocked": "said my account was flagged and I must pay a verification fee"
+    }
+  },
+  {
+    "ring_id": "R11",
+    "scam_type": "marketplace",
+    "active_from": "2026-01-12",
+    "active_to": "2026-06-22",
+    "loss_range_npr": [
+      14573,
+      16013
+    ],
+    "n_complaints": 32,
+    "phones": [
+      "976555341",
+      "971555878",
+      "965555421",
+      "987555295",
+      "986555833"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "978555844",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "988555473",
+        "provider": "Khalti"
+      },
+      {
+        "type": "wallet",
+        "value": "963555530",
+        "provider": "Khalti"
+      },
+      {
+        "type": "bank_account",
+        "value": "8703482477109324",
+        "bank": "Zentaro Bank",
+        "holder": "Bikash R."
+      }
+    ],
+    "web": [
+      {
+        "type": "facebook_page",
+        "value": "Ulmera Bike Bazaar"
+      }
+    ],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "Rekha dai"
+      }
+    ],
+    "script": {
+      "item": "a DSLR camera",
+      "seller": "Rekha dai",
+      "advance_reason": "a booking deposit",
+      "ending": "kept asking for more charges and never delivered"
+    }
+  },
+  {
+    "ring_id": "R12",
+    "scam_type": "marketplace",
+    "active_from": "2026-02-04",
+    "active_to": "2026-07-28",
+    "loss_range_npr": [
+      13084,
+      82474
+    ],
+    "n_complaints": 18,
+    "phones": [
+      "977555249",
+      "978555148",
+      "973555943",
+      "988555764",
+      "961555282"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "979555593",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "wallet",
+        "value": "972555457",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "bank_account",
+        "value": "8558867533963605",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Rekha R."
+      },
+      {
+        "type": "bank_account",
+        "value": "3702895171870262",
+        "bank": "Morivan Finance",
+        "holder": "Ramesh B."
+      }
+    ],
+    "web": [
+      {
+        "type": "facebook_page",
+        "value": "Vexium Second Hand Market"
+      }
+    ],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "Anil dai"
+      }
+    ],
+    "script": {
+      "item": "a scooter",
+      "seller": "Anil dai",
+      "advance_reason": "half payment before dispatch",
+      "ending": "sent a fake courier receipt and disappeared"
+    }
+  },
+  {
+    "ring_id": "R13",
+    "scam_type": "instant_loan_app",
+    "active_from": "2026-04-06",
+    "active_to": "2026-08-20",
+    "loss_range_npr": [
+      9840,
+      17503
+    ],
+    "n_complaints": 67,
+    "phones": [
+      "961555444",
+      "961555454",
+      "964555925",
+      "960555332"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "979555698",
+        "provider": "eSewa"
+      },
+      {
+        "type": "bank_account",
+        "value": "3219693792374740",
+        "bank": "Ovanta Bank",
+        "holder": "Sabina K."
+      },
+      {
+        "type": "bank_account",
+        "value": "3175946474367136",
+        "bank": "Morivan Finance",
+        "holder": "Manoj K."
+      },
+      {
+        "type": "bank_account",
+        "value": "7325953278774701",
+        "bank": "Kalvex Bank",
+        "holder": "Pooja B.",
+        "shared_by": [
+          "R13",
+          "R20"
+        ]
+      }
+    ],
+    "web": [
+      {
+        "type": "url",
+        "value": "synthra-loan-40.example"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Synthra Paisa"
+      },
+      {
+        "type": "person_alias",
+        "value": "Mr. Shrestha"
+      }
+    ],
+    "script": {
+      "app": "Synthra Paisa",
+      "recovery_agent": "Mr. Shrestha",
+      "found_via": "a YouTube ad",
+      "mechanism": "asked for a processing fee before releasing the loan, then never released it",
+      "pressure": "threatened to file a fake police case against me"
+    }
+  },
+  {
+    "ring_id": "R14",
+    "scam_type": "digital_arrest",
+    "active_from": "2026-06-08",
+    "active_to": "2026-09-09",
+    "loss_range_npr": [
+      117267,
+      654204
+    ],
+    "n_complaints": 39,
+    "phones": [
+      "987555852",
+      "973555621"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "982555643",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "980555316",
+        "provider": "Khalti"
+      },
+      {
+        "type": "bank_account",
+        "value": "1952145623285884",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Sunil K."
+      }
+    ],
+    "web": [],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "Inspector Rai"
+      }
+    ],
+    "script": {
+      "impersonated": "an officer from the Central Investigation Bureau",
+      "officer_name": "Inspector Rai",
+      "pretext": "a parcel in my name contained illegal items",
+      "demand": "a fine to avoid immediate arrest",
+      "tactic": "showed me a fake arrest warrant on WhatsApp"
+    }
+  },
+  {
+    "ring_id": "R15",
+    "scam_type": "romance",
+    "active_from": "2026-01-04",
+    "active_to": "2026-06-18",
+    "loss_range_npr": [
+      229390,
+      664820
+    ],
+    "n_complaints": 23,
+    "phones": [
+      "985555092",
+      "970555270",
+      "981555465",
+      "974555598",
+      "975555110"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "979555226",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "wallet",
+        "value": "967555931",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "wallet",
+        "value": "976555119",
+        "provider": "eSewa"
+      },
+      {
+        "type": "bank_account",
+        "value": "1047113826758692",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Anita T."
+      }
+    ],
+    "web": [],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "David Collins"
+      },
+      {
+        "type": "organisation",
+        "value": "Synthra Courier"
+      }
+    ],
+    "script": {
+      "persona": "David Collins",
+      "persona_role": "a businesswoman in Canada",
+      "met_on": "Facebook",
+      "gift": "a parcel with gifts and dollars",
+      "courier": "Synthra Courier",
+      "fee": "customs clearance fee"
+    }
+  },
+  {
+    "ring_id": "R16",
+    "scam_type": "instant_loan_app",
+    "active_from": "2026-01-13",
+    "active_to": "2026-03-04",
+    "loss_range_npr": [
+      9823,
+      45296
+    ],
+    "n_complaints": 24,
+    "phones": [
+      "985555062",
+      "974555194",
+      "967555093",
+      "983555657"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "969555210",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "983555600",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "965555792",
+        "provider": "eSewa"
+      },
+      {
+        "type": "bank_account",
+        "value": "1422842102053950",
+        "bank": "Zentaro Bank",
+        "holder": "Sunil K."
+      },
+      {
+        "type": "bank_account",
+        "value": "3681177589178390",
+        "bank": "Zentaro Bank",
+        "holder": "Nabin B."
+      },
+      {
+        "type": "bank_account",
+        "value": "1766177115921249",
+        "bank": "Ovanta Bank",
+        "holder": "Sagar R."
+      }
+    ],
+    "web": [
+      {
+        "type": "url",
+        "value": "sorenta-loan-97.example"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Sorenta Paisa"
+      },
+      {
+        "type": "person_alias",
+        "value": "Mr. Adhikari"
+      }
+    ],
+    "script": {
+      "app": "Sorenta Paisa",
+      "recovery_agent": "Mr. Adhikari",
+      "found_via": "a link in an SMS",
+      "mechanism": "asked for a processing fee before releasing the loan, then never released it",
+      "pressure": "sent threatening messages every day"
+    }
+  },
+  {
+    "ring_id": "R17",
+    "scam_type": "digital_arrest",
+    "active_from": "2026-04-27",
+    "active_to": "2026-09-05",
+    "loss_range_npr": [
+      194063,
+      598993
+    ],
+    "n_complaints": 29,
+    "phones": [
+      "988555738",
+      "966555462"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "976555320",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "bank_account",
+        "value": "5527111161528098",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Sagar T."
+      },
+      {
+        "type": "bank_account",
+        "value": "6604945198327315",
+        "bank": "Morivan Finance",
+        "holder": "Manoj T."
+      }
+    ],
+    "web": [],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "DSP Karki"
+      }
+    ],
+    "script": {
+      "impersonated": "a telecom security officer",
+      "officer_name": "DSP Karki",
+      "pretext": "my national ID was used to open fake accounts",
+      "demand": "a refundable verification deposit",
+      "tactic": "showed me a fake arrest warrant on WhatsApp"
+    }
+  },
+  {
+    "ring_id": "R18",
+    "scam_type": "marketplace",
+    "active_from": "2026-04-07",
+    "active_to": "2026-07-16",
+    "loss_range_npr": [
+      15940,
+      21850
+    ],
+    "n_complaints": 113,
+    "phones": [
+      "962555890",
+      "969555673",
+      "971555145",
+      "980555093"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "974555738",
+        "provider": "Khalti"
+      },
+      {
+        "type": "wallet",
+        "value": "989555086",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "962555772",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "bank_account",
+        "value": "1147679764381561",
+        "bank": "Ovanta Bank",
+        "holder": "Nabin B."
+      },
+      {
+        "type": "bank_account",
+        "value": "5036900343244510",
+        "bank": "Kalvex Bank",
+        "holder": "Rekha R."
+      },
+      {
+        "type": "bank_account",
+        "value": "3683885160607159",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Anita R."
+      }
+    ],
+    "web": [
+      {
+        "type": "facebook_page",
+        "value": "Dravelle Second Hand Market"
+      }
+    ],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "Deepak sir"
+      }
+    ],
+    "script": {
+      "item": "an iPhone",
+      "seller": "Deepak sir",
+      "advance_reason": "a booking deposit",
+      "ending": "kept asking for more charges and never delivered"
+    }
+  },
+  {
+    "ring_id": "R19",
+    "scam_type": "romance",
+    "active_from": "2026-05-11",
+    "active_to": "2026-07-14",
+    "loss_range_npr": [
+      171295,
+      240927
+    ],
+    "n_complaints": 36,
+    "phones": [
+      "985555090",
+      "971555249",
+      "979555410",
+      "981555405",
+      "975555226"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "965555359",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "wallet",
+        "value": "982555241",
+        "provider": "eSewa"
+      },
+      {
+        "type": "bank_account",
+        "value": "3432921277997995",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Sagar G."
+      },
+      {
+        "type": "bank_account",
+        "value": "6004797480162456",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Manoj S.",
+        "shared_by": [
+          "R07",
+          "R19"
+        ]
+      }
+    ],
+    "web": [],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "David Collins"
+      },
+      {
+        "type": "organisation",
+        "value": "Talvane Express Cargo"
+      }
+    ],
+    "script": {
+      "persona": "David Collins",
+      "persona_role": "a doctor working in the UK",
+      "met_on": "Instagram",
+      "gift": "a parcel with gifts and dollars",
+      "courier": "Talvane Express Cargo",
+      "fee": "delivery tax"
+    }
+  },
+  {
+    "ring_id": "R20",
+    "scam_type": "fake_foreign_job",
+    "active_from": "2026-04-26",
+    "active_to": "2026-06-20",
+    "loss_range_npr": [
+      188096,
+      470013
+    ],
+    "n_complaints": 17,
+    "phones": [
+      "989555519",
+      "977555594"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "965555619",
+        "provider": "Khalti"
+      },
+      {
+        "type": "wallet",
+        "value": "982555980",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "971555830",
+        "provider": "Khalti"
+      },
+      {
+        "type": "bank_account",
+        "value": "2820377889255466",
+        "bank": "Morivan Finance",
+        "holder": "Sagar S."
+      },
+      {
+        "type": "bank_account",
+        "value": "2518644925192546",
+        "bank": "Morivan Finance",
+        "holder": "Prakash T."
+      },
+      {
+        "type": "bank_account",
+        "value": "9652816850542357",
+        "bank": "Kalvex Bank",
+        "holder": "Kiran A."
+      },
+      {
+        "type": "bank_account",
+        "value": "7325953278774701",
+        "bank": "Kalvex Bank",
+        "holder": "Pooja B.",
+        "shared_by": [
+          "R13",
+          "R20"
+        ]
+      }
+    ],
+    "web": [
+      {
+        "type": "facebook_page",
+        "value": "Dravelle Jobs Abroad"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Quorix Placement Agency"
+      },
+      {
+        "type": "person_alias",
+        "value": "Rajan"
+      }
+    ],
+    "script": {
+      "agency": "Quorix Placement Agency",
+      "recruiter": "Rajan",
+      "country": "Croatia",
+      "job": "factory worker",
+      "promised_salary_npr": 150000,
+      "found_via": "a post a friend shared",
+      "fee_stages": [
+        "air ticket booking",
+        "registration fee",
+        "work permit fee"
+      ],
+      "ending": "switched off the phone after the last payment"
+    }
+  },
+  {
+    "ring_id": "R21",
+    "scam_type": "instant_loan_app",
+    "active_from": "2026-04-23",
+    "active_to": "2026-09-09",
+    "loss_range_npr": [
+      10920,
+      18984
+    ],
+    "n_complaints": 34,
+    "phones": [
+      "967555044",
+      "975555692",
+      "983555992",
+      "979555291",
+      "987555239",
+      "983555316"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "978555540",
+        "provider": "Khalti"
+      },
+      {
+        "type": "wallet",
+        "value": "963555820",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "bank_account",
+        "value": "3407581814124782",
+        "bank": "Kalvex Bank",
+        "holder": "Anita T."
+      }
+    ],
+    "web": [
+      {
+        "type": "url",
+        "value": "marivo-loan-33.example/app"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Marivo Loan"
+      },
+      {
+        "type": "person_alias",
+        "value": "Anil dai"
+      }
+    ],
+    "script": {
+      "app": "Marivo Loan",
+      "recovery_agent": "Anil dai",
+      "found_via": "a YouTube ad",
+      "mechanism": "released a small loan, then demanded several times more in repayment",
+      "pressure": "called people in my contact list and said I was a fraud"
+    }
+  },
+  {
+    "ring_id": "R22",
+    "scam_type": "digital_arrest",
+    "active_from": "2026-02-27",
+    "active_to": "2026-08-11",
+    "loss_range_npr": [
+      405428,
+      1090008
+    ],
+    "n_complaints": 49,
+    "phones": [
+      "973555395",
+      "965555229",
+      "965555953",
+      "965555810",
+      "962555039",
+      "977555712"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "964555220",
+        "provider": "eSewa"
+      },
+      {
+        "type": "bank_account",
+        "value": "9986143410369711",
+        "bank": "Ovanta Bank",
+        "holder": "Rekha S."
+      },
+      {
+        "type": "bank_account",
+        "value": "4246095396218518",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Bikash R."
+      },
+      {
+        "type": "bank_account",
+        "value": "1654051531952058",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Sagar G."
+      }
+    ],
+    "web": [],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "Officer Shrestha"
+      }
+    ],
+    "script": {
+      "impersonated": "an officer from the Nepal Police Cyber Bureau",
+      "officer_name": "Officer Shrestha",
+      "pretext": "my national ID was used to open fake accounts",
+      "demand": "a refundable verification deposit",
+      "tactic": "told me not to tell my family"
+    }
+  },
+  {
+    "ring_id": "R23",
+    "scam_type": "fake_foreign_job",
+    "active_from": "2026-02-01",
+    "active_to": "2026-05-26",
+    "loss_range_npr": [
+      130603,
+      349465
+    ],
+    "n_complaints": 22,
+    "phones": [
+      "983555292",
+      "970555886"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "977555916",
+        "provider": "Khalti"
+      },
+      {
+        "type": "wallet",
+        "value": "972555508",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "wallet",
+        "value": "975555946",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "bank_account",
+        "value": "5161692845115447",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Anita G."
+      },
+      {
+        "type": "bank_account",
+        "value": "6705964016582029",
+        "bank": "Kalvex Bank",
+        "holder": "Sabina S."
+      }
+    ],
+    "web": [
+      {
+        "type": "facebook_page",
+        "value": "Ulmera Work Visa Info"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Ulmera Manpower Services"
+      },
+      {
+        "type": "person_alias",
+        "value": "Sabina"
+      }
+    ],
+    "script": {
+      "agency": "Ulmera Manpower Services",
+      "recruiter": "Sabina",
+      "country": "Saudi Arabia",
+      "job": "security guard",
+      "promised_salary_npr": 120000,
+      "found_via": "a Facebook page",
+      "fee_stages": [
+        "visa processing fee",
+        "insurance deposit",
+        "air ticket booking"
+      ],
+      "ending": "the office address turned out to be fake"
+    }
+  },
+  {
+    "ring_id": "R24",
+    "scam_type": "crypto_investment",
+    "active_from": "2026-01-31",
+    "active_to": "2026-06-24",
+    "loss_range_npr": [
+      66314,
+      67770
+    ],
+    "n_complaints": 21,
+    "phones": [
+      "967555971",
+      "975555454",
+      "969555140",
+      "985555407",
+      "974555255",
+      "960555753"
+    ],
+    "payments": [
+      {
+        "type": "crypto_address",
+        "value": "TVEgKmYD89w5VCznV6tkwMjPn5c0KzLwBn",
+        "network": "USDT (TRC20)"
+      },
+      {
+        "type": "bank_account",
+        "value": "3583132370589578",
+        "bank": "Zentaro Bank",
+        "holder": "Prakash T."
+      },
+      {
+        "type": "bank_account",
+        "value": "5678669125177852",
+        "bank": "Trelisa Bikas Bank",
+        "holder": "Sunil G."
+      },
+      {
+        "type": "wallet",
+        "value": "980555851",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "982555311",
+        "provider": "eSewa"
+      },
+      {
+        "type": "wallet",
+        "value": "965555957",
+        "provider": "IME Pay"
+      }
+    ],
+    "web": [
+      {
+        "type": "url",
+        "value": "quorix-trade-82.example/download"
+      },
+      {
+        "type": "telegram",
+        "value": "@quorix_signals_1530"
+      }
+    ],
+    "names": [
+      {
+        "type": "organisation",
+        "value": "Quorix Trade"
+      }
+    ],
+    "script": {
+      "platform": "Quorix Trade",
+      "hook": "a person who befriended me on Facebook and taught me trading",
+      "early_profit": "my dashboard showed my money doubling in two weeks",
+      "blocked": "froze my account and asked for an unlock fee"
+    }
+  },
+  {
+    "ring_id": "R25",
+    "scam_type": "digital_arrest",
+    "active_from": "2026-01-06",
+    "active_to": "2026-07-14",
+    "loss_range_npr": [
+      55065,
+      828835
+    ],
+    "n_complaints": 154,
+    "phones": [
+      "972555640",
+      "979555546",
+      "968555656",
+      "969555964",
+      "982555175",
+      "989555737"
+    ],
+    "payments": [
+      {
+        "type": "wallet",
+        "value": "969555271",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "wallet",
+        "value": "969555426",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "wallet",
+        "value": "980555509",
+        "provider": "IME Pay"
+      },
+      {
+        "type": "bank_account",
+        "value": "9447364710276773",
+        "bank": "Morivan Finance",
+        "holder": "Sagar G."
+      },
+      {
+        "type": "bank_account",
+        "value": "6562588153714732",
+        "bank": "Morivan Finance",
+        "holder": "Anil S."
+      }
+    ],
+    "web": [],
+    "names": [
+      {
+        "type": "person_alias",
+        "value": "Inspector Shrestha"
+      }
+    ],
+    "script": {
+      "impersonated": "an officer from the Central Investigation Bureau",
+      "officer_name": "Inspector Shrestha",
+      "pretext": "a parcel in my name contained illegal items",
+      "demand": "a security deposit to clear my name",
+      "tactic": "kept me on a video call for hours"
+    }
+  }
+]

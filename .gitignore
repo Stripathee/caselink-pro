@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Model-call cache and usage log (regenerated locally)
+.cache/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
