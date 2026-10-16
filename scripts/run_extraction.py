@@ -48,7 +48,8 @@ def main() -> int:
     results: dict[str, dict] = {}
     start = time.perf_counter()
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = {pool.submit(extract_complaint, complaints[cid]["text"], model, args.mode): cid for cid in ids}
+        futures = {pool.submit(extract_complaint, complaints[cid]["text"], model, args.mode,
+                               complaints[cid]["filed_date"]): cid for cid in ids}
         try:
             for i, fut in enumerate(as_completed(futures), start=1):
                 results[futures[fut]] = fut.result()
@@ -81,10 +82,13 @@ def main() -> int:
     report = {"mode": args.mode, "model": None if args.mode == "rules" else model, "n": len(ids),
               "identifiers": s}
     if args.mode != "rules":
-        names = score_names({cid: r["people"] + r["organisations"] for cid, r in results.items()}, truth, ids)
+        names = score_names({cid: r["people"] + r["organisations"] for cid, r in results.items()}, truth, ids,
+                            {cid: complaints[cid]["text"] for cid in ids})
         typed = [cid for cid in ids if results[cid]["scam_type"]]
         type_acc = sum(results[c]["scam_type"] == truth[c]["scam_type"] for c in ids) / len(ids)
         amt_ok = sum(results[c]["amount_lost_npr"] == truth[c]["amount_npr"] for c in ids) / len(ids)
+        dated = [c for c in ids if results[c]["incident_date"]]
+        date_ok = sum(results[c]["incident_date"] == truth[c]["incident_date"] for c in dated) / max(1, len(dated))
         tokens_in = sum(r["stats"]["prompt_tokens"] for r in results.values() if not r["stats"]["cached"])
         tokens_out = sum(r["stats"]["completion_tokens"] for r in results.values() if not r["stats"]["cached"])
         failed = sum(r.get("parse_failed", False) for r in results.values())
@@ -93,9 +97,11 @@ def main() -> int:
               f"recall {names['recall']:.1%}, F1 {names['f1']:.1%}")
         print(f"Scam type correct: {type_acc:.1%}  ({len(typed)} labelled)")
         print(f"Amount lost exactly right: {amt_ok:.1%}")
-        print(f"Unreadable answers: {failed} | invented items dropped by validation: {dropped}")
+        print(f"Incident date: {len(dated)} of {len(ids)} dated, {date_ok:.1%} of those exactly right")
+        print(f"Unreadable answers: {failed} | items removed by validation: {dropped}")
         print(f"New tokens this run: {tokens_in:,} in, {tokens_out:,} out")
         report.update(names=names, scam_type_accuracy=type_acc, amount_accuracy=amt_ok,
+                      date_coverage=len(dated) / len(ids), date_accuracy=date_ok,
                       parse_failed=failed, dropped=dropped, tokens_in=tokens_in, tokens_out=tokens_out)
 
     Path("results").mkdir(exist_ok=True)

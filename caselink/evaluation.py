@@ -7,7 +7,7 @@ from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any, Iterable
 
-from caselink.extract_rules import normalize, normalize_name
+from caselink.extract_rules import name_in_text, name_tokens, normalize, normalize_name
 
 ID_TYPES = ["phone", "wallet", "bank_account", "url", "telegram", "crypto_address", "facebook_page"]
 
@@ -75,17 +75,32 @@ def prf(tp: int, fp: int, fn: int) -> dict[str, float]:
 
 def names_match(a: str, b: str) -> bool:
     """Same name, allowing titles ("Kiran" vs "Kiran sir") and small spelling slips."""
-    x, y = normalize_name(a), normalize_name(b)
+    x, y = " ".join(name_tokens(a)), " ".join(name_tokens(b))
     if not x or not y:
         return False
     return x == y or x in y or y in x or SequenceMatcher(None, x, y).ratio() >= 0.85
 
 
-def score_names(pred: dict[str, list[str]], truth: dict[str, dict], ids: Iterable[str]) -> dict[str, float]:
+def gold_names(row: dict[str, Any], text: str) -> list[str]:
+    """Scammer aliases, fake organisations and mule account holders that the text really names.
+
+    The complaint writer sometimes drops a name from the fact sheet; no extractor
+    can find a name that is not in the text, so those are not counted.
+    """
+    gold = [n["value"] for n in row["names"] if name_in_text(n["value"], text)]
+    for m in row["mentions"]:
+        holder = m.get("holder")
+        if holder and name_in_text(holder, text):
+            gold.append(holder)
+    return gold
+
+
+def score_names(pred: dict[str, list[str]], truth: dict[str, dict], ids: Iterable[str],
+                texts: dict[str, str]) -> dict[str, float]:
     """Scammer aliases and organisation names, matched loosely."""
     tp = fp = fn = 0
     for cid in ids:
-        gold = [n["value"] for n in truth[cid]["names"]]
+        gold = gold_names(truth[cid], texts[cid])
         guess = pred.get(cid, [])
         tp_here = sum(any(names_match(g, p) for p in guess) for g in gold)
         tp += tp_here

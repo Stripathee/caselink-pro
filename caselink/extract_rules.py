@@ -106,6 +106,22 @@ def normalize_name(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip().lower()
 
 
+_NAME_FILLER = {"mr", "mrs", "ms", "dr", "sir", "dai", "didi", "ji", "pvt", "ltd", "private", "limited",
+                "co", "inc", "the", "app", "page"}
+
+
+def name_tokens(s: str) -> list[str]:
+    """Distinctive words of a name: no punctuation, titles or company suffixes."""
+    return [t for t in re.findall(r"[a-z0-9]+", s.lower()) if t not in _NAME_FILLER]
+
+
+def name_in_text(name: str, text: str) -> bool:
+    """Every distinctive word of the name appears in the text ('Mr. Adhikari' ~ 'Mr Adhikari')."""
+    tokens = name_tokens(name)
+    words = set(re.findall(r"[a-z0-9]+", text.lower()))
+    return bool(tokens) and all(t in words for t in tokens)
+
+
 def normalize(type_: str, written: str) -> str:
     if type_ in ("phone", "wallet", "bank_account", "number"):
         return normalize_number(written)

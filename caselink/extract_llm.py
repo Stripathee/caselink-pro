@@ -16,8 +16,12 @@ from typing import Any
 
 from openai import BadRequestError
 
+from datetime import date, timedelta
+
 from caselink import llm
-from caselink.extract_rules import Hit, extract, normalize, normalize_name, normalize_number
+from caselink.extract_rules import (ACCOUNT_RE, CRYPTO_RE, PHONE_RE, TELEGRAM_RE, URL_RE, Hit, extract,
+                                    name_in_text, normalize, normalize_name, normalize_number)
+from caselink.registry import is_generic_role, is_legitimate_entity
 from caselink.synth import SCAM_LABELS, SCAM_TYPES
 
 SYSTEM_PROMPT = (
@@ -36,7 +40,7 @@ INSTRUCTIONS = f"""Read the complaint and return this JSON object:
   "amount_lost_npr": total money the victim lost, as an integer, or null,
   "incident_date": "YYYY-MM-DD" if the date is stated, else null,
   "identifiers": [{{"type": ..., "value": ...}}],
-  "people": [names or aliases the scammers used],
+  "people": [names or aliases the scammers used, and the holder name of any bank account money went to],
   "organisations": [agency, company, app, platform or courier names the scammers used],
   "modus_operandi": one sentence, at most 20 words, on how the scam worked
 }}
@@ -106,10 +110,63 @@ def _in_text(type_: str, value: str, text: str) -> bool:
     if type_ in ("phone", "wallet", "bank_account"):
         digits = normalize_number(value)
         return len(digits) >= 7 and digits in re.sub(r"\D", "", text)
+    if type_ in ("name", "facebook_page"):
+        return name_in_text(value, text)
     return normalize_name(value) in normalize_name(text)
 
 
-def clean_llm_output(data: dict[str, Any] | None, text: str) -> dict[str, Any]:
+_FORMATS = {
+    "phone": PHONE_RE, "wallet": PHONE_RE, "bank_account": ACCOUNT_RE,
+    "url": URL_RE, "telegram": TELEGRAM_RE, "crypto_address": CRYPTO_RE,
+}
+
+
+def valid_format(type_: str, value: str) -> bool:
+    """An identifier must look like its type: a Telegram handle starts with @, a URL has a domain."""
+    value = value.strip()
+    if type_ in _FORMATS:
+        return bool(_FORMATS[type_].fullmatch(value))
+    if type_ == "facebook_page":
+        words = value.split()
+        return 1 <= len(words) <= 8 and not re.search(r"\d{5,}|@|https?://", value) and not is_legitimate_entity(value)
+    return False
+
+
+def plausible_date(value: Any, filed_date: str | None) -> str | None:
+    """Keep a date only if it is real and falls in the year before the complaint was filed.
+
+    Victims often omit the year or use the Nepali calendar (2083 BS is 2026 AD);
+    a model then guesses a year. A wrong date would corrupt the ring timeline,
+    so an implausible date is dropped and the filing date is used instead.
+    """
+    if not isinstance(value, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+        return None
+    try:
+        d = date.fromisoformat(value)
+    except ValueError:
+        return None
+    if filed_date:
+        filed = date.fromisoformat(filed_date)
+        if not (filed - timedelta(days=366) <= d <= filed):
+            return None
+    return value
+
+
+def clean_name(name: Any, text: str, identifier_values: set[str]) -> str | None:
+    """A scammer alias or fake organisation, or None if it is not a lead."""
+    if not isinstance(name, str) or not name.strip():
+        return None
+    name = name.strip()
+    if not _in_text("name", name, text):
+        return None  # not in the complaint: invented
+    if is_legitimate_entity(name) or is_generic_role(name):
+        return None  # a real bank, wallet, platform or agency, or just a job title
+    if URL_RE.fullmatch(name) or normalize_name(name) in identifier_values:
+        return None  # already captured as an identifier (link or page)
+    return name
+
+
+def clean_llm_output(data: dict[str, Any] | None, text: str, filed_date: str | None = None) -> dict[str, Any]:
     out: dict[str, Any] = {"scam_type": None, "amount_lost_npr": None, "incident_date": None,
                            "identifiers": [], "people": [], "organisations": [], "modus_operandi": None,
                            "dropped": 0}
@@ -122,22 +179,31 @@ def clean_llm_output(data: dict[str, Any] | None, text: str) -> dict[str, Any]:
         out["amount_lost_npr"] = int(amount)
     elif isinstance(amount, str) and re.sub(r"\D", "", amount):
         out["amount_lost_npr"] = int(re.sub(r"\D", "", amount))
-    date = data.get("incident_date")
-    if isinstance(date, str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", date):
-        out["incident_date"] = date
+    out["incident_date"] = plausible_date(data.get("incident_date"), filed_date)
+
+    named = {normalize_name(n) for key in ("people", "organisations")
+             for n in (data.get(key) or []) if isinstance(n, str)}
     for item in data.get("identifiers") or []:
         if not isinstance(item, dict):
             continue
-        t, v = item.get("type"), str(item.get("value") or "")
-        if t in ID_TYPES and _in_text(t, v, text):
+        t, v = item.get("type"), str(item.get("value") or "").strip()
+        ok = t in ID_TYPES and _in_text(t, v, text) and valid_format(t, v)
+        if t == "facebook_page" and normalize_name(v) in named:
+            ok = False  # the model itself calls this a person or company, not a page
+        if ok:
             out["identifiers"].append({"type": t, "value": normalize(t, v), "written": v})
         else:
             out["dropped"] += 1
+
+    id_values = {i["value"] for i in out["identifiers"]}
+    seen: set[str] = set()
     for key in ("people", "organisations"):
-        for name in data.get(key) or []:
-            if isinstance(name, str) and name.strip() and _in_text("name", name, text):
-                out[key].append(name.strip())
-            elif name:
+        for raw in data.get(key) or []:
+            name = clean_name(raw, text, id_values)
+            if name and normalize_name(name) not in seen:
+                out[key].append(name)
+                seen.add(normalize_name(name))
+            elif raw:
                 out["dropped"] += 1
     mo = data.get("modus_operandi")
     out["modus_operandi"] = mo.strip() if isinstance(mo, str) else None
@@ -151,22 +217,36 @@ def clean_llm_output(data: dict[str, Any] | None, text: str) -> dict[str, Any]:
 def merge(rule_hits: list[Hit], llm_out: dict[str, Any]) -> list[dict[str, Any]]:
     """Union of both, one entry per identifier. Rules decide the label unless unsure."""
     merged: dict[str, dict[str, Any]] = {}
+    numeric = ("phone", "wallet", "bank_account")
 
     def key(t: str, v: str) -> str:
-        return f"number:{v}" if t in ("phone", "wallet") else f"{t}:{v}"
+        return f"number:{v}" if t in numeric else f"{t}:{v}"
 
     for h in rule_hits:
         merged[key(h.type, h.value)] = {**h.to_dict(), "source": "rules"}
     for item in llm_out["identifiers"]:
         k = key(item["type"], item["value"])
-        if k not in merged:
-            merged[k] = {**item, "confidence": 0.8, "source": "nemotron"}
-        elif merged[k]["confidence"] < 0.9 and merged[k]["type"] != item["type"]:
-            merged[k].update(type=item["type"], source="rules+nemotron")
+        if k in merged:
+            m = merged[k]
+            # Rules are unsure whether a number is a phone or a wallet: let the model decide.
+            if (m["confidence"] < 0.9 and m["type"] in ("phone", "wallet")
+                    and item["type"] in ("phone", "wallet") and m["type"] != item["type"]):
+                m.update(type=item["type"], source="rules+nemotron")
+            continue
+        if item["type"] == "facebook_page":
+            # The same page read slightly differently: the model judges where a name ends
+            # better than a pattern does ("Dravelle Second Hand Market Please").
+            same = [rk for rk, m in merged.items() if m["type"] == "facebook_page"
+                    and (item["value"] in m["value"] or m["value"] in item["value"])]
+            for rk in same:
+                del merged[rk]
+            merged[k] = {**item, "confidence": 0.9, "source": "rules+nemotron" if same else "nemotron"}
+            continue
+        merged[k] = {**item, "confidence": 0.8, "source": "nemotron"}
     return list(merged.values())
 
 
-def extract_complaint(text: str, model: str, mode: str = "cascade") -> dict[str, Any]:
+def extract_complaint(text: str, model: str, mode: str = "cascade", filed_date: str | None = None) -> dict[str, Any]:
     """mode: "rules" (free), "cascade" (rules + Nemotron), or "llm" (Nemotron only)."""
     hits = extract(text) if mode in ("rules", "cascade") else []
     result: dict[str, Any] = {"identifiers": [{**h.to_dict(), "source": "rules"} for h in hits],
@@ -177,12 +257,13 @@ def extract_complaint(text: str, model: str, mode: str = "cascade") -> dict[str,
     if mode == "rules":
         return result
     data, stats = ask_model(text, model)
-    cleaned = clean_llm_output(data, text)
+    cleaned = clean_llm_output(data, text, filed_date)
     result.update({k: cleaned[k] for k in ("people", "organisations", "scam_type", "amount_lost_npr",
                                            "incident_date", "modus_operandi")})
     result["identifiers"] = merge(hits, cleaned) if mode == "cascade" else [
         {**i, "confidence": 0.8, "source": "nemotron"} for i in cleaned["identifiers"]]
     result["llm_called"] = True
     result["parse_failed"] = data is None
+    result["raw"] = data  # the model's answer before validation, kept for error analysis
     result["stats"] = {**stats, "dropped": cleaned["dropped"]}
     return result
