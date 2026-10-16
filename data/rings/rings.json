@@ -1,0 +1,5166 @@
+{
+  "rings": [
+    {
+      "label": 1,
+      "complaints": 152,
+      "victims": 149,
+      "possible_duplicates": [
+        [
+          "CMP-00417",
+          "CMP-00646"
+        ],
+        [
+          "CMP-00578",
+          "CMP-01250"
+        ],
+        [
+          "CMP-00730",
+          "CMP-01149"
+        ]
+      ],
+      "total_loss_npr": 47649000,
+      "scam_type": "digital_arrest",
+      "scam_type_share": 1.0,
+      "active_from": "2026-01-06",
+      "active_to": "2026-08-01",
+      "identifiers": [
+        {
+          "key": "number:969555964",
+          "type": "phone",
+          "value": "969555964",
+          "complaints": 45
+        },
+        {
+          "key": "bank_account:9447364710276773",
+          "type": "bank_account",
+          "value": "9447364710276773",
+          "complaints": 43
+        },
+        {
+          "key": "bank_account:6562588153714732",
+          "type": "bank_account",
+          "value": "6562588153714732",
+          "complaints": 43
+        },
+        {
+          "key": "number:968555656",
+          "type": "phone",
+          "value": "968555656",
+          "complaints": 32
+        },
+        {
+          "key": "number:979555546",
+          "type": "phone",
+          "value": "979555546",
+          "complaints": 31
+        },
+        {
+          "key": "number:982555175",
+          "type": "phone",
+          "value": "982555175",
+          "complaints": 30
+        },
+        {
+          "key": "number:972555640",
+          "type": "phone",
+          "value": "972555640",
+          "complaints": 26
+        },
+        {
+          "key": "number:989555737",
+          "type": "phone",
+          "value": "989555737",
+          "complaints": 18
+        },
+        {
+          "key": "number:969555426",
+          "type": "wallet",
+          "value": "969555426",
+          "complaints": 16
+        },
+        {
+          "key": "number:980555509",
+          "type": "wallet",
+          "value": "980555509",
+          "complaints": 13
+        },
+        {
+          "key": "number:969555271",
+          "type": "wallet",
+          "value": "969555271",
+          "complaints": 7
+        },
+        {
+          "key": "number:982555105",
+          "type": "phone",
+          "value": "982555105",
+          "complaints": 1
+        },
+        {
+          "key": "number:969555764",
+          "type": "phone",
+          "value": "969555764",
+          "complaints": 1
+        },
+        {
+          "key": "number:972555040",
+          "type": "phone",
+          "value": "972555040",
+          "complaints": 1
+        },
+        {
+          "key": "number:979555346",
+          "type": "phone",
+          "value": "979555346",
+          "complaints": 1
+        },
+        {
+          "key": "number:969555064",
+          "type": "phone",
+          "value": "969555064",
+          "complaints": 1
+        },
+        {
+          "key": "number:979555446",
+          "type": "phone",
+          "value": "979555446",
+          "complaints": 1
+        },
+        {
+          "key": "number:979555846",
+          "type": "phone",
+          "value": "979555846",
+          "complaints": 1
+        },
+        {
+          "key": "number:979555586",
+          "type": "phone",
+          "value": "979555586",
+          "complaints": 1
+        },
+        {
+          "key": "number:964555013",
+          "type": "phone",
+          "value": "964555013",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Inspector Shrestha",
+          "mentions": 101
+        },
+        {
+          "name": "Anil S.",
+          "mentions": 41
+        },
+        {
+          "name": "Sagar G.",
+          "mentions": 40
+        },
+        {
+          "name": "Officer Prakash",
+          "mentions": 2
+        },
+        {
+          "name": "Officer Ramesh Thapa",
+          "mentions": 1
+        },
+        {
+          "name": "Officer Rajendra",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00813",
+          "probability": 0.997
+        },
+        {
+          "complaint": "CMP-01119",
+          "probability": 0.878
+        },
+        {
+          "complaint": "CMP-01221",
+          "probability": 0.694
+        }
+      ],
+      "members": [
+        "CMP-00002",
+        "CMP-00021",
+        "CMP-00024",
+        "CMP-00036",
+        "CMP-00042",
+        "CMP-00048",
+        "CMP-00058",
+        "CMP-00060",
+        "CMP-00074",
+        "CMP-00080",
+        "CMP-00090",
+        "CMP-00098",
+        "CMP-00125",
+        "CMP-00135",
+        "CMP-00139",
+        "CMP-00140",
+        "CMP-00146",
+        "CMP-00148",
+        "CMP-00156",
+        "CMP-00161",
+        "CMP-00166",
+        "CMP-00167",
+        "CMP-00191",
+        "CMP-00196",
+        "CMP-00199",
+        "CMP-00206",
+        "CMP-00214",
+        "CMP-00223",
+        "CMP-00235",
+        "CMP-00236",
+        "CMP-00237",
+        "CMP-00254",
+        "CMP-00277",
+        "CMP-00281",
+        "CMP-00286",
+        "CMP-00299",
+        "CMP-00325",
+        "CMP-00329",
+        "CMP-00330",
+        "CMP-00333",
+        "CMP-00339",
+        "CMP-00345",
+        "CMP-00349",
+        "CMP-00354",
+        "CMP-00398",
+        "CMP-00400",
+        "CMP-00405",
+        "CMP-00415",
+        "CMP-00417",
+        "CMP-00419",
+        "CMP-00421",
+        "CMP-00437",
+        "CMP-00439",
+        "CMP-00459",
+        "CMP-00488",
+        "CMP-00500",
+        "CMP-00511",
+        "CMP-00513",
+        "CMP-00550",
+        "CMP-00566",
+        "CMP-00578",
+        "CMP-00579",
+        "CMP-00596",
+        "CMP-00598",
+        "CMP-00601",
+        "CMP-00602",
+        "CMP-00603",
+        "CMP-00640",
+        "CMP-00646",
+        "CMP-00660",
+        "CMP-00671",
+        "CMP-00672",
+        "CMP-00681",
+        "CMP-00706",
+        "CMP-00711",
+        "CMP-00715",
+        "CMP-00730",
+        "CMP-00734",
+        "CMP-00742",
+        "CMP-00743",
+        "CMP-00750",
+        "CMP-00758",
+        "CMP-00762",
+        "CMP-00767",
+        "CMP-00771",
+        "CMP-00776",
+        "CMP-00785",
+        "CMP-00790",
+        "CMP-00794",
+        "CMP-00801",
+        "CMP-00808",
+        "CMP-00813",
+        "CMP-00836",
+        "CMP-00867",
+        "CMP-00880",
+        "CMP-00898",
+        "CMP-00902",
+        "CMP-00933",
+        "CMP-00938",
+        "CMP-00944",
+        "CMP-01002",
+        "CMP-01007",
+        "CMP-01036",
+        "CMP-01041",
+        "CMP-01048",
+        "CMP-01051",
+        "CMP-01055",
+        "CMP-01065",
+        "CMP-01083",
+        "CMP-01089",
+        "CMP-01091",
+        "CMP-01097",
+        "CMP-01101",
+        "CMP-01105",
+        "CMP-01119",
+        "CMP-01132",
+        "CMP-01147",
+        "CMP-01149",
+        "CMP-01161",
+        "CMP-01162",
+        "CMP-01163",
+        "CMP-01172",
+        "CMP-01178",
+        "CMP-01190",
+        "CMP-01217",
+        "CMP-01221",
+        "CMP-01222",
+        "CMP-01223",
+        "CMP-01235",
+        "CMP-01236",
+        "CMP-01250",
+        "CMP-01271",
+        "CMP-01272",
+        "CMP-01299",
+        "CMP-01301",
+        "CMP-01304",
+        "CMP-01347",
+        "CMP-01358",
+        "CMP-01364",
+        "CMP-01366",
+        "CMP-01370",
+        "CMP-01373",
+        "CMP-01379",
+        "CMP-01388",
+        "CMP-01394",
+        "CMP-01409",
+        "CMP-01422",
+        "CMP-01428",
+        "CMP-01429",
+        "CMP-01455",
+        "CMP-01460",
+        "CMP-01491"
+      ],
+      "ring": "RING-01"
+    },
+    {
+      "label": 7,
+      "complaints": 49,
+      "victims": 49,
+      "possible_duplicates": [],
+      "total_loss_npr": 33880600,
+      "scam_type": "digital_arrest",
+      "scam_type_share": 1.0,
+      "active_from": "2026-02-28",
+      "active_to": "2026-08-03",
+      "identifiers": [
+        {
+          "key": "bank_account:1654051531952058",
+          "type": "bank_account",
+          "value": "1654051531952058",
+          "complaints": 16
+        },
+        {
+          "key": "number:962555039",
+          "type": "phone",
+          "value": "962555039",
+          "complaints": 16
+        },
+        {
+          "key": "number:973555395",
+          "type": "phone",
+          "value": "973555395",
+          "complaints": 12
+        },
+        {
+          "key": "bank_account:4246095396218518",
+          "type": "bank_account",
+          "value": "4246095396218518",
+          "complaints": 12
+        },
+        {
+          "key": "number:965555229",
+          "type": "phone",
+          "value": "965555229",
+          "complaints": 11
+        },
+        {
+          "key": "number:965555953",
+          "type": "phone",
+          "value": "965555953",
+          "complaints": 9
+        },
+        {
+          "key": "bank_account:9986143410369711",
+          "type": "bank_account",
+          "value": "9986143410369711",
+          "complaints": 7
+        },
+        {
+          "key": "number:965555810",
+          "type": "phone",
+          "value": "965555810",
+          "complaints": 7
+        },
+        {
+          "key": "number:977555712",
+          "type": "phone",
+          "value": "977555712",
+          "complaints": 4
+        },
+        {
+          "key": "number:964555220",
+          "type": "wallet",
+          "value": "964555220",
+          "complaints": 4
+        },
+        {
+          "key": "number:964555120",
+          "type": "wallet",
+          "value": "964555120",
+          "complaints": 1
+        },
+        {
+          "key": "number:976555008",
+          "type": "phone",
+          "value": "976555008",
+          "complaints": 1
+        },
+        {
+          "key": "number:970555946",
+          "type": "phone",
+          "value": "970555946",
+          "complaints": 1
+        },
+        {
+          "key": "number:965555890",
+          "type": "phone",
+          "value": "965555890",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Officer Shrestha",
+          "mentions": 33
+        },
+        {
+          "name": "Sagar G.",
+          "mentions": 14
+        },
+        {
+          "name": "Bikash R.",
+          "mentions": 11
+        },
+        {
+          "name": "Rekha S.",
+          "mentions": 7
+        },
+        {
+          "name": "Officer Sharma",
+          "mentions": 1
+        },
+        {
+          "name": "Officer Bishnu Sharma",
+          "mentions": 1
+        },
+        {
+          "name": "Officer Rajesh Thapa",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00083",
+          "probability": 0.997
+        },
+        {
+          "complaint": "CMP-00747",
+          "probability": 0.997
+        },
+        {
+          "complaint": "CMP-00045",
+          "probability": 0.971
+        }
+      ],
+      "members": [
+        "CMP-00010",
+        "CMP-00031",
+        "CMP-00045",
+        "CMP-00077",
+        "CMP-00083",
+        "CMP-00154",
+        "CMP-00185",
+        "CMP-00207",
+        "CMP-00210",
+        "CMP-00244",
+        "CMP-00266",
+        "CMP-00318",
+        "CMP-00326",
+        "CMP-00347",
+        "CMP-00352",
+        "CMP-00381",
+        "CMP-00397",
+        "CMP-00422",
+        "CMP-00503",
+        "CMP-00518",
+        "CMP-00546",
+        "CMP-00574",
+        "CMP-00599",
+        "CMP-00621",
+        "CMP-00682",
+        "CMP-00725",
+        "CMP-00744",
+        "CMP-00747",
+        "CMP-00782",
+        "CMP-00856",
+        "CMP-00878",
+        "CMP-00992",
+        "CMP-00996",
+        "CMP-01030",
+        "CMP-01044",
+        "CMP-01125",
+        "CMP-01142",
+        "CMP-01146",
+        "CMP-01180",
+        "CMP-01191",
+        "CMP-01259",
+        "CMP-01283",
+        "CMP-01292",
+        "CMP-01313",
+        "CMP-01377",
+        "CMP-01414",
+        "CMP-01431",
+        "CMP-01450",
+        "CMP-01470"
+      ],
+      "ring": "RING-02"
+    },
+    {
+      "label": 15,
+      "complaints": 47,
+      "victims": 47,
+      "possible_duplicates": [],
+      "total_loss_npr": 17989500,
+      "scam_type": "fake_foreign_job",
+      "scam_type_share": 1.0,
+      "active_from": "2026-04-06",
+      "active_to": "2026-08-21",
+      "identifiers": [
+        {
+          "key": "number:965555215",
+          "type": "wallet",
+          "value": "965555215",
+          "complaints": 19
+        },
+        {
+          "key": "number:965555596",
+          "type": "phone",
+          "value": "965555596",
+          "complaints": 17
+        },
+        {
+          "key": "facebook_page:novamir foreign jobs nepal",
+          "type": "facebook_page",
+          "value": "novamir foreign jobs nepal",
+          "complaints": 14
+        },
+        {
+          "key": "bank_account:4158692322602563",
+          "type": "bank_account",
+          "value": "4158692322602563",
+          "complaints": 13
+        },
+        {
+          "key": "number:982555558",
+          "type": "phone",
+          "value": "982555558",
+          "complaints": 11
+        },
+        {
+          "key": "number:986555574",
+          "type": "phone",
+          "value": "986555574",
+          "complaints": 8
+        },
+        {
+          "key": "number:961555077",
+          "type": "phone",
+          "value": "961555077",
+          "complaints": 8
+        },
+        {
+          "key": "number:982555440",
+          "type": "phone",
+          "value": "982555440",
+          "complaints": 8
+        },
+        {
+          "key": "number:965555595",
+          "type": "phone",
+          "value": "965555595",
+          "complaints": 1
+        },
+        {
+          "key": "number:982555552",
+          "type": "phone",
+          "value": "982555552",
+          "complaints": 1
+        },
+        {
+          "key": "number:978555726",
+          "type": "phone",
+          "value": "978555726",
+          "complaints": 1
+        },
+        {
+          "key": "number:970555240",
+          "type": "phone",
+          "value": "970555240",
+          "complaints": 1
+        },
+        {
+          "key": "number:975555942",
+          "type": "phone",
+          "value": "975555942",
+          "complaints": 1
+        },
+        {
+          "key": "number:963555775",
+          "type": "phone",
+          "value": "963555775",
+          "complaints": 1
+        },
+        {
+          "key": "number:963555041",
+          "type": "wallet",
+          "value": "963555041",
+          "complaints": 1
+        },
+        {
+          "key": "number:975555503",
+          "type": "phone",
+          "value": "975555503",
+          "complaints": 1
+        },
+        {
+          "key": "bank_account:4669436436531459",
+          "type": "bank_account",
+          "value": "4669436436531459",
+          "complaints": 1
+        },
+        {
+          "key": "number:967555210",
+          "type": "phone",
+          "value": "967555210",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Rajan",
+          "mentions": 35
+        },
+        {
+          "name": "Sorenta Manpower Services",
+          "mentions": 30
+        },
+        {
+          "name": "Novamir Foreign Jobs Nepal",
+          "mentions": 2
+        },
+        {
+          "name": "Dhaiya",
+          "mentions": 1
+        },
+        {
+          "name": "Saathi",
+          "mentions": 1
+        },
+        {
+          "name": "Sagar",
+          "mentions": 1
+        },
+        {
+          "name": "Halvex Manpower Services",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00362",
+          "probability": 0.997
+        },
+        {
+          "complaint": "CMP-00748",
+          "probability": 0.997
+        },
+        {
+          "complaint": "CMP-01210",
+          "probability": 0.972
+        },
+        {
+          "complaint": "CMP-00022",
+          "probability": 0.934
+        },
+        {
+          "complaint": "CMP-00993",
+          "probability": 0.658
+        },
+        {
+          "complaint": "CMP-00356",
+          "probability": 0.607
+        }
+      ],
+      "members": [
+        "CMP-00019",
+        "CMP-00022",
+        "CMP-00026",
+        "CMP-00121",
+        "CMP-00130",
+        "CMP-00141",
+        "CMP-00230",
+        "CMP-00256",
+        "CMP-00301",
+        "CMP-00356",
+        "CMP-00357",
+        "CMP-00362",
+        "CMP-00447",
+        "CMP-00485",
+        "CMP-00505",
+        "CMP-00507",
+        "CMP-00510",
+        "CMP-00575",
+        "CMP-00612",
+        "CMP-00615",
+        "CMP-00632",
+        "CMP-00634",
+        "CMP-00694",
+        "CMP-00713",
+        "CMP-00739",
+        "CMP-00748",
+        "CMP-00829",
+        "CMP-00871",
+        "CMP-00886",
+        "CMP-00945",
+        "CMP-00949",
+        "CMP-00993",
+        "CMP-01020",
+        "CMP-01063",
+        "CMP-01066",
+        "CMP-01200",
+        "CMP-01202",
+        "CMP-01210",
+        "CMP-01287",
+        "CMP-01296",
+        "CMP-01403",
+        "CMP-01419",
+        "CMP-01425",
+        "CMP-01436",
+        "CMP-01468",
+        "CMP-01481",
+        "CMP-01483"
+      ],
+      "ring": "RING-03"
+    },
+    {
+      "label": 4,
+      "complaints": 81,
+      "victims": 80,
+      "possible_duplicates": [
+        [
+          "CMP-00158",
+          "CMP-00287"
+        ]
+      ],
+      "total_loss_npr": 16173000,
+      "scam_type": "fake_foreign_job",
+      "scam_type_share": 0.99,
+      "active_from": "2026-06-03",
+      "active_to": "2026-09-05",
+      "identifiers": [
+        {
+          "key": "facebook_page:novamir jobs abroad",
+          "type": "facebook_page",
+          "value": "novamir jobs abroad",
+          "complaints": 40
+        },
+        {
+          "key": "number:988555339",
+          "type": "phone",
+          "value": "988555339",
+          "complaints": 30
+        },
+        {
+          "key": "bank_account:4406088356159514",
+          "type": "bank_account",
+          "value": "4406088356159514",
+          "complaints": 26
+        },
+        {
+          "key": "number:961555898",
+          "type": "phone",
+          "value": "961555898",
+          "complaints": 26
+        },
+        {
+          "key": "number:976555620",
+          "type": "wallet",
+          "value": "976555620",
+          "complaints": 23
+        },
+        {
+          "key": "number:978555409",
+          "type": "phone",
+          "value": "978555409",
+          "complaints": 22
+        },
+        {
+          "key": "number:966555921",
+          "type": "wallet",
+          "value": "966555921",
+          "complaints": 14
+        },
+        {
+          "key": "number:972555594",
+          "type": "phone",
+          "value": "972555594",
+          "complaints": 13
+        },
+        {
+          "key": "facebook_page:pexalon overseas pvt. ltd.",
+          "type": "facebook_page",
+          "value": "pexalon overseas pvt. ltd.",
+          "complaints": 3
+        },
+        {
+          "key": "facebook_page:hotel housekeeping job in japan",
+          "type": "facebook_page",
+          "value": "hotel housekeeping job in japan",
+          "complaints": 2
+        },
+        {
+          "key": "number:985555595",
+          "type": "phone",
+          "value": "985555595",
+          "complaints": 1
+        },
+        {
+          "key": "number:978555449",
+          "type": "phone",
+          "value": "978555449",
+          "complaints": 1
+        },
+        {
+          "key": "number:961555298",
+          "type": "phone",
+          "value": "961555298",
+          "complaints": 1
+        },
+        {
+          "key": "number:982555000",
+          "type": "phone",
+          "value": "982555000",
+          "complaints": 1
+        },
+        {
+          "key": "number:964555910",
+          "type": "phone",
+          "value": "964555910",
+          "complaints": 1
+        },
+        {
+          "key": "number:974555167",
+          "type": "phone",
+          "value": "974555167",
+          "complaints": 1
+        },
+        {
+          "key": "number:987555329",
+          "type": "phone",
+          "value": "987555329",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Kiran",
+          "mentions": 56
+        },
+        {
+          "name": "Pexalon Overseas Pvt. Ltd.",
+          "mentions": 40
+        },
+        {
+          "name": "Nabin R.",
+          "mentions": 23
+        },
+        {
+          "name": "Novamir Jobs Abroad",
+          "mentions": 4
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00138",
+          "probability": 0.995
+        },
+        {
+          "complaint": "CMP-00691",
+          "probability": 0.989
+        },
+        {
+          "complaint": "CMP-00267",
+          "probability": 0.975
+        },
+        {
+          "complaint": "CMP-00473",
+          "probability": 0.848
+        }
+      ],
+      "members": [
+        "CMP-00007",
+        "CMP-00020",
+        "CMP-00047",
+        "CMP-00052",
+        "CMP-00063",
+        "CMP-00067",
+        "CMP-00112",
+        "CMP-00133",
+        "CMP-00138",
+        "CMP-00157",
+        "CMP-00158",
+        "CMP-00195",
+        "CMP-00203",
+        "CMP-00220",
+        "CMP-00226",
+        "CMP-00258",
+        "CMP-00267",
+        "CMP-00275",
+        "CMP-00283",
+        "CMP-00287",
+        "CMP-00290",
+        "CMP-00300",
+        "CMP-00312",
+        "CMP-00353",
+        "CMP-00377",
+        "CMP-00403",
+        "CMP-00406",
+        "CMP-00449",
+        "CMP-00453",
+        "CMP-00456",
+        "CMP-00462",
+        "CMP-00473",
+        "CMP-00482",
+        "CMP-00484",
+        "CMP-00492",
+        "CMP-00516",
+        "CMP-00520",
+        "CMP-00638",
+        "CMP-00658",
+        "CMP-00691",
+        "CMP-00717",
+        "CMP-00732",
+        "CMP-00736",
+        "CMP-00764",
+        "CMP-00773",
+        "CMP-00821",
+        "CMP-00862",
+        "CMP-00868",
+        "CMP-00961",
+        "CMP-00967",
+        "CMP-00975",
+        "CMP-01012",
+        "CMP-01069",
+        "CMP-01092",
+        "CMP-01096",
+        "CMP-01102",
+        "CMP-01133",
+        "CMP-01138",
+        "CMP-01160",
+        "CMP-01170",
+        "CMP-01185",
+        "CMP-01198",
+        "CMP-01215",
+        "CMP-01243",
+        "CMP-01256",
+        "CMP-01263",
+        "CMP-01274",
+        "CMP-01280",
+        "CMP-01281",
+        "CMP-01295",
+        "CMP-01321",
+        "CMP-01322",
+        "CMP-01328",
+        "CMP-01375",
+        "CMP-01405",
+        "CMP-01407",
+        "CMP-01421",
+        "CMP-01441",
+        "CMP-01452",
+        "CMP-01476",
+        "CMP-01489"
+      ],
+      "ring": "RING-04"
+    },
+    {
+      "label": 8,
+      "complaints": 37,
+      "victims": 37,
+      "possible_duplicates": [],
+      "total_loss_npr": 12140500,
+      "scam_type": "digital_arrest",
+      "scam_type_share": 1.0,
+      "active_from": "2026-06-14",
+      "active_to": "2026-09-22",
+      "identifiers": [
+        {
+          "key": "bank_account:1952145623285884",
+          "type": "bank_account",
+          "value": "1952145623285884",
+          "complaints": 20
+        },
+        {
+          "key": "number:973555621",
+          "type": "phone",
+          "value": "973555621",
+          "complaints": 20
+        },
+        {
+          "key": "number:987555852",
+          "type": "phone",
+          "value": "987555852",
+          "complaints": 18
+        },
+        {
+          "key": "number:982555643",
+          "type": "wallet",
+          "value": "982555643",
+          "complaints": 3
+        },
+        {
+          "key": "number:980555316",
+          "type": "wallet",
+          "value": "980555316",
+          "complaints": 2
+        },
+        {
+          "key": "number:973555601",
+          "type": "phone",
+          "value": "973555601",
+          "complaints": 1
+        },
+        {
+          "key": "number:983555800",
+          "type": "phone",
+          "value": "983555800",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Inspector Rai",
+          "mentions": 25
+        },
+        {
+          "name": "Sunil K.",
+          "mentions": 19
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00766",
+          "probability": 0.802
+        }
+      ],
+      "members": [
+        "CMP-00011",
+        "CMP-00043",
+        "CMP-00101",
+        "CMP-00104",
+        "CMP-00107",
+        "CMP-00219",
+        "CMP-00264",
+        "CMP-00298",
+        "CMP-00328",
+        "CMP-00338",
+        "CMP-00355",
+        "CMP-00557",
+        "CMP-00564",
+        "CMP-00571",
+        "CMP-00622",
+        "CMP-00670",
+        "CMP-00704",
+        "CMP-00766",
+        "CMP-00788",
+        "CMP-00807",
+        "CMP-00925",
+        "CMP-00953",
+        "CMP-00971",
+        "CMP-01049",
+        "CMP-01077",
+        "CMP-01106",
+        "CMP-01183",
+        "CMP-01199",
+        "CMP-01203",
+        "CMP-01229",
+        "CMP-01239",
+        "CMP-01314",
+        "CMP-01333",
+        "CMP-01336",
+        "CMP-01337",
+        "CMP-01402",
+        "CMP-01498"
+      ],
+      "ring": "RING-05"
+    },
+    {
+      "label": 41,
+      "complaints": 14,
+      "victims": 14,
+      "possible_duplicates": [],
+      "total_loss_npr": 10640900,
+      "scam_type": "crypto_investment",
+      "scam_type_share": 0.93,
+      "active_from": "2026-03-11",
+      "active_to": "2026-07-15",
+      "identifiers": [
+        {
+          "key": "url:kestra-trade-35.example/app",
+          "type": "url",
+          "value": "kestra-trade-35.example/app",
+          "complaints": 10
+        },
+        {
+          "key": "telegram:@kestra_signals_1333",
+          "type": "telegram",
+          "value": "@kestra_signals_1333",
+          "complaints": 5
+        },
+        {
+          "key": "number:989555986",
+          "type": "phone",
+          "value": "989555986",
+          "complaints": 5
+        },
+        {
+          "key": "number:967555716",
+          "type": "phone",
+          "value": "967555716",
+          "complaints": 3
+        },
+        {
+          "key": "number:975555171",
+          "type": "phone",
+          "value": "975555171",
+          "complaints": 3
+        },
+        {
+          "key": "number:981555796",
+          "type": "phone",
+          "value": "981555796",
+          "complaints": 3
+        },
+        {
+          "key": "crypto_address:TRSnD5emvhG7mrLwkf08sds3PbUjQ5ZiN1",
+          "type": "crypto_address",
+          "value": "TRSnD5emvhG7mrLwkf08sds3PbUjQ5ZiN1",
+          "complaints": 3
+        },
+        {
+          "key": "bank_account:2473799650752735",
+          "type": "bank_account",
+          "value": "2473799650752735",
+          "complaints": 2
+        },
+        {
+          "key": "number:971555577",
+          "type": "phone",
+          "value": "971555577",
+          "complaints": 1
+        },
+        {
+          "key": "number:984555569",
+          "type": "wallet",
+          "value": "984555569",
+          "complaints": 1
+        },
+        {
+          "key": "facebook_page:kestra exchange",
+          "type": "facebook_page",
+          "value": "kestra exchange",
+          "complaints": 1
+        },
+        {
+          "key": "url:kestra-trade-35.example",
+          "type": "url",
+          "value": "kestra-trade-35.example",
+          "complaints": 1
+        },
+        {
+          "key": "number:981555485",
+          "type": "phone",
+          "value": "981555485",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Kestra Exchange",
+          "mentions": 7
+        },
+        {
+          "name": "Rajesh",
+          "mentions": 2
+        },
+        {
+          "name": "Rajan S.",
+          "mentions": 2
+        },
+        {
+          "name": "Anil",
+          "mentions": 1
+        },
+        {
+          "name": "Asha",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00368",
+          "probability": 0.994
+        }
+      ],
+      "members": [
+        "CMP-00114",
+        "CMP-00368",
+        "CMP-00519",
+        "CMP-00526",
+        "CMP-00543",
+        "CMP-00587",
+        "CMP-00760",
+        "CMP-00854",
+        "CMP-00908",
+        "CMP-01013",
+        "CMP-01014",
+        "CMP-01086",
+        "CMP-01400",
+        "CMP-01463"
+      ],
+      "ring": "RING-06"
+    },
+    {
+      "label": 22,
+      "complaints": 29,
+      "victims": 28,
+      "possible_duplicates": [
+        [
+          "CMP-00544",
+          "CMP-01315"
+        ]
+      ],
+      "total_loss_npr": 9423500,
+      "scam_type": "digital_arrest",
+      "scam_type_share": 1.0,
+      "active_from": "2026-04-27",
+      "active_to": "2026-09-05",
+      "identifiers": [
+        {
+          "key": "number:966555462",
+          "type": "phone",
+          "value": "966555462",
+          "complaints": 19
+        },
+        {
+          "key": "number:988555738",
+          "type": "phone",
+          "value": "988555738",
+          "complaints": 16
+        },
+        {
+          "key": "bank_account:5527111161528098",
+          "type": "bank_account",
+          "value": "5527111161528098",
+          "complaints": 9
+        },
+        {
+          "key": "number:976555320",
+          "type": "wallet",
+          "value": "976555320",
+          "complaints": 8
+        },
+        {
+          "key": "bank_account:6604945198327315",
+          "type": "bank_account",
+          "value": "6604945198327315",
+          "complaints": 7
+        },
+        {
+          "key": "number:965555978",
+          "type": "phone",
+          "value": "965555978",
+          "complaints": 1
+        },
+        {
+          "key": "number:976555322",
+          "type": "phone",
+          "value": "976555322",
+          "complaints": 1
+        },
+        {
+          "key": "number:988555739",
+          "type": "phone",
+          "value": "988555739",
+          "complaints": 1
+        },
+        {
+          "key": "number:963555199",
+          "type": "phone",
+          "value": "963555199",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "DSP Karki",
+          "mentions": 18
+        },
+        {
+          "name": "Sagar T.",
+          "mentions": 9
+        },
+        {
+          "name": "Manoj T.",
+          "mentions": 7
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-01224",
+          "probability": 0.948
+        },
+        {
+          "complaint": "CMP-00009",
+          "probability": 0.805
+        }
+      ],
+      "members": [
+        "CMP-00009",
+        "CMP-00039",
+        "CMP-00081",
+        "CMP-00088",
+        "CMP-00245",
+        "CMP-00255",
+        "CMP-00268",
+        "CMP-00280",
+        "CMP-00294",
+        "CMP-00425",
+        "CMP-00471",
+        "CMP-00544",
+        "CMP-00560",
+        "CMP-00731",
+        "CMP-00756",
+        "CMP-00814",
+        "CMP-00849",
+        "CMP-01135",
+        "CMP-01197",
+        "CMP-01213",
+        "CMP-01214",
+        "CMP-01224",
+        "CMP-01308",
+        "CMP-01315",
+        "CMP-01401",
+        "CMP-01439",
+        "CMP-01445",
+        "CMP-01467",
+        "CMP-01482"
+      ],
+      "ring": "RING-07"
+    },
+    {
+      "label": 26,
+      "complaints": 21,
+      "victims": 21,
+      "possible_duplicates": [],
+      "total_loss_npr": 8533000,
+      "scam_type": "romance",
+      "scam_type_share": 0.62,
+      "active_from": "2026-01-09",
+      "active_to": "2026-06-27",
+      "identifiers": [
+        {
+          "key": "bank_account:1047113826758692",
+          "type": "bank_account",
+          "value": "1047113826758692",
+          "complaints": 12
+        },
+        {
+          "key": "number:979555226",
+          "type": "wallet",
+          "value": "979555226",
+          "complaints": 6
+        },
+        {
+          "key": "number:985555092",
+          "type": "phone",
+          "value": "985555092",
+          "complaints": 5
+        },
+        {
+          "key": "number:981555465",
+          "type": "phone",
+          "value": "981555465",
+          "complaints": 3
+        },
+        {
+          "key": "number:970555270",
+          "type": "phone",
+          "value": "970555270",
+          "complaints": 2
+        },
+        {
+          "key": "number:974555598",
+          "type": "phone",
+          "value": "974555598",
+          "complaints": 2
+        },
+        {
+          "key": "number:976555119",
+          "type": "wallet",
+          "value": "976555119",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "David Collins",
+          "mentions": 14
+        },
+        {
+          "name": "Synthra Courier",
+          "mentions": 14
+        },
+        {
+          "name": "Anita T.",
+          "mentions": 12
+        },
+        {
+          "name": "businesswoman in Canada",
+          "mentions": 2
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00420",
+          "probability": 0.997
+        }
+      ],
+      "members": [
+        "CMP-00050",
+        "CMP-00059",
+        "CMP-00122",
+        "CMP-00124",
+        "CMP-00178",
+        "CMP-00276",
+        "CMP-00363",
+        "CMP-00365",
+        "CMP-00388",
+        "CMP-00420",
+        "CMP-00443",
+        "CMP-00458",
+        "CMP-00468",
+        "CMP-00592",
+        "CMP-00703",
+        "CMP-00827",
+        "CMP-00906",
+        "CMP-01184",
+        "CMP-01390",
+        "CMP-01465",
+        "CMP-01496"
+      ],
+      "ring": "RING-08"
+    },
+    {
+      "label": 10,
+      "complaints": 55,
+      "victims": 54,
+      "possible_duplicates": [
+        [
+          "CMP-00791",
+          "CMP-01114"
+        ]
+      ],
+      "total_loss_npr": 7832600,
+      "scam_type": "crypto_investment",
+      "scam_type_share": 0.95,
+      "active_from": "2026-05-19",
+      "active_to": "2026-08-19",
+      "identifiers": [
+        {
+          "key": "url:brivax-trade-62.example/download",
+          "type": "url",
+          "value": "brivax-trade-62.example/download",
+          "complaints": 32
+        },
+        {
+          "key": "telegram:@brivax_signals_8651",
+          "type": "telegram",
+          "value": "@brivax_signals_8651",
+          "complaints": 22
+        },
+        {
+          "key": "number:981555062",
+          "type": "phone",
+          "value": "981555062",
+          "complaints": 19
+        },
+        {
+          "key": "number:975555819",
+          "type": "phone",
+          "value": "975555819",
+          "complaints": 17
+        },
+        {
+          "key": "bank_account:8468723430980500",
+          "type": "bank_account",
+          "value": "8468723430980500",
+          "complaints": 15
+        },
+        {
+          "key": "crypto_address:TJWGx5Vtxwc740bv16qwGBTYXExSz4BR1R",
+          "type": "crypto_address",
+          "value": "TJWGx5Vtxwc740bv16qwGBTYXExSz4BR1R",
+          "complaints": 15
+        },
+        {
+          "key": "number:981555871",
+          "type": "wallet",
+          "value": "981555871",
+          "complaints": 12
+        },
+        {
+          "key": "number:981555562",
+          "type": "phone",
+          "value": "981555562",
+          "complaints": 1
+        },
+        {
+          "key": "number:967555468",
+          "type": "phone",
+          "value": "967555468",
+          "complaints": 1
+        },
+        {
+          "key": "number:978555072",
+          "type": "phone",
+          "value": "978555072",
+          "complaints": 1
+        },
+        {
+          "key": "number:972555940",
+          "type": "phone",
+          "value": "972555940",
+          "complaints": 1
+        },
+        {
+          "key": "number:980555973",
+          "type": "phone",
+          "value": "980555973",
+          "complaints": 1
+        },
+        {
+          "key": "number:968555258",
+          "type": "phone",
+          "value": "968555258",
+          "complaints": 1
+        },
+        {
+          "key": "number:988555456",
+          "type": "phone",
+          "value": "988555456",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Brivax Exchange",
+          "mentions": 34
+        },
+        {
+          "name": "Rekha G.",
+          "mentions": 12
+        },
+        {
+          "name": "Daily Trading Signals Pro",
+          "mentions": 2
+        },
+        {
+          "name": "Sai ram",
+          "mentions": 1
+        },
+        {
+          "name": "Dhaiya",
+          "mentions": 1
+        },
+        {
+          "name": "Daya garnaus",
+          "mentions": 1
+        },
+        {
+          "name": "Brivax Trade",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00648",
+          "probability": 0.98
+        },
+        {
+          "complaint": "CMP-01472",
+          "probability": 0.979
+        },
+        {
+          "complaint": "CMP-01341",
+          "probability": 0.975
+        },
+        {
+          "complaint": "CMP-00321",
+          "probability": 0.964
+        },
+        {
+          "complaint": "CMP-01440",
+          "probability": 0.962
+        },
+        {
+          "complaint": "CMP-00440",
+          "probability": 0.919
+        }
+      ],
+      "members": [
+        "CMP-00014",
+        "CMP-00085",
+        "CMP-00115",
+        "CMP-00136",
+        "CMP-00143",
+        "CMP-00150",
+        "CMP-00181",
+        "CMP-00186",
+        "CMP-00187",
+        "CMP-00201",
+        "CMP-00224",
+        "CMP-00240",
+        "CMP-00292",
+        "CMP-00321",
+        "CMP-00344",
+        "CMP-00404",
+        "CMP-00440",
+        "CMP-00445",
+        "CMP-00559",
+        "CMP-00572",
+        "CMP-00648",
+        "CMP-00705",
+        "CMP-00726",
+        "CMP-00751",
+        "CMP-00791",
+        "CMP-00797",
+        "CMP-00815",
+        "CMP-00817",
+        "CMP-00818",
+        "CMP-00860",
+        "CMP-00901",
+        "CMP-00946",
+        "CMP-00969",
+        "CMP-01045",
+        "CMP-01050",
+        "CMP-01108",
+        "CMP-01114",
+        "CMP-01164",
+        "CMP-01207",
+        "CMP-01212",
+        "CMP-01305",
+        "CMP-01341",
+        "CMP-01343",
+        "CMP-01345",
+        "CMP-01350",
+        "CMP-01359",
+        "CMP-01387",
+        "CMP-01415",
+        "CMP-01420",
+        "CMP-01438",
+        "CMP-01440",
+        "CMP-01458",
+        "CMP-01461",
+        "CMP-01472",
+        "CMP-01492"
+      ],
+      "ring": "RING-09"
+    },
+    {
+      "label": 38,
+      "complaints": 36,
+      "victims": 35,
+      "possible_duplicates": [
+        [
+          "CMP-01253",
+          "CMP-01459"
+        ]
+      ],
+      "total_loss_npr": 7253500,
+      "scam_type": "romance",
+      "scam_type_share": 0.64,
+      "active_from": "2026-05-13",
+      "active_to": "2026-07-19",
+      "identifiers": [
+        {
+          "key": "bank_account:3432921277997995",
+          "type": "bank_account",
+          "value": "3432921277997995",
+          "complaints": 10
+        },
+        {
+          "key": "bank_account:6004797480162456",
+          "type": "bank_account",
+          "value": "6004797480162456",
+          "complaints": 9
+        },
+        {
+          "key": "number:979555410",
+          "type": "phone",
+          "value": "979555410",
+          "complaints": 7
+        },
+        {
+          "key": "number:971555249",
+          "type": "phone",
+          "value": "971555249",
+          "complaints": 7
+        },
+        {
+          "key": "number:982555241",
+          "type": "wallet",
+          "value": "982555241",
+          "complaints": 6
+        },
+        {
+          "key": "number:981555405",
+          "type": "phone",
+          "value": "981555405",
+          "complaints": 6
+        },
+        {
+          "key": "number:985555090",
+          "type": "phone",
+          "value": "985555090",
+          "complaints": 4
+        },
+        {
+          "key": "number:965555359",
+          "type": "wallet",
+          "value": "965555359",
+          "complaints": 3
+        },
+        {
+          "key": "number:977555700",
+          "type": "phone",
+          "value": "977555700",
+          "complaints": 1
+        },
+        {
+          "key": "number:982555245",
+          "type": "wallet",
+          "value": "982555245",
+          "complaints": 1
+        },
+        {
+          "key": "number:966555714",
+          "type": "phone",
+          "value": "966555714",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "David Collins",
+          "mentions": 29
+        },
+        {
+          "name": "Talvane Express Cargo",
+          "mentions": 22
+        },
+        {
+          "name": "Manoj S.",
+          "mentions": 9
+        },
+        {
+          "name": "Sagar G.",
+          "mentions": 9
+        },
+        {
+          "name": "Sita",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [
+        {
+          "identifier": "bank_account:6004797480162456",
+          "also_used_by": [
+            "RING-16"
+          ]
+        }
+      ],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00380",
+          "probability": 0.997
+        },
+        {
+          "complaint": "CMP-00759",
+          "probability": 0.997
+        },
+        {
+          "complaint": "CMP-00970",
+          "probability": 0.997
+        },
+        {
+          "complaint": "CMP-01418",
+          "probability": 0.997
+        },
+        {
+          "complaint": "CMP-01278",
+          "probability": 0.934
+        },
+        {
+          "complaint": "CMP-00176",
+          "probability": 0.921
+        },
+        {
+          "complaint": "CMP-00369",
+          "probability": 0.895
+        }
+      ],
+      "members": [
+        "CMP-00102",
+        "CMP-00173",
+        "CMP-00176",
+        "CMP-00193",
+        "CMP-00225",
+        "CMP-00311",
+        "CMP-00369",
+        "CMP-00380",
+        "CMP-00448",
+        "CMP-00489",
+        "CMP-00641",
+        "CMP-00759",
+        "CMP-00789",
+        "CMP-00806",
+        "CMP-00839",
+        "CMP-00865",
+        "CMP-00869",
+        "CMP-00879",
+        "CMP-00897",
+        "CMP-00939",
+        "CMP-00954",
+        "CMP-00970",
+        "CMP-01023",
+        "CMP-01040",
+        "CMP-01225",
+        "CMP-01253",
+        "CMP-01257",
+        "CMP-01269",
+        "CMP-01278",
+        "CMP-01334",
+        "CMP-01389",
+        "CMP-01404",
+        "CMP-01418",
+        "CMP-01430",
+        "CMP-01434",
+        "CMP-01459"
+      ],
+      "ring": "RING-10"
+    },
+    {
+      "label": 32,
+      "complaints": 20,
+      "victims": 20,
+      "possible_duplicates": [],
+      "total_loss_npr": 5513500,
+      "scam_type": "romance",
+      "scam_type_share": 0.75,
+      "active_from": "2026-01-14",
+      "active_to": "2026-06-12",
+      "identifiers": [
+        {
+          "key": "number:980555877",
+          "type": "phone",
+          "value": "980555877",
+          "complaints": 5
+        },
+        {
+          "key": "number:963555852",
+          "type": "phone",
+          "value": "963555852",
+          "complaints": 5
+        },
+        {
+          "key": "number:976555926",
+          "type": "phone",
+          "value": "976555926",
+          "complaints": 5
+        },
+        {
+          "key": "bank_account:8204653755646417",
+          "type": "bank_account",
+          "value": "8204653755646417",
+          "complaints": 4
+        },
+        {
+          "key": "number:967555224",
+          "type": "wallet",
+          "value": "967555224",
+          "complaints": 3
+        },
+        {
+          "key": "number:976555551",
+          "type": "wallet",
+          "value": "976555551",
+          "complaints": 3
+        },
+        {
+          "key": "bank_account:7706562729806990",
+          "type": "bank_account",
+          "value": "7706562729806990",
+          "complaints": 3
+        },
+        {
+          "key": "number:987555425",
+          "type": "phone",
+          "value": "987555425",
+          "complaints": 3
+        },
+        {
+          "key": "number:987555485",
+          "type": "phone",
+          "value": "987555485",
+          "complaints": 1
+        },
+        {
+          "key": "bank_account:2282699345173922",
+          "type": "bank_account",
+          "value": "2282699345173922",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Robert Hayes",
+          "mentions": 18
+        },
+        {
+          "name": "Pexalon Logistics",
+          "mentions": 18
+        },
+        {
+          "name": "Bikash S.",
+          "mentions": 3
+        },
+        {
+          "name": "Ramesh R.",
+          "mentions": 3
+        },
+        {
+          "name": "Prakash A.",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-01167",
+          "probability": 0.983
+        }
+      ],
+      "members": [
+        "CMP-00082",
+        "CMP-00180",
+        "CMP-00310",
+        "CMP-00423",
+        "CMP-00429",
+        "CMP-00656",
+        "CMP-00673",
+        "CMP-00738",
+        "CMP-00870",
+        "CMP-01047",
+        "CMP-01080",
+        "CMP-01139",
+        "CMP-01157",
+        "CMP-01167",
+        "CMP-01205",
+        "CMP-01302",
+        "CMP-01335",
+        "CMP-01349",
+        "CMP-01352",
+        "CMP-01412"
+      ],
+      "ring": "RING-11"
+    },
+    {
+      "label": 35,
+      "complaints": 17,
+      "victims": 17,
+      "possible_duplicates": [],
+      "total_loss_npr": 5462000,
+      "scam_type": "fake_foreign_job",
+      "scam_type_share": 1.0,
+      "active_from": "2026-04-28",
+      "active_to": "2026-06-28",
+      "identifiers": [
+        {
+          "key": "number:989555519",
+          "type": "phone",
+          "value": "989555519",
+          "complaints": 9
+        },
+        {
+          "key": "number:977555594",
+          "type": "phone",
+          "value": "977555594",
+          "complaints": 7
+        },
+        {
+          "key": "number:965555619",
+          "type": "wallet",
+          "value": "965555619",
+          "complaints": 4
+        },
+        {
+          "key": "bank_account:2518644925192546",
+          "type": "bank_account",
+          "value": "2518644925192546",
+          "complaints": 2
+        },
+        {
+          "key": "facebook_page:dravelle jobs abroad",
+          "type": "facebook_page",
+          "value": "dravelle jobs abroad",
+          "complaints": 2
+        },
+        {
+          "key": "number:971555830",
+          "type": "wallet",
+          "value": "971555830",
+          "complaints": 2
+        },
+        {
+          "key": "number:960555977",
+          "type": "phone",
+          "value": "960555977",
+          "complaints": 1
+        },
+        {
+          "key": "bank_account:2820377889255466",
+          "type": "bank_account",
+          "value": "2820377889255466",
+          "complaints": 1
+        },
+        {
+          "key": "number:989555549",
+          "type": "phone",
+          "value": "989555549",
+          "complaints": 1
+        },
+        {
+          "key": "bank_account:9652816850542357",
+          "type": "bank_account",
+          "value": "9652816850542357",
+          "complaints": 1
+        },
+        {
+          "key": "number:977555584",
+          "type": "phone",
+          "value": "977555584",
+          "complaints": 1
+        },
+        {
+          "key": "number:981555683",
+          "type": "phone",
+          "value": "981555683",
+          "complaints": 1
+        },
+        {
+          "key": "number:982555980",
+          "type": "wallet",
+          "value": "982555980",
+          "complaints": 1
+        },
+        {
+          "key": "number:968555442",
+          "type": "phone",
+          "value": "968555442",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Rajan",
+          "mentions": 12
+        },
+        {
+          "name": "Quorix Placement Agency",
+          "mentions": 10
+        },
+        {
+          "name": "Prakash T.",
+          "mentions": 2
+        },
+        {
+          "name": "Suman",
+          "mentions": 1
+        },
+        {
+          "name": "Hajurbuwa",
+          "mentions": 1
+        },
+        {
+          "name": "Dhaiya",
+          "mentions": 1
+        },
+        {
+          "name": "Dherai thula paisa gaya",
+          "mentions": 1
+        },
+        {
+          "name": "Sagar S.",
+          "mentions": 1
+        },
+        {
+          "name": "Dravelle Jobs Abroad",
+          "mentions": 1
+        },
+        {
+          "name": "Kiran A.",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00610",
+          "probability": 0.997
+        },
+        {
+          "complaint": "CMP-00288",
+          "probability": 0.905
+        },
+        {
+          "complaint": "CMP-01382",
+          "probability": 0.898
+        },
+        {
+          "complaint": "CMP-00061",
+          "probability": 0.751
+        }
+      ],
+      "members": [
+        "CMP-00061",
+        "CMP-00086",
+        "CMP-00092",
+        "CMP-00288",
+        "CMP-00496",
+        "CMP-00583",
+        "CMP-00610",
+        "CMP-00837",
+        "CMP-00850",
+        "CMP-01079",
+        "CMP-01136",
+        "CMP-01232",
+        "CMP-01284",
+        "CMP-01338",
+        "CMP-01344",
+        "CMP-01382",
+        "CMP-01399"
+      ],
+      "ring": "RING-12"
+    },
+    {
+      "label": 40,
+      "complaints": 27,
+      "victims": 27,
+      "possible_duplicates": [],
+      "total_loss_npr": 4812000,
+      "scam_type": "fake_foreign_job",
+      "scam_type_share": 1.0,
+      "active_from": "2026-01-29",
+      "active_to": "2026-08-13",
+      "identifiers": [
+        {
+          "key": "number:988555940",
+          "type": "wallet",
+          "value": "988555940",
+          "complaints": 8
+        },
+        {
+          "key": "facebook_page:zentara jobs abroad",
+          "type": "facebook_page",
+          "value": "zentara jobs abroad",
+          "complaints": 7
+        },
+        {
+          "key": "number:982555519",
+          "type": "phone",
+          "value": "982555519",
+          "complaints": 6
+        },
+        {
+          "key": "number:964555861",
+          "type": "phone",
+          "value": "964555861",
+          "complaints": 6
+        },
+        {
+          "key": "number:970555976",
+          "type": "phone",
+          "value": "970555976",
+          "complaints": 6
+        },
+        {
+          "key": "number:984555995",
+          "type": "phone",
+          "value": "984555995",
+          "complaints": 6
+        },
+        {
+          "key": "bank_account:1310518347382997",
+          "type": "bank_account",
+          "value": "1310518347382997",
+          "complaints": 5
+        },
+        {
+          "key": "number:965555899",
+          "type": "wallet",
+          "value": "965555899",
+          "complaints": 5
+        },
+        {
+          "key": "number:976555161",
+          "type": "phone",
+          "value": "976555161",
+          "complaints": 4
+        },
+        {
+          "key": "number:975555114",
+          "type": "phone",
+          "value": "975555114",
+          "complaints": 3
+        },
+        {
+          "key": "bank_account:4039117182278248",
+          "type": "bank_account",
+          "value": "4039117182278248",
+          "complaints": 3
+        },
+        {
+          "key": "number:985555500",
+          "type": "wallet",
+          "value": "985555500",
+          "complaints": 2
+        },
+        {
+          "key": "bank_account:4465787133150983",
+          "type": "bank_account",
+          "value": "4465787133150983",
+          "complaints": 2
+        }
+      ],
+      "names": [
+        {
+          "name": "Suresh dai",
+          "mentions": 24
+        },
+        {
+          "name": "Marivo Placement Agency",
+          "mentions": 16
+        },
+        {
+          "name": "Deepak B.",
+          "mentions": 7
+        },
+        {
+          "name": "Zentara Jobs Abroad",
+          "mentions": 5
+        },
+        {
+          "name": "Anita A.",
+          "mentions": 3
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [],
+      "members": [
+        "CMP-00111",
+        "CMP-00174",
+        "CMP-00190",
+        "CMP-00222",
+        "CMP-00316",
+        "CMP-00337",
+        "CMP-00364",
+        "CMP-00427",
+        "CMP-00435",
+        "CMP-00474",
+        "CMP-00570",
+        "CMP-00573",
+        "CMP-00593",
+        "CMP-00600",
+        "CMP-00606",
+        "CMP-00649",
+        "CMP-00652",
+        "CMP-00716",
+        "CMP-00723",
+        "CMP-00913",
+        "CMP-00983",
+        "CMP-01175",
+        "CMP-01204",
+        "CMP-01254",
+        "CMP-01300",
+        "CMP-01374",
+        "CMP-01486"
+      ],
+      "ring": "RING-13"
+    },
+    {
+      "label": 29,
+      "complaints": 16,
+      "victims": 16,
+      "possible_duplicates": [],
+      "total_loss_npr": 4770000,
+      "scam_type": "romance",
+      "scam_type_share": 0.81,
+      "active_from": "2026-03-24",
+      "active_to": "2026-08-01",
+      "identifiers": [
+        {
+          "key": "number:979555270",
+          "type": "phone",
+          "value": "979555270",
+          "complaints": 6
+        },
+        {
+          "key": "number:968555300",
+          "type": "wallet",
+          "value": "968555300",
+          "complaints": 4
+        },
+        {
+          "key": "number:971555367",
+          "type": "phone",
+          "value": "971555367",
+          "complaints": 3
+        },
+        {
+          "key": "bank_account:2928327648350305",
+          "type": "bank_account",
+          "value": "2928327648350305",
+          "complaints": 3
+        },
+        {
+          "key": "bank_account:4953767242388496",
+          "type": "bank_account",
+          "value": "4953767242388496",
+          "complaints": 3
+        },
+        {
+          "key": "bank_account:6931034131647525",
+          "type": "bank_account",
+          "value": "6931034131647525",
+          "complaints": 2
+        },
+        {
+          "key": "facebook_page:zentara logistics",
+          "type": "facebook_page",
+          "value": "zentara logistics",
+          "complaints": 2
+        },
+        {
+          "key": "number:971555094",
+          "type": "phone",
+          "value": "971555094",
+          "complaints": 1
+        },
+        {
+          "key": "number:978555326",
+          "type": "phone",
+          "value": "978555326",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "David Collins",
+          "mentions": 10
+        },
+        {
+          "name": "Zentara Logistics",
+          "mentions": 7
+        },
+        {
+          "name": "Pooja K.",
+          "mentions": 5
+        },
+        {
+          "name": "Manoj A.",
+          "mentions": 2
+        },
+        {
+          "name": "Priya",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00142",
+          "probability": 0.968
+        }
+      ],
+      "members": [
+        "CMP-00066",
+        "CMP-00078",
+        "CMP-00142",
+        "CMP-00202",
+        "CMP-00491",
+        "CMP-00842",
+        "CMP-00845",
+        "CMP-00916",
+        "CMP-00952",
+        "CMP-01009",
+        "CMP-01085",
+        "CMP-01252",
+        "CMP-01273",
+        "CMP-01342",
+        "CMP-01357",
+        "CMP-01484"
+      ],
+      "ring": "RING-14"
+    },
+    {
+      "label": 13,
+      "complaints": 22,
+      "victims": 21,
+      "possible_duplicates": [
+        [
+          "CMP-01071",
+          "CMP-01323"
+        ]
+      ],
+      "total_loss_npr": 4635000,
+      "scam_type": "fake_foreign_job",
+      "scam_type_share": 1.0,
+      "active_from": "2026-02-02",
+      "active_to": "2026-06-14",
+      "identifiers": [
+        {
+          "key": "number:970555886",
+          "type": "phone",
+          "value": "970555886",
+          "complaints": 12
+        },
+        {
+          "key": "facebook_page:ulmera work visa info",
+          "type": "facebook_page",
+          "value": "ulmera work visa info",
+          "complaints": 11
+        },
+        {
+          "key": "number:983555292",
+          "type": "phone",
+          "value": "983555292",
+          "complaints": 10
+        },
+        {
+          "key": "bank_account:5161692845115447",
+          "type": "bank_account",
+          "value": "5161692845115447",
+          "complaints": 6
+        },
+        {
+          "key": "bank_account:6705964016582029",
+          "type": "bank_account",
+          "value": "6705964016582029",
+          "complaints": 3
+        },
+        {
+          "key": "number:975555946",
+          "type": "wallet",
+          "value": "975555946",
+          "complaints": 2
+        },
+        {
+          "key": "number:972555508",
+          "type": "wallet",
+          "value": "972555508",
+          "complaints": 2
+        },
+        {
+          "key": "number:977555916",
+          "type": "wallet",
+          "value": "977555916",
+          "complaints": 2
+        },
+        {
+          "key": "number:970555686",
+          "type": "phone",
+          "value": "970555686",
+          "complaints": 2
+        },
+        {
+          "key": "number:970555885",
+          "type": "phone",
+          "value": "970555885",
+          "complaints": 1
+        },
+        {
+          "key": "number:989555386",
+          "type": "phone",
+          "value": "989555386",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Sabina",
+          "mentions": 15
+        },
+        {
+          "name": "Ulmera Manpower Services",
+          "mentions": 7
+        },
+        {
+          "name": "Anita G.",
+          "mentions": 6
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00120",
+          "probability": 0.989
+        }
+      ],
+      "members": [
+        "CMP-00017",
+        "CMP-00062",
+        "CMP-00106",
+        "CMP-00109",
+        "CMP-00120",
+        "CMP-00212",
+        "CMP-00376",
+        "CMP-00428",
+        "CMP-00446",
+        "CMP-00461",
+        "CMP-00495",
+        "CMP-00498",
+        "CMP-00662",
+        "CMP-00918",
+        "CMP-00928",
+        "CMP-00958",
+        "CMP-00982",
+        "CMP-01071",
+        "CMP-01171",
+        "CMP-01275",
+        "CMP-01298",
+        "CMP-01323"
+      ],
+      "ring": "RING-15"
+    },
+    {
+      "label": 0,
+      "complaints": 291,
+      "victims": 279,
+      "possible_duplicates": [
+        [
+          "CMP-00117",
+          "CMP-00876"
+        ],
+        [
+          "CMP-00118",
+          "CMP-00667"
+        ],
+        [
+          "CMP-00221",
+          "CMP-01148"
+        ],
+        [
+          "CMP-00229",
+          "CMP-00232"
+        ],
+        [
+          "CMP-00296",
+          "CMP-00314"
+        ],
+        [
+          "CMP-00304",
+          "CMP-00820"
+        ],
+        [
+          "CMP-00309",
+          "CMP-00477"
+        ],
+        [
+          "CMP-00539",
+          "CMP-00668"
+        ],
+        [
+          "CMP-00540",
+          "CMP-01021"
+        ],
+        [
+          "CMP-00555",
+          "CMP-00942"
+        ],
+        [
+          "CMP-00833",
+          "CMP-00872"
+        ],
+        [
+          "CMP-01158",
+          "CMP-01326"
+        ]
+      ],
+      "total_loss_npr": 4468300,
+      "scam_type": "marketplace",
+      "scam_type_share": 0.98,
+      "active_from": "2026-06-18",
+      "active_to": "2026-09-28",
+      "identifiers": [
+        {
+          "key": "facebook_page:orlenta second hand market",
+          "type": "facebook_page",
+          "value": "orlenta second hand market",
+          "complaints": 174
+        },
+        {
+          "key": "number:964555230",
+          "type": "wallet",
+          "value": "964555230",
+          "complaints": 80
+        },
+        {
+          "key": "number:989555670",
+          "type": "phone",
+          "value": "989555670",
+          "complaints": 79
+        },
+        {
+          "key": "number:977555452",
+          "type": "phone",
+          "value": "977555452",
+          "complaints": 75
+        },
+        {
+          "key": "number:989555343",
+          "type": "wallet",
+          "value": "989555343",
+          "complaints": 73
+        },
+        {
+          "key": "number:973555440",
+          "type": "phone",
+          "value": "973555440",
+          "complaints": 59
+        },
+        {
+          "key": "number:973555523",
+          "type": "phone",
+          "value": "973555523",
+          "complaints": 50
+        },
+        {
+          "key": "number:980555311",
+          "type": "phone",
+          "value": "980555311",
+          "complaints": 46
+        },
+        {
+          "key": "bank_account:6004797480162456",
+          "type": "bank_account",
+          "value": "6004797480162456",
+          "complaints": 25
+        },
+        {
+          "key": "bank_account:4287083172788957",
+          "type": "bank_account",
+          "value": "4287083172788957",
+          "complaints": 19
+        },
+        {
+          "key": "bank_account:3003791769367632",
+          "type": "bank_account",
+          "value": "3003791769367632",
+          "complaints": 17
+        },
+        {
+          "key": "bank_account:8743487347143455",
+          "type": "bank_account",
+          "value": "8743487347143455",
+          "complaints": 9
+        },
+        {
+          "key": "number:964555270",
+          "type": "wallet",
+          "value": "964555270",
+          "complaints": 1
+        },
+        {
+          "key": "number:973555528",
+          "type": "phone",
+          "value": "973555528",
+          "complaints": 1
+        },
+        {
+          "key": "number:977555456",
+          "type": "phone",
+          "value": "977555456",
+          "complaints": 1
+        },
+        {
+          "key": "number:989555677",
+          "type": "phone",
+          "value": "989555677",
+          "complaints": 1
+        },
+        {
+          "key": "number:964555730",
+          "type": "wallet",
+          "value": "964555730",
+          "complaints": 1
+        },
+        {
+          "key": "number:989555610",
+          "type": "phone",
+          "value": "989555610",
+          "complaints": 1
+        },
+        {
+          "key": "number:989555674",
+          "type": "phone",
+          "value": "989555674",
+          "complaints": 1
+        },
+        {
+          "key": "number:977555432",
+          "type": "phone",
+          "value": "977555432",
+          "complaints": 1
+        },
+        {
+          "key": "number:977555402",
+          "type": "phone",
+          "value": "977555402",
+          "complaints": 1
+        },
+        {
+          "key": "facebook_page:orlenta second hand market the",
+          "type": "facebook_page",
+          "value": "orlenta second hand market the",
+          "complaints": 1
+        },
+        {
+          "key": "number:980555371",
+          "type": "phone",
+          "value": "980555371",
+          "complaints": 1
+        },
+        {
+          "key": "facebook_page:kathmandu",
+          "type": "facebook_page",
+          "value": "kathmandu",
+          "complaints": 1
+        },
+        {
+          "key": "number:967555826",
+          "type": "phone",
+          "value": "967555826",
+          "complaints": 1
+        },
+        {
+          "key": "number:963555896",
+          "type": "phone",
+          "value": "963555896",
+          "complaints": 1
+        },
+        {
+          "key": "number:989555808",
+          "type": "phone",
+          "value": "989555808",
+          "complaints": 1
+        },
+        {
+          "key": "number:974555514",
+          "type": "phone",
+          "value": "974555514",
+          "complaints": 1
+        },
+        {
+          "key": "number:966555199",
+          "type": "phone",
+          "value": "966555199",
+          "complaints": 1
+        },
+        {
+          "key": "number:981555813",
+          "type": "phone",
+          "value": "981555813",
+          "complaints": 1
+        },
+        {
+          "key": "number:988555158",
+          "type": "phone",
+          "value": "988555158",
+          "complaints": 1
+        },
+        {
+          "key": "number:964555165",
+          "type": "phone",
+          "value": "964555165",
+          "complaints": 1
+        },
+        {
+          "key": "number:989555240",
+          "type": "phone",
+          "value": "989555240",
+          "complaints": 1
+        },
+        {
+          "key": "number:985555944",
+          "type": "phone",
+          "value": "985555944",
+          "complaints": 1
+        },
+        {
+          "key": "number:972555650",
+          "type": "phone",
+          "value": "972555650",
+          "complaints": 1
+        },
+        {
+          "key": "number:982555451",
+          "type": "phone",
+          "value": "982555451",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Mr. Adhikari",
+          "mentions": 187
+        },
+        {
+          "name": "Manoj S.",
+          "mentions": 23
+        },
+        {
+          "name": "Orlenta Second Hand Market",
+          "mentions": 22
+        },
+        {
+          "name": "Anita B.",
+          "mentions": 19
+        },
+        {
+          "name": "Bikash T.",
+          "mentions": 15
+        },
+        {
+          "name": "Ramesh G.",
+          "mentions": 9
+        },
+        {
+          "name": "Daiya",
+          "mentions": 2
+        },
+        {
+          "name": "Dhan badhai",
+          "mentions": 1
+        },
+        {
+          "name": "Kathmandu Hotel",
+          "mentions": 1
+        },
+        {
+          "name": "Asha garne ho? Kripaya sahayog garnus.",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [
+        {
+          "identifier": "bank_account:6004797480162456",
+          "also_used_by": [
+            "RING-10"
+          ]
+        }
+      ],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00874",
+          "probability": 0.957
+        },
+        {
+          "complaint": "CMP-01173",
+          "probability": 0.953
+        },
+        {
+          "complaint": "CMP-01230",
+          "probability": 0.951
+        },
+        {
+          "complaint": "CMP-01165",
+          "probability": 0.95
+        },
+        {
+          "complaint": "CMP-00581",
+          "probability": 0.94
+        },
+        {
+          "complaint": "CMP-00030",
+          "probability": 0.92
+        },
+        {
+          "complaint": "CMP-00165",
+          "probability": 0.918
+        },
+        {
+          "complaint": "CMP-01417",
+          "probability": 0.918
+        },
+        {
+          "complaint": "CMP-01258",
+          "probability": 0.907
+        },
+        {
+          "complaint": "CMP-01319",
+          "probability": 0.897
+        },
+        {
+          "complaint": "CMP-00753",
+          "probability": 0.891
+        },
+        {
+          "complaint": "CMP-00250",
+          "probability": 0.834
+        },
+        {
+          "complaint": "CMP-00524",
+          "probability": 0.814
+        },
+        {
+          "complaint": "CMP-00639",
+          "probability": 0.664
+        }
+      ],
+      "members": [
+        "CMP-00001",
+        "CMP-00005",
+        "CMP-00006",
+        "CMP-00012",
+        "CMP-00025",
+        "CMP-00029",
+        "CMP-00030",
+        "CMP-00034",
+        "CMP-00037",
+        "CMP-00044",
+        "CMP-00049",
+        "CMP-00051",
+        "CMP-00054",
+        "CMP-00057",
+        "CMP-00064",
+        "CMP-00069",
+        "CMP-00070",
+        "CMP-00075",
+        "CMP-00093",
+        "CMP-00110",
+        "CMP-00117",
+        "CMP-00118",
+        "CMP-00123",
+        "CMP-00126",
+        "CMP-00128",
+        "CMP-00131",
+        "CMP-00132",
+        "CMP-00134",
+        "CMP-00147",
+        "CMP-00149",
+        "CMP-00152",
+        "CMP-00153",
+        "CMP-00155",
+        "CMP-00165",
+        "CMP-00171",
+        "CMP-00177",
+        "CMP-00182",
+        "CMP-00184",
+        "CMP-00189",
+        "CMP-00197",
+        "CMP-00200",
+        "CMP-00205",
+        "CMP-00208",
+        "CMP-00209",
+        "CMP-00221",
+        "CMP-00228",
+        "CMP-00229",
+        "CMP-00232",
+        "CMP-00234",
+        "CMP-00238",
+        "CMP-00239",
+        "CMP-00243",
+        "CMP-00246",
+        "CMP-00247",
+        "CMP-00248",
+        "CMP-00250",
+        "CMP-00252",
+        "CMP-00253",
+        "CMP-00260",
+        "CMP-00265",
+        "CMP-00269",
+        "CMP-00273",
+        "CMP-00285",
+        "CMP-00293",
+        "CMP-00296",
+        "CMP-00304",
+        "CMP-00305",
+        "CMP-00306",
+        "CMP-00307",
+        "CMP-00308",
+        "CMP-00309",
+        "CMP-00314",
+        "CMP-00319",
+        "CMP-00323",
+        "CMP-00331",
+        "CMP-00334",
+        "CMP-00335",
+        "CMP-00351",
+        "CMP-00358",
+        "CMP-00360",
+        "CMP-00366",
+        "CMP-00370",
+        "CMP-00372",
+        "CMP-00378",
+        "CMP-00383",
+        "CMP-00392",
+        "CMP-00399",
+        "CMP-00410",
+        "CMP-00412",
+        "CMP-00418",
+        "CMP-00426",
+        "CMP-00433",
+        "CMP-00436",
+        "CMP-00450",
+        "CMP-00454",
+        "CMP-00457",
+        "CMP-00475",
+        "CMP-00477",
+        "CMP-00480",
+        "CMP-00486",
+        "CMP-00490",
+        "CMP-00494",
+        "CMP-00497",
+        "CMP-00502",
+        "CMP-00514",
+        "CMP-00515",
+        "CMP-00523",
+        "CMP-00524",
+        "CMP-00530",
+        "CMP-00533",
+        "CMP-00536",
+        "CMP-00537",
+        "CMP-00539",
+        "CMP-00540",
+        "CMP-00545",
+        "CMP-00548",
+        "CMP-00553",
+        "CMP-00554",
+        "CMP-00555",
+        "CMP-00561",
+        "CMP-00563",
+        "CMP-00565",
+        "CMP-00568",
+        "CMP-00569",
+        "CMP-00576",
+        "CMP-00577",
+        "CMP-00581",
+        "CMP-00594",
+        "CMP-00609",
+        "CMP-00611",
+        "CMP-00613",
+        "CMP-00618",
+        "CMP-00624",
+        "CMP-00627",
+        "CMP-00629",
+        "CMP-00631",
+        "CMP-00639",
+        "CMP-00651",
+        "CMP-00654",
+        "CMP-00655",
+        "CMP-00667",
+        "CMP-00668",
+        "CMP-00669",
+        "CMP-00676",
+        "CMP-00683",
+        "CMP-00685",
+        "CMP-00688",
+        "CMP-00699",
+        "CMP-00702",
+        "CMP-00709",
+        "CMP-00721",
+        "CMP-00740",
+        "CMP-00745",
+        "CMP-00746",
+        "CMP-00753",
+        "CMP-00754",
+        "CMP-00765",
+        "CMP-00769",
+        "CMP-00774",
+        "CMP-00798",
+        "CMP-00799",
+        "CMP-00802",
+        "CMP-00804",
+        "CMP-00805",
+        "CMP-00819",
+        "CMP-00820",
+        "CMP-00831",
+        "CMP-00833",
+        "CMP-00834",
+        "CMP-00838",
+        "CMP-00843",
+        "CMP-00861",
+        "CMP-00863",
+        "CMP-00864",
+        "CMP-00872",
+        "CMP-00874",
+        "CMP-00876",
+        "CMP-00881",
+        "CMP-00882",
+        "CMP-00888",
+        "CMP-00891",
+        "CMP-00892",
+        "CMP-00899",
+        "CMP-00919",
+        "CMP-00921",
+        "CMP-00922",
+        "CMP-00934",
+        "CMP-00935",
+        "CMP-00942",
+        "CMP-00947",
+        "CMP-00948",
+        "CMP-00957",
+        "CMP-00959",
+        "CMP-00964",
+        "CMP-00977",
+        "CMP-00980",
+        "CMP-00991",
+        "CMP-00994",
+        "CMP-00995",
+        "CMP-01000",
+        "CMP-01003",
+        "CMP-01005",
+        "CMP-01019",
+        "CMP-01021",
+        "CMP-01022",
+        "CMP-01024",
+        "CMP-01025",
+        "CMP-01028",
+        "CMP-01034",
+        "CMP-01037",
+        "CMP-01058",
+        "CMP-01060",
+        "CMP-01067",
+        "CMP-01075",
+        "CMP-01076",
+        "CMP-01084",
+        "CMP-01087",
+        "CMP-01095",
+        "CMP-01098",
+        "CMP-01103",
+        "CMP-01109",
+        "CMP-01113",
+        "CMP-01118",
+        "CMP-01121",
+        "CMP-01122",
+        "CMP-01129",
+        "CMP-01134",
+        "CMP-01141",
+        "CMP-01144",
+        "CMP-01148",
+        "CMP-01152",
+        "CMP-01154",
+        "CMP-01156",
+        "CMP-01158",
+        "CMP-01165",
+        "CMP-01173",
+        "CMP-01176",
+        "CMP-01181",
+        "CMP-01182",
+        "CMP-01189",
+        "CMP-01194",
+        "CMP-01196",
+        "CMP-01209",
+        "CMP-01211",
+        "CMP-01218",
+        "CMP-01228",
+        "CMP-01230",
+        "CMP-01233",
+        "CMP-01258",
+        "CMP-01261",
+        "CMP-01264",
+        "CMP-01266",
+        "CMP-01279",
+        "CMP-01282",
+        "CMP-01288",
+        "CMP-01294",
+        "CMP-01306",
+        "CMP-01309",
+        "CMP-01312",
+        "CMP-01319",
+        "CMP-01324",
+        "CMP-01326",
+        "CMP-01332",
+        "CMP-01340",
+        "CMP-01346",
+        "CMP-01353",
+        "CMP-01354",
+        "CMP-01360",
+        "CMP-01361",
+        "CMP-01368",
+        "CMP-01385",
+        "CMP-01386",
+        "CMP-01417",
+        "CMP-01423",
+        "CMP-01424",
+        "CMP-01426",
+        "CMP-01432",
+        "CMP-01444",
+        "CMP-01447",
+        "CMP-01448",
+        "CMP-01449",
+        "CMP-01453",
+        "CMP-01456",
+        "CMP-01462",
+        "CMP-01474",
+        "CMP-01477",
+        "CMP-01478",
+        "CMP-01487",
+        "CMP-01490",
+        "CMP-01495",
+        "CMP-01500"
+      ],
+      "ring": "RING-16"
+    },
+    {
+      "label": 88,
+      "complaints": 18,
+      "victims": 18,
+      "possible_duplicates": [],
+      "total_loss_npr": 2996000,
+      "scam_type": "crypto_investment",
+      "scam_type_share": 1.0,
+      "active_from": "2026-04-06",
+      "active_to": "2026-09-06",
+      "identifiers": [
+        {
+          "key": "telegram:@vexium_signals_4937",
+          "type": "telegram",
+          "value": "@vexium_signals_4937",
+          "complaints": 10
+        },
+        {
+          "key": "url:vexium-trade-72.example/download",
+          "type": "url",
+          "value": "vexium-trade-72.example/download",
+          "complaints": 9
+        },
+        {
+          "key": "number:966555708",
+          "type": "phone",
+          "value": "966555708",
+          "complaints": 3
+        },
+        {
+          "key": "crypto_address:T5dhk40AtdL6G8cqTffsgFraRVVLxeULdg",
+          "type": "crypto_address",
+          "value": "T5dhk40AtdL6G8cqTffsgFraRVVLxeULdg",
+          "complaints": 3
+        },
+        {
+          "key": "number:984555590",
+          "type": "wallet",
+          "value": "984555590",
+          "complaints": 2
+        },
+        {
+          "key": "crypto_address:TWJLHF8oDM8pbq0CDEpXJoeqafK7vDKFQC",
+          "type": "crypto_address",
+          "value": "TWJLHF8oDM8pbq0CDEpXJoeqafK7vDKFQC",
+          "complaints": 2
+        },
+        {
+          "key": "number:961555301",
+          "type": "phone",
+          "value": "961555301",
+          "complaints": 2
+        },
+        {
+          "key": "bank_account:5471349361832421",
+          "type": "bank_account",
+          "value": "5471349361832421",
+          "complaints": 2
+        },
+        {
+          "key": "crypto_address:T1nb9J34cKm9hxqY7x1d0XXVNC4HxX8u5S",
+          "type": "crypto_address",
+          "value": "T1nb9J34cKm9hxqY7x1d0XXVNC4HxX8u5S",
+          "complaints": 2
+        },
+        {
+          "key": "number:987555458",
+          "type": "phone",
+          "value": "987555458",
+          "complaints": 2
+        },
+        {
+          "key": "number:969555601",
+          "type": "wallet",
+          "value": "969555601",
+          "complaints": 1
+        },
+        {
+          "key": "bank_account:2334123281206797",
+          "type": "bank_account",
+          "value": "2334123281206797",
+          "complaints": 1
+        },
+        {
+          "key": "number:985555484",
+          "type": "phone",
+          "value": "985555484",
+          "complaints": 1
+        },
+        {
+          "key": "number:964555679",
+          "type": "phone",
+          "value": "964555679",
+          "complaints": 1
+        },
+        {
+          "key": "bank_account:5717464887719065",
+          "type": "bank_account",
+          "value": "5717464887719065",
+          "complaints": 1
+        },
+        {
+          "key": "number:960555766",
+          "type": "phone",
+          "value": "960555766",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Vexium Trade",
+          "mentions": 12
+        },
+        {
+          "name": "Suresh G.",
+          "mentions": 2
+        },
+        {
+          "name": "Nabin S.",
+          "mentions": 1
+        },
+        {
+          "name": "Rajan S.",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-01378",
+          "probability": 0.993
+        }
+      ],
+      "members": [
+        "CMP-00361",
+        "CMP-00442",
+        "CMP-00481",
+        "CMP-00528",
+        "CMP-00625",
+        "CMP-00647",
+        "CMP-00657",
+        "CMP-00792",
+        "CMP-00835",
+        "CMP-00848",
+        "CMP-00858",
+        "CMP-00866",
+        "CMP-00873",
+        "CMP-00890",
+        "CMP-00955",
+        "CMP-01246",
+        "CMP-01378",
+        "CMP-01443"
+      ],
+      "ring": "RING-17"
+    },
+    {
+      "label": 3,
+      "complaints": 109,
+      "victims": 105,
+      "possible_duplicates": [
+        [
+          "CMP-00163",
+          "CMP-00927"
+        ],
+        [
+          "CMP-00315",
+          "CMP-00905"
+        ],
+        [
+          "CMP-00346",
+          "CMP-00943"
+        ],
+        [
+          "CMP-00666",
+          "CMP-00963"
+        ]
+      ],
+      "total_loss_npr": 1923500,
+      "scam_type": "marketplace",
+      "scam_type_share": 0.99,
+      "active_from": "2026-04-07",
+      "active_to": "2026-07-15",
+      "identifiers": [
+        {
+          "key": "facebook_page:dravelle second hand market",
+          "type": "facebook_page",
+          "value": "dravelle second hand market",
+          "complaints": 59
+        },
+        {
+          "key": "number:971555145",
+          "type": "phone",
+          "value": "971555145",
+          "complaints": 38
+        },
+        {
+          "key": "number:969555673",
+          "type": "phone",
+          "value": "969555673",
+          "complaints": 28
+        },
+        {
+          "key": "number:989555086",
+          "type": "wallet",
+          "value": "989555086",
+          "complaints": 24
+        },
+        {
+          "key": "number:980555093",
+          "type": "phone",
+          "value": "980555093",
+          "complaints": 23
+        },
+        {
+          "key": "number:962555890",
+          "type": "phone",
+          "value": "962555890",
+          "complaints": 23
+        },
+        {
+          "key": "number:962555772",
+          "type": "wallet",
+          "value": "962555772",
+          "complaints": 16
+        },
+        {
+          "key": "number:974555738",
+          "type": "wallet",
+          "value": "974555738",
+          "complaints": 16
+        },
+        {
+          "key": "bank_account:3683885160607159",
+          "type": "bank_account",
+          "value": "3683885160607159",
+          "complaints": 9
+        },
+        {
+          "key": "bank_account:5036900343244510",
+          "type": "bank_account",
+          "value": "5036900343244510",
+          "complaints": 7
+        },
+        {
+          "key": "bank_account:1147679764381561",
+          "type": "bank_account",
+          "value": "1147679764381561",
+          "complaints": 6
+        },
+        {
+          "key": "number:962555990",
+          "type": "phone",
+          "value": "962555990",
+          "complaints": 1
+        },
+        {
+          "key": "number:969555677",
+          "type": "phone",
+          "value": "969555677",
+          "complaints": 1
+        },
+        {
+          "key": "facebook_page:dravelle second hand market please",
+          "type": "facebook_page",
+          "value": "dravelle second hand market please",
+          "complaints": 1
+        },
+        {
+          "key": "number:962555810",
+          "type": "phone",
+          "value": "962555810",
+          "complaints": 1
+        },
+        {
+          "key": "number:974555758",
+          "type": "wallet",
+          "value": "974555758",
+          "complaints": 1
+        },
+        {
+          "key": "number:974555938",
+          "type": "wallet",
+          "value": "974555938",
+          "complaints": 1
+        },
+        {
+          "key": "number:969555683",
+          "type": "phone",
+          "value": "969555683",
+          "complaints": 1
+        },
+        {
+          "key": "number:980555033",
+          "type": "phone",
+          "value": "980555033",
+          "complaints": 1
+        },
+        {
+          "key": "number:980555893",
+          "type": "phone",
+          "value": "980555893",
+          "complaints": 1
+        },
+        {
+          "key": "number:962555830",
+          "type": "phone",
+          "value": "962555830",
+          "complaints": 1
+        },
+        {
+          "key": "number:989555006",
+          "type": "wallet",
+          "value": "989555006",
+          "complaints": 1
+        },
+        {
+          "key": "number:963555277",
+          "type": "phone",
+          "value": "963555277",
+          "complaints": 1
+        },
+        {
+          "key": "number:977555430",
+          "type": "phone",
+          "value": "977555430",
+          "complaints": 1
+        },
+        {
+          "key": "number:970555959",
+          "type": "phone",
+          "value": "970555959",
+          "complaints": 1
+        },
+        {
+          "key": "number:984555710",
+          "type": "phone",
+          "value": "984555710",
+          "complaints": 1
+        },
+        {
+          "key": "number:983555107",
+          "type": "phone",
+          "value": "983555107",
+          "complaints": 1
+        },
+        {
+          "key": "number:978555412",
+          "type": "phone",
+          "value": "978555412",
+          "complaints": 1
+        },
+        {
+          "key": "number:976555464",
+          "type": "phone",
+          "value": "976555464",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Deepak sir",
+          "mentions": 75
+        },
+        {
+          "name": "Anita R.",
+          "mentions": 9
+        },
+        {
+          "name": "Rekha R.",
+          "mentions": 7
+        },
+        {
+          "name": "Dravelle Second Hand Market",
+          "mentions": 7
+        },
+        {
+          "name": "Nabin B.",
+          "mentions": 6
+        },
+        {
+          "name": "Dhaiya",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00127",
+          "probability": 0.927
+        },
+        {
+          "complaint": "CMP-01437",
+          "probability": 0.917
+        },
+        {
+          "complaint": "CMP-01127",
+          "probability": 0.894
+        },
+        {
+          "complaint": "CMP-00289",
+          "probability": 0.873
+        },
+        {
+          "complaint": "CMP-00401",
+          "probability": 0.854
+        },
+        {
+          "complaint": "CMP-00432",
+          "probability": 0.838
+        },
+        {
+          "complaint": "CMP-01073",
+          "probability": 0.625
+        }
+      ],
+      "members": [
+        "CMP-00004",
+        "CMP-00035",
+        "CMP-00040",
+        "CMP-00056",
+        "CMP-00091",
+        "CMP-00113",
+        "CMP-00127",
+        "CMP-00129",
+        "CMP-00163",
+        "CMP-00168",
+        "CMP-00183",
+        "CMP-00215",
+        "CMP-00217",
+        "CMP-00241",
+        "CMP-00289",
+        "CMP-00291",
+        "CMP-00315",
+        "CMP-00332",
+        "CMP-00342",
+        "CMP-00346",
+        "CMP-00350",
+        "CMP-00385",
+        "CMP-00387",
+        "CMP-00390",
+        "CMP-00396",
+        "CMP-00401",
+        "CMP-00413",
+        "CMP-00432",
+        "CMP-00466",
+        "CMP-00467",
+        "CMP-00483",
+        "CMP-00509",
+        "CMP-00525",
+        "CMP-00547",
+        "CMP-00556",
+        "CMP-00558",
+        "CMP-00562",
+        "CMP-00586",
+        "CMP-00589",
+        "CMP-00595",
+        "CMP-00644",
+        "CMP-00666",
+        "CMP-00677",
+        "CMP-00680",
+        "CMP-00690",
+        "CMP-00698",
+        "CMP-00720",
+        "CMP-00728",
+        "CMP-00770",
+        "CMP-00780",
+        "CMP-00786",
+        "CMP-00809",
+        "CMP-00841",
+        "CMP-00877",
+        "CMP-00900",
+        "CMP-00905",
+        "CMP-00910",
+        "CMP-00912",
+        "CMP-00927",
+        "CMP-00931",
+        "CMP-00932",
+        "CMP-00943",
+        "CMP-00963",
+        "CMP-00966",
+        "CMP-00976",
+        "CMP-00997",
+        "CMP-01004",
+        "CMP-01006",
+        "CMP-01010",
+        "CMP-01016",
+        "CMP-01018",
+        "CMP-01032",
+        "CMP-01042",
+        "CMP-01068",
+        "CMP-01073",
+        "CMP-01078",
+        "CMP-01082",
+        "CMP-01088",
+        "CMP-01100",
+        "CMP-01110",
+        "CMP-01127",
+        "CMP-01145",
+        "CMP-01150",
+        "CMP-01153",
+        "CMP-01168",
+        "CMP-01186",
+        "CMP-01187",
+        "CMP-01201",
+        "CMP-01237",
+        "CMP-01245",
+        "CMP-01247",
+        "CMP-01249",
+        "CMP-01251",
+        "CMP-01260",
+        "CMP-01267",
+        "CMP-01268",
+        "CMP-01276",
+        "CMP-01297",
+        "CMP-01327",
+        "CMP-01330",
+        "CMP-01339",
+        "CMP-01363",
+        "CMP-01384",
+        "CMP-01396",
+        "CMP-01435",
+        "CMP-01437",
+        "CMP-01451",
+        "CMP-01497",
+        "CMP-01499"
+      ],
+      "ring": "RING-18"
+    },
+    {
+      "label": 23,
+      "complaints": 21,
+      "victims": 21,
+      "possible_duplicates": [],
+      "total_loss_npr": 1408500,
+      "scam_type": "crypto_investment",
+      "scam_type_share": 0.86,
+      "active_from": "2026-02-14",
+      "active_to": "2026-07-10",
+      "identifiers": [
+        {
+          "key": "url:quorix-trade-82.example/download",
+          "type": "url",
+          "value": "quorix-trade-82.example/download",
+          "complaints": 11
+        },
+        {
+          "key": "telegram:@quorix_signals_1530",
+          "type": "telegram",
+          "value": "@quorix_signals_1530",
+          "complaints": 8
+        },
+        {
+          "key": "bank_account:3583132370589578",
+          "type": "bank_account",
+          "value": "3583132370589578",
+          "complaints": 5
+        },
+        {
+          "key": "crypto_address:TVEgKmYD89w5VCznV6tkwMjPn5c0KzLwBn",
+          "type": "crypto_address",
+          "value": "TVEgKmYD89w5VCznV6tkwMjPn5c0KzLwBn",
+          "complaints": 4
+        },
+        {
+          "key": "number:980555851",
+          "type": "wallet",
+          "value": "980555851",
+          "complaints": 3
+        },
+        {
+          "key": "number:974555255",
+          "type": "phone",
+          "value": "974555255",
+          "complaints": 3
+        },
+        {
+          "key": "number:985555407",
+          "type": "phone",
+          "value": "985555407",
+          "complaints": 3
+        },
+        {
+          "key": "bank_account:5678669125177852",
+          "type": "bank_account",
+          "value": "5678669125177852",
+          "complaints": 2
+        },
+        {
+          "key": "number:975555454",
+          "type": "phone",
+          "value": "975555454",
+          "complaints": 2
+        },
+        {
+          "key": "number:969555140",
+          "type": "phone",
+          "value": "969555140",
+          "complaints": 1
+        },
+        {
+          "key": "number:965555957",
+          "type": "wallet",
+          "value": "965555957",
+          "complaints": 1
+        },
+        {
+          "key": "number:967555971",
+          "type": "phone",
+          "value": "967555971",
+          "complaints": 1
+        },
+        {
+          "key": "number:982555311",
+          "type": "wallet",
+          "value": "982555311",
+          "complaints": 1
+        },
+        {
+          "key": "number:987555660",
+          "type": "phone",
+          "value": "987555660",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Quorix Trade",
+          "mentions": 11
+        },
+        {
+          "name": "Prakash T.",
+          "mentions": 6
+        },
+        {
+          "name": "Sunil G.",
+          "mentions": 2
+        },
+        {
+          "name": "Daju",
+          "mentions": 1
+        },
+        {
+          "name": "Aaisan",
+          "mentions": 1
+        },
+        {
+          "name": "Suman",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00529",
+          "probability": 0.997
+        },
+        {
+          "complaint": "CMP-00144",
+          "probability": 0.996
+        },
+        {
+          "complaint": "CMP-01116",
+          "probability": 0.995
+        }
+      ],
+      "members": [
+        "CMP-00041",
+        "CMP-00094",
+        "CMP-00099",
+        "CMP-00103",
+        "CMP-00144",
+        "CMP-00379",
+        "CMP-00493",
+        "CMP-00529",
+        "CMP-00604",
+        "CMP-00645",
+        "CMP-00653",
+        "CMP-00911",
+        "CMP-00972",
+        "CMP-01017",
+        "CMP-01038",
+        "CMP-01072",
+        "CMP-01093",
+        "CMP-01116",
+        "CMP-01159",
+        "CMP-01248",
+        "CMP-01479"
+      ],
+      "ring": "RING-19"
+    },
+    {
+      "label": 9,
+      "complaints": 67,
+      "victims": 66,
+      "possible_duplicates": [
+        [
+          "CMP-00988",
+          "CMP-01255"
+        ]
+      ],
+      "total_loss_npr": 849000,
+      "scam_type": "instant_loan_app",
+      "scam_type_share": 1.0,
+      "active_from": "2026-04-07",
+      "active_to": "2026-08-20",
+      "identifiers": [
+        {
+          "key": "number:979555698",
+          "type": "wallet",
+          "value": "979555698",
+          "complaints": 43
+        },
+        {
+          "key": "url:synthra-loan-40.example",
+          "type": "url",
+          "value": "synthra-loan-40.example",
+          "complaints": 36
+        },
+        {
+          "key": "number:961555454",
+          "type": "phone",
+          "value": "961555454",
+          "complaints": 21
+        },
+        {
+          "key": "number:964555925",
+          "type": "phone",
+          "value": "964555925",
+          "complaints": 20
+        },
+        {
+          "key": "number:961555444",
+          "type": "phone",
+          "value": "961555444",
+          "complaints": 18
+        },
+        {
+          "key": "number:960555332",
+          "type": "phone",
+          "value": "960555332",
+          "complaints": 10
+        },
+        {
+          "key": "bank_account:3175946474367136",
+          "type": "bank_account",
+          "value": "3175946474367136",
+          "complaints": 2
+        },
+        {
+          "key": "bank_account:3219693792374740",
+          "type": "bank_account",
+          "value": "3219693792374740",
+          "complaints": 2
+        },
+        {
+          "key": "bank_account:7325953278774701",
+          "type": "bank_account",
+          "value": "7325953278774701",
+          "complaints": 2
+        },
+        {
+          "key": "number:961555452",
+          "type": "phone",
+          "value": "961555452",
+          "complaints": 1
+        },
+        {
+          "key": "number:964555381",
+          "type": "phone",
+          "value": "964555381",
+          "complaints": 1
+        },
+        {
+          "key": "number:978555778",
+          "type": "phone",
+          "value": "978555778",
+          "complaints": 1
+        },
+        {
+          "key": "number:966555340",
+          "type": "phone",
+          "value": "966555340",
+          "complaints": 1
+        },
+        {
+          "key": "number:982555164",
+          "type": "phone",
+          "value": "982555164",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Synthra Paisa",
+          "mentions": 46
+        },
+        {
+          "name": "Mr. Shrestha",
+          "mentions": 44
+        },
+        {
+          "name": "Manoj K.",
+          "mentions": 2
+        },
+        {
+          "name": "Sabina K.",
+          "mentions": 2
+        },
+        {
+          "name": "Pooja B.",
+          "mentions": 2
+        },
+        {
+          "name": "Synthra-Loan",
+          "mentions": 1
+        },
+        {
+          "name": "Dada",
+          "mentions": 1
+        },
+        {
+          "name": "Daya garu",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-01262",
+          "probability": 0.986
+        },
+        {
+          "complaint": "CMP-00608",
+          "probability": 0.968
+        },
+        {
+          "complaint": "CMP-00527",
+          "probability": 0.897
+        },
+        {
+          "complaint": "CMP-01151",
+          "probability": 0.845
+        }
+      ],
+      "members": [
+        "CMP-00013",
+        "CMP-00038",
+        "CMP-00053",
+        "CMP-00055",
+        "CMP-00079",
+        "CMP-00095",
+        "CMP-00096",
+        "CMP-00108",
+        "CMP-00172",
+        "CMP-00233",
+        "CMP-00272",
+        "CMP-00341",
+        "CMP-00373",
+        "CMP-00384",
+        "CMP-00411",
+        "CMP-00416",
+        "CMP-00472",
+        "CMP-00501",
+        "CMP-00527",
+        "CMP-00531",
+        "CMP-00551",
+        "CMP-00552",
+        "CMP-00591",
+        "CMP-00607",
+        "CMP-00608",
+        "CMP-00633",
+        "CMP-00642",
+        "CMP-00643",
+        "CMP-00675",
+        "CMP-00695",
+        "CMP-00714",
+        "CMP-00737",
+        "CMP-00755",
+        "CMP-00757",
+        "CMP-00783",
+        "CMP-00803",
+        "CMP-00825",
+        "CMP-00852",
+        "CMP-00894",
+        "CMP-00915",
+        "CMP-00936",
+        "CMP-00951",
+        "CMP-00962",
+        "CMP-00973",
+        "CMP-00988",
+        "CMP-01008",
+        "CMP-01046",
+        "CMP-01052",
+        "CMP-01056",
+        "CMP-01070",
+        "CMP-01107",
+        "CMP-01151",
+        "CMP-01169",
+        "CMP-01188",
+        "CMP-01192",
+        "CMP-01227",
+        "CMP-01234",
+        "CMP-01238",
+        "CMP-01244",
+        "CMP-01255",
+        "CMP-01262",
+        "CMP-01285",
+        "CMP-01355",
+        "CMP-01362",
+        "CMP-01381",
+        "CMP-01395",
+        "CMP-01475"
+      ],
+      "ring": "RING-20"
+    },
+    {
+      "label": 34,
+      "complaints": 18,
+      "victims": 18,
+      "possible_duplicates": [],
+      "total_loss_npr": 581250,
+      "scam_type": "marketplace",
+      "scam_type_share": 1.0,
+      "active_from": "2026-02-08",
+      "active_to": "2026-08-03",
+      "identifiers": [
+        {
+          "key": "facebook_page:vexium second hand market",
+          "type": "facebook_page",
+          "value": "vexium second hand market",
+          "complaints": 9
+        },
+        {
+          "key": "number:978555148",
+          "type": "phone",
+          "value": "978555148",
+          "complaints": 6
+        },
+        {
+          "key": "number:961555282",
+          "type": "phone",
+          "value": "961555282",
+          "complaints": 4
+        },
+        {
+          "key": "number:972555457",
+          "type": "wallet",
+          "value": "972555457",
+          "complaints": 4
+        },
+        {
+          "key": "bank_account:8558867533963605",
+          "type": "bank_account",
+          "value": "8558867533963605",
+          "complaints": 3
+        },
+        {
+          "key": "number:973555943",
+          "type": "phone",
+          "value": "973555943",
+          "complaints": 3
+        },
+        {
+          "key": "number:977555249",
+          "type": "phone",
+          "value": "977555249",
+          "complaints": 3
+        },
+        {
+          "key": "number:979555593",
+          "type": "wallet",
+          "value": "979555593",
+          "complaints": 3
+        },
+        {
+          "key": "number:988555764",
+          "type": "phone",
+          "value": "988555764",
+          "complaints": 3
+        },
+        {
+          "key": "bank_account:3702895171870262",
+          "type": "bank_account",
+          "value": "3702895171870262",
+          "complaints": 2
+        },
+        {
+          "key": "number:971555224",
+          "type": "phone",
+          "value": "971555224",
+          "complaints": 1
+        },
+        {
+          "key": "number:978555382",
+          "type": "phone",
+          "value": "978555382",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Anil dai",
+          "mentions": 14
+        },
+        {
+          "name": "Rekha R.",
+          "mentions": 3
+        },
+        {
+          "name": "Ramesh B.",
+          "mentions": 1
+        },
+        {
+          "name": "Vexium Second Hand Market",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00907",
+          "probability": 0.99
+        },
+        {
+          "complaint": "CMP-01074",
+          "probability": 0.881
+        }
+      ],
+      "members": [
+        "CMP-00084",
+        "CMP-00192",
+        "CMP-00327",
+        "CMP-00389",
+        "CMP-00508",
+        "CMP-00535",
+        "CMP-00597",
+        "CMP-00724",
+        "CMP-00749",
+        "CMP-00907",
+        "CMP-00930",
+        "CMP-01039",
+        "CMP-01074",
+        "CMP-01117",
+        "CMP-01124",
+        "CMP-01289",
+        "CMP-01290",
+        "CMP-01446"
+      ],
+      "ring": "RING-21"
+    },
+    {
+      "label": 5,
+      "complaints": 23,
+      "victims": 23,
+      "possible_duplicates": [],
+      "total_loss_npr": 543000,
+      "scam_type": "instant_loan_app",
+      "scam_type_share": 0.96,
+      "active_from": "2026-01-13",
+      "active_to": "2026-03-11",
+      "identifiers": [
+        {
+          "key": "url:sorenta-loan-97.example",
+          "type": "url",
+          "value": "sorenta-loan-97.example",
+          "complaints": 13
+        },
+        {
+          "key": "number:985555062",
+          "type": "phone",
+          "value": "985555062",
+          "complaints": 6
+        },
+        {
+          "key": "number:983555600",
+          "type": "wallet",
+          "value": "983555600",
+          "complaints": 5
+        },
+        {
+          "key": "number:974555194",
+          "type": "phone",
+          "value": "974555194",
+          "complaints": 5
+        },
+        {
+          "key": "number:967555093",
+          "type": "phone",
+          "value": "967555093",
+          "complaints": 5
+        },
+        {
+          "key": "number:983555657",
+          "type": "phone",
+          "value": "983555657",
+          "complaints": 4
+        },
+        {
+          "key": "number:965555792",
+          "type": "wallet",
+          "value": "965555792",
+          "complaints": 3
+        },
+        {
+          "key": "bank_account:3681177589178390",
+          "type": "bank_account",
+          "value": "3681177589178390",
+          "complaints": 2
+        },
+        {
+          "key": "bank_account:1766177115921249",
+          "type": "bank_account",
+          "value": "1766177115921249",
+          "complaints": 1
+        },
+        {
+          "key": "number:974555199",
+          "type": "phone",
+          "value": "974555199",
+          "complaints": 1
+        },
+        {
+          "key": "number:969555310",
+          "type": "wallet",
+          "value": "969555310",
+          "complaints": 1
+        },
+        {
+          "key": "number:969555210",
+          "type": "wallet",
+          "value": "969555210",
+          "complaints": 1
+        },
+        {
+          "key": "number:972555615",
+          "type": "phone",
+          "value": "972555615",
+          "complaints": 1
+        },
+        {
+          "key": "number:962555065",
+          "type": "phone",
+          "value": "962555065",
+          "complaints": 1
+        },
+        {
+          "key": "number:962555606",
+          "type": "phone",
+          "value": "962555606",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Sorenta Paisa",
+          "mentions": 16
+        },
+        {
+          "name": "Mr. Adhikari",
+          "mentions": 12
+        },
+        {
+          "name": "Nabin B.",
+          "mentions": 2
+        },
+        {
+          "name": "Sagar R.",
+          "mentions": 1
+        },
+        {
+          "name": "Sorenta Loan",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00441",
+          "probability": 0.822
+        },
+        {
+          "complaint": "CMP-00832",
+          "probability": 0.815
+        },
+        {
+          "complaint": "CMP-00811",
+          "probability": 0.786
+        }
+      ],
+      "members": [
+        "CMP-00008",
+        "CMP-00068",
+        "CMP-00076",
+        "CMP-00089",
+        "CMP-00100",
+        "CMP-00145",
+        "CMP-00151",
+        "CMP-00211",
+        "CMP-00441",
+        "CMP-00522",
+        "CMP-00538",
+        "CMP-00678",
+        "CMP-00733",
+        "CMP-00811",
+        "CMP-00832",
+        "CMP-00889",
+        "CMP-01015",
+        "CMP-01059",
+        "CMP-01064",
+        "CMP-01216",
+        "CMP-01293",
+        "CMP-01392",
+        "CMP-01466"
+      ],
+      "ring": "RING-22"
+    },
+    {
+      "label": 14,
+      "complaints": 32,
+      "victims": 32,
+      "possible_duplicates": [],
+      "total_loss_npr": 485500,
+      "scam_type": "marketplace",
+      "scam_type_share": 1.0,
+      "active_from": "2026-01-17",
+      "active_to": "2026-06-21",
+      "identifiers": [
+        {
+          "key": "facebook_page:ulmera bike bazaar",
+          "type": "facebook_page",
+          "value": "ulmera bike bazaar",
+          "complaints": 21
+        },
+        {
+          "key": "number:987555295",
+          "type": "phone",
+          "value": "987555295",
+          "complaints": 13
+        },
+        {
+          "key": "number:965555421",
+          "type": "phone",
+          "value": "965555421",
+          "complaints": 10
+        },
+        {
+          "key": "bank_account:8703482477109324",
+          "type": "bank_account",
+          "value": "8703482477109324",
+          "complaints": 8
+        },
+        {
+          "key": "number:963555530",
+          "type": "wallet",
+          "value": "963555530",
+          "complaints": 7
+        },
+        {
+          "key": "number:978555844",
+          "type": "wallet",
+          "value": "978555844",
+          "complaints": 6
+        },
+        {
+          "key": "number:976555341",
+          "type": "phone",
+          "value": "976555341",
+          "complaints": 5
+        },
+        {
+          "key": "number:971555878",
+          "type": "phone",
+          "value": "971555878",
+          "complaints": 5
+        },
+        {
+          "key": "number:988555473",
+          "type": "wallet",
+          "value": "988555473",
+          "complaints": 3
+        },
+        {
+          "key": "number:986555833",
+          "type": "phone",
+          "value": "986555833",
+          "complaints": 1
+        },
+        {
+          "key": "number:988555073",
+          "type": "wallet",
+          "value": "988555073",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Rekha dai",
+          "mentions": 21
+        },
+        {
+          "name": "Bikash R.",
+          "mentions": 6
+        },
+        {
+          "name": "Ulmera Bike Bazaar",
+          "mentions": 3
+        },
+        {
+          "name": "Dherai maya lagchha, k garun?",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [],
+      "members": [
+        "CMP-00018",
+        "CMP-00164",
+        "CMP-00194",
+        "CMP-00259",
+        "CMP-00263",
+        "CMP-00303",
+        "CMP-00340",
+        "CMP-00444",
+        "CMP-00585",
+        "CMP-00665",
+        "CMP-00708",
+        "CMP-00712",
+        "CMP-00812",
+        "CMP-00855",
+        "CMP-00903",
+        "CMP-00920",
+        "CMP-00965",
+        "CMP-00974",
+        "CMP-00986",
+        "CMP-01026",
+        "CMP-01057",
+        "CMP-01126",
+        "CMP-01130",
+        "CMP-01140",
+        "CMP-01143",
+        "CMP-01179",
+        "CMP-01231",
+        "CMP-01329",
+        "CMP-01356",
+        "CMP-01365",
+        "CMP-01457",
+        "CMP-01469"
+      ],
+      "ring": "RING-23"
+    },
+    {
+      "label": 21,
+      "complaints": 35,
+      "victims": 33,
+      "possible_duplicates": [
+        [
+          "CMP-00116",
+          "CMP-01408"
+        ],
+        [
+          "CMP-00499",
+          "CMP-00987"
+        ]
+      ],
+      "total_loss_npr": 477000,
+      "scam_type": "instant_loan_app",
+      "scam_type_share": 1.0,
+      "active_from": "2026-04-24",
+      "active_to": "2026-09-21",
+      "identifiers": [
+        {
+          "key": "url:marivo-loan-33.example/app",
+          "type": "url",
+          "value": "marivo-loan-33.example/app",
+          "complaints": 23
+        },
+        {
+          "key": "number:978555540",
+          "type": "wallet",
+          "value": "978555540",
+          "complaints": 12
+        },
+        {
+          "key": "number:963555820",
+          "type": "wallet",
+          "value": "963555820",
+          "complaints": 11
+        },
+        {
+          "key": "number:975555692",
+          "type": "phone",
+          "value": "975555692",
+          "complaints": 10
+        },
+        {
+          "key": "number:979555291",
+          "type": "phone",
+          "value": "979555291",
+          "complaints": 6
+        },
+        {
+          "key": "number:987555239",
+          "type": "phone",
+          "value": "987555239",
+          "complaints": 6
+        },
+        {
+          "key": "bank_account:3407581814124782",
+          "type": "bank_account",
+          "value": "3407581814124782",
+          "complaints": 6
+        },
+        {
+          "key": "number:983555992",
+          "type": "phone",
+          "value": "983555992",
+          "complaints": 6
+        },
+        {
+          "key": "number:967555044",
+          "type": "phone",
+          "value": "967555044",
+          "complaints": 3
+        },
+        {
+          "key": "number:983555316",
+          "type": "phone",
+          "value": "983555316",
+          "complaints": 1
+        },
+        {
+          "key": "number:983555816",
+          "type": "phone",
+          "value": "983555816",
+          "complaints": 1
+        },
+        {
+          "key": "number:975555698",
+          "type": "phone",
+          "value": "975555698",
+          "complaints": 1
+        },
+        {
+          "key": "number:979555891",
+          "type": "phone",
+          "value": "979555891",
+          "complaints": 1
+        },
+        {
+          "key": "number:971555631",
+          "type": "wallet",
+          "value": "971555631",
+          "complaints": 1
+        },
+        {
+          "key": "number:983555072",
+          "type": "phone",
+          "value": "983555072",
+          "complaints": 1
+        },
+        {
+          "key": "number:983555656",
+          "type": "phone",
+          "value": "983555656",
+          "complaints": 1
+        },
+        {
+          "key": "url:ulmera-loan-19.example/app",
+          "type": "url",
+          "value": "ulmera-loan-19.example/app",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Anil dai",
+          "mentions": 24
+        },
+        {
+          "name": "Marivo Loan",
+          "mentions": 21
+        },
+        {
+          "name": "Anita T.",
+          "mentions": 4
+        },
+        {
+          "name": "Dharma",
+          "mentions": 1
+        },
+        {
+          "name": "Ulmera Rin",
+          "mentions": 1
+        },
+        {
+          "name": "Ulmera Loan",
+          "mentions": 1
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [
+        {
+          "complaint": "CMP-00170",
+          "probability": 0.648
+        }
+      ],
+      "members": [
+        "CMP-00033",
+        "CMP-00116",
+        "CMP-00170",
+        "CMP-00216",
+        "CMP-00262",
+        "CMP-00274",
+        "CMP-00282",
+        "CMP-00375",
+        "CMP-00391",
+        "CMP-00393",
+        "CMP-00394",
+        "CMP-00408",
+        "CMP-00452",
+        "CMP-00499",
+        "CMP-00504",
+        "CMP-00582",
+        "CMP-00693",
+        "CMP-00729",
+        "CMP-00763",
+        "CMP-00772",
+        "CMP-00793",
+        "CMP-00824",
+        "CMP-00826",
+        "CMP-00830",
+        "CMP-00887",
+        "CMP-00987",
+        "CMP-01099",
+        "CMP-01208",
+        "CMP-01219",
+        "CMP-01241",
+        "CMP-01310",
+        "CMP-01367",
+        "CMP-01408",
+        "CMP-01411",
+        "CMP-01442"
+      ],
+      "ring": "RING-24"
+    },
+    {
+      "label": 12,
+      "complaints": 23,
+      "victims": 23,
+      "possible_duplicates": [],
+      "total_loss_npr": 284500,
+      "scam_type": "instant_loan_app",
+      "scam_type_share": 1.0,
+      "active_from": "2026-03-01",
+      "active_to": "2026-07-23",
+      "identifiers": [
+        {
+          "key": "number:971555900",
+          "type": "wallet",
+          "value": "971555900",
+          "complaints": 15
+        },
+        {
+          "key": "url:quorix-loan-82.example/apply",
+          "type": "url",
+          "value": "quorix-loan-82.example/apply",
+          "complaints": 13
+        },
+        {
+          "key": "number:984555468",
+          "type": "phone",
+          "value": "984555468",
+          "complaints": 7
+        },
+        {
+          "key": "bank_account:6427849808412411",
+          "type": "bank_account",
+          "value": "6427849808412411",
+          "complaints": 5
+        },
+        {
+          "key": "number:976555134",
+          "type": "phone",
+          "value": "976555134",
+          "complaints": 5
+        },
+        {
+          "key": "number:985555244",
+          "type": "phone",
+          "value": "985555244",
+          "complaints": 3
+        },
+        {
+          "key": "number:979555576",
+          "type": "phone",
+          "value": "979555576",
+          "complaints": 3
+        },
+        {
+          "key": "number:971555009",
+          "type": "phone",
+          "value": "971555009",
+          "complaints": 3
+        },
+        {
+          "key": "number:974555209",
+          "type": "phone",
+          "value": "974555209",
+          "complaints": 2
+        },
+        {
+          "key": "number:976555234",
+          "type": "phone",
+          "value": "976555234",
+          "complaints": 1
+        }
+      ],
+      "names": [
+        {
+          "name": "Quorix Loan",
+          "mentions": 20
+        },
+        {
+          "name": "Deepak sir",
+          "mentions": 17
+        },
+        {
+          "name": "Prakash K.",
+          "mentions": 4
+        }
+      ],
+      "shared_mules": [],
+      "linked_by_story": [],
+      "members": [
+        "CMP-00016",
+        "CMP-00032",
+        "CMP-00073",
+        "CMP-00137",
+        "CMP-00297",
+        "CMP-00302",
+        "CMP-00317",
+        "CMP-00476",
+        "CMP-00521",
+        "CMP-00616",
+        "CMP-00619",
+        "CMP-00800",
+        "CMP-00896",
+        "CMP-00981",
+        "CMP-00984",
+        "CMP-00989",
+        "CMP-00990",
+        "CMP-01001",
+        "CMP-01166",
+        "CMP-01193",
+        "CMP-01303",
+        "CMP-01316",
+        "CMP-01471"
+      ],
+      "ring": "RING-25"
+    }
+  ],
+  "unlinked_complaints": [
+    "CMP-00003",
+    "CMP-00015",
+    "CMP-00023",
+    "CMP-00027",
+    "CMP-00028",
+    "CMP-00046",
+    "CMP-00065",
+    "CMP-00071",
+    "CMP-00072",
+    "CMP-00087",
+    "CMP-00097",
+    "CMP-00105",
+    "CMP-00119",
+    "CMP-00159",
+    "CMP-00160",
+    "CMP-00162",
+    "CMP-00169",
+    "CMP-00175",
+    "CMP-00179",
+    "CMP-00188",
+    "CMP-00198",
+    "CMP-00204",
+    "CMP-00213",
+    "CMP-00218",
+    "CMP-00227",
+    "CMP-00231",
+    "CMP-00242",
+    "CMP-00249",
+    "CMP-00251",
+    "CMP-00257",
+    "CMP-00261",
+    "CMP-00270",
+    "CMP-00271",
+    "CMP-00278",
+    "CMP-00279",
+    "CMP-00284",
+    "CMP-00295",
+    "CMP-00313",
+    "CMP-00320",
+    "CMP-00322",
+    "CMP-00324",
+    "CMP-00336",
+    "CMP-00343",
+    "CMP-00348",
+    "CMP-00359",
+    "CMP-00367",
+    "CMP-00371",
+    "CMP-00374",
+    "CMP-00382",
+    "CMP-00386",
+    "CMP-00395",
+    "CMP-00402",
+    "CMP-00407",
+    "CMP-00409",
+    "CMP-00414",
+    "CMP-00424",
+    "CMP-00430",
+    "CMP-00431",
+    "CMP-00434",
+    "CMP-00438",
+    "CMP-00451",
+    "CMP-00455",
+    "CMP-00460",
+    "CMP-00463",
+    "CMP-00464",
+    "CMP-00465",
+    "CMP-00469",
+    "CMP-00470",
+    "CMP-00478",
+    "CMP-00479",
+    "CMP-00487",
+    "CMP-00506",
+    "CMP-00512",
+    "CMP-00517",
+    "CMP-00532",
+    "CMP-00534",
+    "CMP-00541",
+    "CMP-00542",
+    "CMP-00549",
+    "CMP-00567",
+    "CMP-00580",
+    "CMP-00584",
+    "CMP-00588",
+    "CMP-00590",
+    "CMP-00605",
+    "CMP-00614",
+    "CMP-00617",
+    "CMP-00620",
+    "CMP-00623",
+    "CMP-00626",
+    "CMP-00628",
+    "CMP-00630",
+    "CMP-00635",
+    "CMP-00636",
+    "CMP-00637",
+    "CMP-00650",
+    "CMP-00659",
+    "CMP-00661",
+    "CMP-00663",
+    "CMP-00664",
+    "CMP-00674",
+    "CMP-00679",
+    "CMP-00684",
+    "CMP-00686",
+    "CMP-00687",
+    "CMP-00689",
+    "CMP-00692",
+    "CMP-00696",
+    "CMP-00697",
+    "CMP-00700",
+    "CMP-00701",
+    "CMP-00707",
+    "CMP-00710",
+    "CMP-00718",
+    "CMP-00719",
+    "CMP-00722",
+    "CMP-00727",
+    "CMP-00735",
+    "CMP-00741",
+    "CMP-00752",
+    "CMP-00761",
+    "CMP-00768",
+    "CMP-00775",
+    "CMP-00777",
+    "CMP-00778",
+    "CMP-00779",
+    "CMP-00781",
+    "CMP-00784",
+    "CMP-00787",
+    "CMP-00795",
+    "CMP-00796",
+    "CMP-00810",
+    "CMP-00816",
+    "CMP-00822",
+    "CMP-00823",
+    "CMP-00828",
+    "CMP-00840",
+    "CMP-00844",
+    "CMP-00846",
+    "CMP-00847",
+    "CMP-00851",
+    "CMP-00853",
+    "CMP-00857",
+    "CMP-00859",
+    "CMP-00875",
+    "CMP-00883",
+    "CMP-00884",
+    "CMP-00885",
+    "CMP-00893",
+    "CMP-00895",
+    "CMP-00904",
+    "CMP-00909",
+    "CMP-00914",
+    "CMP-00917",
+    "CMP-00923",
+    "CMP-00924",
+    "CMP-00926",
+    "CMP-00929",
+    "CMP-00937",
+    "CMP-00940",
+    "CMP-00941",
+    "CMP-00950",
+    "CMP-00956",
+    "CMP-00960",
+    "CMP-00968",
+    "CMP-00978",
+    "CMP-00979",
+    "CMP-00985",
+    "CMP-00998",
+    "CMP-00999",
+    "CMP-01011",
+    "CMP-01027",
+    "CMP-01029",
+    "CMP-01031",
+    "CMP-01033",
+    "CMP-01035",
+    "CMP-01043",
+    "CMP-01053",
+    "CMP-01054",
+    "CMP-01061",
+    "CMP-01062",
+    "CMP-01081",
+    "CMP-01090",
+    "CMP-01094",
+    "CMP-01104",
+    "CMP-01111",
+    "CMP-01112",
+    "CMP-01115",
+    "CMP-01120",
+    "CMP-01123",
+    "CMP-01128",
+    "CMP-01131",
+    "CMP-01137",
+    "CMP-01155",
+    "CMP-01174",
+    "CMP-01177",
+    "CMP-01195",
+    "CMP-01206",
+    "CMP-01220",
+    "CMP-01226",
+    "CMP-01240",
+    "CMP-01242",
+    "CMP-01265",
+    "CMP-01270",
+    "CMP-01277",
+    "CMP-01286",
+    "CMP-01291",
+    "CMP-01307",
+    "CMP-01311",
+    "CMP-01317",
+    "CMP-01318",
+    "CMP-01320",
+    "CMP-01325",
+    "CMP-01331",
+    "CMP-01348",
+    "CMP-01351",
+    "CMP-01369",
+    "CMP-01371",
+    "CMP-01372",
+    "CMP-01376",
+    "CMP-01380",
+    "CMP-01383",
+    "CMP-01391",
+    "CMP-01393",
+    "CMP-01397",
+    "CMP-01398",
+    "CMP-01406",
+    "CMP-01410",
+    "CMP-01413",
+    "CMP-01416",
+    "CMP-01427",
+    "CMP-01433",
+    "CMP-01454",
+    "CMP-01464",
+    "CMP-01473",
+    "CMP-01480",
+    "CMP-01485",
+    "CMP-01488",
+    "CMP-01493",
+    "CMP-01494"
+  ]
+}

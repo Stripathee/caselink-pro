@@ -1,0 +1,296 @@
+{
+  "extracted": "data/extracted/cascade_nano.jsonl",
+  "threshold": 0.6,
+  "mules": [
+    {
+      "identifier": "bank_account:6004797480162456",
+      "story_similarity": 0.16,
+      "sides": [
+        277,
+        29
+      ],
+      "scam_types": [
+        "marketplace",
+        "romance"
+      ],
+      "complaints": [
+        "CMP-00029",
+        "CMP-00069",
+        "CMP-00102",
+        "CMP-00118",
+        "CMP-00123",
+        "CMP-00131",
+        "CMP-00176",
+        "CMP-00334",
+        "CMP-00383",
+        "CMP-00548",
+        "CMP-00618",
+        "CMP-00667",
+        "CMP-00709",
+        "CMP-00740",
+        "CMP-00759",
+        "CMP-00804",
+        "CMP-00805",
+        "CMP-00881",
+        "CMP-00922",
+        "CMP-00939",
+        "CMP-00948",
+        "CMP-00970",
+        "CMP-00994",
+        "CMP-01040",
+        "CMP-01098",
+        "CMP-01152",
+        "CMP-01196",
+        "CMP-01225",
+        "CMP-01230",
+        "CMP-01257",
+        "CMP-01319",
+        "CMP-01324",
+        "CMP-01418",
+        "CMP-01447"
+      ]
+    }
+  ],
+  "sweep_val": [
+    {
+      "threshold": 0.3,
+      "n": 261,
+      "ring_complaints_correct": 221,
+      "ring_complaints": 224,
+      "story_only_linked": 16,
+      "story_only": 19,
+      "noise_wrongly_attached": 5,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.97
+    },
+    {
+      "threshold": 0.35,
+      "n": 261,
+      "ring_complaints_correct": 220,
+      "ring_complaints": 224,
+      "story_only_linked": 15,
+      "story_only": 19,
+      "noise_wrongly_attached": 4,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.9641
+    },
+    {
+      "threshold": 0.4,
+      "n": 261,
+      "ring_complaints_correct": 220,
+      "ring_complaints": 224,
+      "story_only_linked": 15,
+      "story_only": 19,
+      "noise_wrongly_attached": 3,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.9704
+    },
+    {
+      "threshold": 0.45,
+      "n": 261,
+      "ring_complaints_correct": 220,
+      "ring_complaints": 224,
+      "story_only_linked": 15,
+      "story_only": 19,
+      "noise_wrongly_attached": 3,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.9704
+    },
+    {
+      "threshold": 0.5,
+      "n": 261,
+      "ring_complaints_correct": 219,
+      "ring_complaints": 224,
+      "story_only_linked": 14,
+      "story_only": 19,
+      "noise_wrongly_attached": 3,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.9691
+    },
+    {
+      "threshold": 0.55,
+      "n": 261,
+      "ring_complaints_correct": 219,
+      "ring_complaints": 224,
+      "story_only_linked": 14,
+      "story_only": 19,
+      "noise_wrongly_attached": 2,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.9694
+    },
+    {
+      "threshold": 0.6,
+      "n": 261,
+      "ring_complaints_correct": 219,
+      "ring_complaints": 224,
+      "story_only_linked": 14,
+      "story_only": 19,
+      "noise_wrongly_attached": 1,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.9808
+    },
+    {
+      "threshold": 0.65,
+      "n": 261,
+      "ring_complaints_correct": 217,
+      "ring_complaints": 224,
+      "story_only_linked": 12,
+      "story_only": 19,
+      "noise_wrongly_attached": 1,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.9727
+    },
+    {
+      "threshold": 0.7,
+      "n": 261,
+      "ring_complaints_correct": 217,
+      "ring_complaints": 224,
+      "story_only_linked": 12,
+      "story_only": 19,
+      "noise_wrongly_attached": 1,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.9727
+    },
+    {
+      "threshold": 0.75,
+      "n": 261,
+      "ring_complaints_correct": 217,
+      "ring_complaints": 224,
+      "story_only_linked": 12,
+      "story_only": 19,
+      "noise_wrongly_attached": 1,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.9727
+    },
+    {
+      "threshold": 0.8,
+      "n": 261,
+      "ring_complaints_correct": 216,
+      "ring_complaints": 224,
+      "story_only_linked": 11,
+      "story_only": 19,
+      "noise_wrongly_attached": 1,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.9717
+    },
+    {
+      "threshold": 0.85,
+      "n": 261,
+      "ring_complaints_correct": 214,
+      "ring_complaints": 224,
+      "story_only_linked": 9,
+      "story_only": 19,
+      "noise_wrongly_attached": 1,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.968
+    },
+    {
+      "threshold": 0.9,
+      "n": 261,
+      "ring_complaints_correct": 212,
+      "ring_complaints": 224,
+      "story_only_linked": 7,
+      "story_only": 19,
+      "noise_wrongly_attached": 1,
+      "noise": 37,
+      "rings_wrongly_merged": [],
+      "ari": 0.957
+    }
+  ],
+  "stages": {
+    "Plain matching": {
+      "val": {
+        "n": 261,
+        "ring_complaints_correct": 195,
+        "ring_complaints": 224,
+        "story_only_linked": 0,
+        "story_only": 19,
+        "noise_wrongly_attached": 0,
+        "noise": 37,
+        "rings_wrongly_merged": [
+          [
+            "R07",
+            "R19"
+          ]
+        ],
+        "ari": 0.8238
+      },
+      "test": {
+        "n": 245,
+        "ring_complaints_correct": 189,
+        "ring_complaints": 201,
+        "story_only_linked": 1,
+        "story_only": 12,
+        "noise_wrongly_attached": 0,
+        "noise": 44,
+        "rings_wrongly_merged": [
+          [
+            "R07",
+            "R19"
+          ]
+        ],
+        "ari": 0.9259
+      }
+    },
+    "+ shared-mule splitting": {
+      "val": {
+        "n": 261,
+        "ring_complaints_correct": 203,
+        "ring_complaints": 224,
+        "story_only_linked": 0,
+        "story_only": 19,
+        "noise_wrongly_attached": 0,
+        "noise": 37,
+        "rings_wrongly_merged": [],
+        "ari": 0.9121
+      },
+      "test": {
+        "n": 245,
+        "ring_complaints_correct": 190,
+        "ring_complaints": 201,
+        "story_only_linked": 1,
+        "story_only": 12,
+        "noise_wrongly_attached": 0,
+        "noise": 44,
+        "rings_wrongly_merged": [],
+        "ari": 0.9374
+      }
+    },
+    "+ link predictor (CaseLink)": {
+      "val": {
+        "n": 261,
+        "ring_complaints_correct": 219,
+        "ring_complaints": 224,
+        "story_only_linked": 14,
+        "story_only": 19,
+        "noise_wrongly_attached": 1,
+        "noise": 37,
+        "rings_wrongly_merged": [],
+        "ari": 0.9808
+      },
+      "test": {
+        "n": 245,
+        "ring_complaints_correct": 199,
+        "ring_complaints": 201,
+        "story_only_linked": 10,
+        "story_only": 12,
+        "noise_wrongly_attached": 2,
+        "noise": 44,
+        "rings_wrongly_merged": [],
+        "ari": 0.9845
+      }
+    }
+  }
+}

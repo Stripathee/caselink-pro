@@ -24,12 +24,28 @@ so the biggest rings, total losses and victim counts stay invisible.
 
 | Step | Model (Token Factory ID) | Why this model |
 | --- | --- | --- |
-| Messy-field extraction | `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B` | Fast and cheap for medium-confidence complaints |
-| Synthetic data, verifier agent | `nvidia/nemotron-3-super-120b-a12b` | Good balance of quality and cost |
-| Teacher labels, ring case reasoning | `nvidia/Nemotron-3-Ultra-550b-a55b` | Strongest reasoning, used only where it matters |
+| Reading every complaint: names, scam type, amount, date | `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B` | Fast and cheap enough to read all 1,500 complaints |
+| Writing the synthetic complaints; verifier agent | `nvidia/nemotron-3-super-120b-a12b` | Good balance of quality and cost |
+| Ring case reasoning | `nvidia/Nemotron-3-Ultra-550b-a55b` | Strongest reasoning, used only once per ring |
 
-Most complaints never reach a large model: free regex and a small student classifier
-handle confident cases first. (Measured results will be added here.)
+Reasoning is switched off (`enable_thinking: false`) where it adds nothing, such as writing
+and extraction, which cut output tokens per complaint by more than 4x.
+
+## Results at a glance
+
+Measured against the hidden truth of the synthetic dataset. Ring results are on the
+held-out test split, which was never used for any design or tuning decision.
+
+| | Result |
+| --- | --- |
+| Identifiers extracted (all 1,500 complaints) | 98.6% F1 (99.1% precision, 98.0% recall) |
+| Scammer aliases and fake organisations | 95.6% F1 |
+| Scam type / amount lost / incident date | 96.0% / 98.1% / 99.8% correct |
+| Ring complaints placed in the right ring | 99.0% (plain matching: 94.0%) |
+| Complaints with no shared identifier, linked by story | 10 of 12 (plain matching: 1 of 12) |
+| One-off scams wrongly attached to a ring | 2 of 44 |
+| Rings wrongly merged by a shared mule account | 0 (plain matching: 1) |
+| Ring recovery, adjusted Rand index | 0.985 (plain matching: 0.926) |
 
 ## Quickstart
 
@@ -96,10 +112,27 @@ Investigators link cases on identifiers, so extraction comes first. It runs in t
 
 ```bash
 python scripts/run_extraction.py --mode rules                 # free
-python scripts/run_extraction.py --mode cascade --limit 30    # rules + Nemotron Nano
+python scripts/run_extraction.py --mode cascade               # rules + Nemotron Nano, all complaints
 ```
 
-Rule-based extraction on the held-out test split (245 complaints, never used for tuning):
+Every model answer is checked before it is trusted: an identifier must match its format
+(a Telegram handle starts with `@`, a link has a domain), real banks, wallets, platforms
+and government agencies are never treated as scammer names, and a date outside the year
+before filing is dropped rather than guessed. Rules plus Nemotron Nano on all 1,500
+complaints (about 0.98M input and 0.27M output tokens):
+
+| Identifier | Precision | Recall | F1 |
+| --- | --- | --- | --- |
+| Phone number | 99.5% | 99.4% | 99.4% |
+| Wallet ID | 98.8% | 98.7% | 98.7% |
+| Bank account | 100% | 100% | 100% |
+| Link / URL | 99.0% | 100% | 99.5% |
+| Telegram handle | 100% | 100% | 100% |
+| Crypto address | 100% | 100% | 100% |
+| Facebook page name | 96.6% | 88.1% | 92.1% |
+| **All** | **99.1%** | **98.0%** | **98.6%** |
+
+Rules alone, on the held-out test split (245 complaints, never used for tuning):
 
 | Identifier | Precision | Recall | F1 |
 | --- | --- | --- | --- |
@@ -115,12 +148,53 @@ Rule-based extraction on the held-out test split (245 complaints, never used for
 Phone and wallet numbers are found with 100% precision and 99.7% recall regardless of label,
 which is what ring linking depends on.
 
+## Finding rings
+
+```bash
+python scripts/find_rings.py     # free: no model calls, about 2 minutes
+```
+
+1. **Link.** Complaints and identifiers form a graph. Complaints that share a phone, wallet,
+   account, link, handle or page fall into the same group.
+2. **Split shared mules.** Mule accounts are rented to more than one gang. When a single
+   identifier is the only bridge between two sizeable groups that tell different stories
+   (TF-IDF similarity of their complaints, identifiers masked), it is flagged as a shared
+   mule and the groups become separate rings. A ring that rotates its phone numbers keeps
+   telling the same story, so it is not split. Same-ring halves score at least 0.46; the
+   detected mule's two sides scored 0.16.
+3. **Link predictor.** Some victims only ever saw a one-time number. A gradient-boosted
+   classifier scores each (lone complaint, candidate ring) pair on story similarity, scam
+   type, matching or conflicting aliases and agency names, near-identical numbers (typos),
+   timing and amount, and attaches the complaint only when confident. It is trained on the
+   train split; each training complaint is also shown with its true ring hidden, so the
+   model learns to say no to a similar story from an unknown gang. The attach threshold is
+   chosen on the validation split by a rule fixed in advance: at most 5% of one-off scams
+   wrongly attached, then as many story-only complaints linked as possible.
+
+| Test split | Ring complaints correct | Story-only linked | One-offs wrongly attached | Rings merged | ARI |
+| --- | --- | --- | --- | --- | --- |
+| Plain matching | 94.0% | 1 / 12 | 0 / 44 | 1 | 0.926 |
+| + shared-mule splitting | 94.5% | 1 / 12 | 0 / 44 | 0 | 0.937 |
+| **+ link predictor (CaseLink)** | **99.0%** | **10 / 12** | **2 / 44** | **0** | **0.985** |
+
+Validation split, for comparison: 97.8% correct, 14 / 19 story-only linked, 1 / 37 one-offs
+wrongly attached, 0 merged, ARI 0.981. The story-only counts are small, so treat those
+percentages as indicative.
+
+CaseLink finds 25 rings (the hidden truth has 25). Each ring profile in
+`data/rings/rings.json` lists victims and complaints, total losses, scam type, active
+period, every lead ranked by how many complaints mention it, the aliases used, shared mule
+accounts, which complaints were linked by story and with what probability, and possible
+duplicate filings (identical leads, amount and date), which are flagged for an officer and
+counted once in losses and victims.
+
 ## Project structure
 
 ```
-caselink/        core library: model client, config, synthetic world, complaint writer
-scripts/         command-line tools: setup check, data generation, evaluations
-data/            synthetic datasets
+caselink/        core library: model client, synthetic world, extraction, ring finding, link predictor
+scripts/         command-line tools: setup check, data generation, extraction, ring finding
+data/            synthetic dataset, extraction outputs, ring profiles
+results/         evaluation results as JSON
 ```
 
 ## License

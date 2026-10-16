@@ -39,6 +39,9 @@ GENERIC_WORDS = {
 }
 
 _LEGIT = {re.sub(r"[^a-z0-9]", "", n.lower()) for n in PAYMENT_PROVIDERS + GOVERNMENT_BODIES + PLATFORMS + BANKS}
+# Single words from real institutions' names ("Central", "Bureau", "Customs"): not personal names.
+_LEGIT_WORDS = {w.lower() for n in GOVERNMENT_BODIES + PAYMENT_PROVIDERS + PLATFORMS + BANKS
+                for w in re.findall(r"[A-Za-z]+", n) if len(w) > 2}
 
 
 def _key(name: str) -> str:
@@ -57,5 +60,6 @@ def is_generic_role(name: str) -> bool:
     """'officer', 'telecom security officer', 'Canadian businesswoman': no actual name inside."""
     tokens = re.findall(r"[A-Za-z]+", name)
     proper = [t for t in tokens
-              if t[0].isupper() and t.lower() not in GENERIC_WORDS and _key(t) not in _LEGIT]
-    return not proper  # e.g. "CIB officer": an agency plus a job title, no person
+              if t[0].isupper() and t.lower() not in GENERIC_WORDS and _key(t) not in _LEGIT
+              and t.lower() not in _LEGIT_WORDS]
+    return not proper  # e.g. "officer from the Central Investigation Bureau": no person named
