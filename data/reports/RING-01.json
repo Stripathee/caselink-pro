@@ -1,0 +1,723 @@
+{
+  "ring": "RING-01",
+  "title": "Police Impersonation 'Digital Arrest' Scam Ring (RING-01)",
+  "facts": [
+    {
+      "id": "F1",
+      "text": "149 victims across 152 complaints; 3 possible repeat filings by the same victim.",
+      "victims": 149,
+      "complaints": 152
+    },
+    {
+      "id": "F2",
+      "text": "Total reported loss NPR 47,649,000 (repeat filings counted once); median loss per victim NPR 227,000; largest single loss NPR 890,500.",
+      "total": 47649000,
+      "median": 227000,
+      "largest": 890500
+    },
+    {
+      "id": "F3",
+      "text": "Active from 2026-01-06 to 2026-08-01 (incident dates)."
+    },
+    {
+      "id": "F4",
+      "text": "Scam type: Police or official impersonation ('digital arrest') (100% of complaints)."
+    },
+    {
+      "id": "F5",
+      "text": "Complaints by month: 2026-01: 17, 2026-02: 25, 2026-03: 31, 2026-04: 18, 2026-05: 27, 2026-06: 27, 2026-07: 6, 2026-08: 1.",
+      "by_month": {
+        "2026-01": 17,
+        "2026-02": 25,
+        "2026-03": 31,
+        "2026-04": 18,
+        "2026-05": 27,
+        "2026-06": 27,
+        "2026-07": 6,
+        "2026-08": 1
+      }
+    },
+    {
+      "id": "F6",
+      "text": "Victims' districts: Kathmandu 37, Kaski 15, Kailali 14, Sunsari 13, Morang 11, Parsa 11."
+    },
+    {
+      "id": "F7",
+      "text": "Lead: phone 969555964 appears in 45 complaints, first seen 2026-02-12, last seen 2026-07-09.",
+      "lead": "969555964",
+      "lead_type": "phone",
+      "count": 45
+    },
+    {
+      "id": "F8",
+      "text": "Lead: bank account 6562588153714732 appears in 43 complaints, first seen 2026-01-06, last seen 2026-07-10.",
+      "lead": "6562588153714732",
+      "lead_type": "bank_account",
+      "count": 43
+    },
+    {
+      "id": "F9",
+      "text": "Lead: bank account 9447364710276773 appears in 43 complaints, first seen 2026-01-06, last seen 2026-08-01.",
+      "lead": "9447364710276773",
+      "lead_type": "bank_account",
+      "count": 43
+    },
+    {
+      "id": "F10",
+      "text": "Lead: phone 968555656 appears in 32 complaints, first seen 2026-01-23, last seen 2026-06-23.",
+      "lead": "968555656",
+      "lead_type": "phone",
+      "count": 32
+    },
+    {
+      "id": "F11",
+      "text": "Lead: phone 979555546 appears in 31 complaints, first seen 2026-01-06, last seen 2026-05-27.",
+      "lead": "979555546",
+      "lead_type": "phone",
+      "count": 31
+    },
+    {
+      "id": "F12",
+      "text": "Lead: phone 982555175 appears in 30 complaints, first seen 2026-02-09, last seen 2026-08-01.",
+      "lead": "982555175",
+      "lead_type": "phone",
+      "count": 30
+    },
+    {
+      "id": "F13",
+      "text": "Lead: phone 972555640 appears in 26 complaints, first seen 2026-01-06, last seen 2026-05-09.",
+      "lead": "972555640",
+      "lead_type": "phone",
+      "count": 26
+    },
+    {
+      "id": "F14",
+      "text": "Lead: phone 989555737 appears in 18 complaints, first seen 2026-01-25, last seen 2026-08-01.",
+      "lead": "989555737",
+      "lead_type": "phone",
+      "count": 18
+    },
+    {
+      "id": "F15",
+      "text": "Lead: wallet 969555426 appears in 16 complaints, first seen 2026-01-25, last seen 2026-07-01.",
+      "lead": "969555426",
+      "lead_type": "wallet",
+      "count": 16
+    },
+    {
+      "id": "F16",
+      "text": "Lead: wallet 980555509 appears in 13 complaints, first seen 2026-01-11, last seen 2026-05-29.",
+      "lead": "980555509",
+      "lead_type": "wallet",
+      "count": 13
+    },
+    {
+      "id": "F17",
+      "text": "Lead: wallet 969555271 appears in 7 complaints, first seen 2026-03-14, last seen 2026-06-23.",
+      "lead": "969555271",
+      "lead_type": "wallet",
+      "count": 7
+    },
+    {
+      "id": "F18",
+      "text": "Lead: phone 979555846 appears in 1 complaints, first seen 2026-03-08, last seen 2026-03-08.",
+      "lead": "979555846",
+      "lead_type": "phone",
+      "count": 1
+    },
+    {
+      "id": "F19",
+      "text": "Name used: \"Inspector Shrestha\" appears in 101 complaints.",
+      "name": "Inspector Shrestha"
+    },
+    {
+      "id": "F20",
+      "text": "Name used: \"Anil S.\" appears in 41 complaints.",
+      "name": "Anil S."
+    },
+    {
+      "id": "F21",
+      "text": "Name used: \"Sagar G.\" appears in 40 complaints.",
+      "name": "Sagar G."
+    },
+    {
+      "id": "F22",
+      "text": "Name used: \"Officer Prakash\" appears in 2 complaints.",
+      "name": "Officer Prakash"
+    },
+    {
+      "id": "F23",
+      "text": "Name used: \"Officer Rajendra\" appears in 1 complaints.",
+      "name": "Officer Rajendra"
+    },
+    {
+      "id": "F24",
+      "text": "Name used: \"Officer Ramesh Thapa\" appears in 1 complaints.",
+      "name": "Officer Ramesh Thapa"
+    },
+    {
+      "id": "F25",
+      "text": "3 complaints share no identifier with the ring and were linked by the link predictor (probabilities CMP-00813 1.00, CMP-01119 0.88, CMP-01221 0.69)."
+    }
+  ],
+  "evidence_shown": [
+    "CMP-00421",
+    "CMP-00146",
+    "CMP-00148",
+    "CMP-00098",
+    "CMP-00813",
+    "CMP-01147",
+    "CMP-00711",
+    "CMP-00166",
+    "CMP-00235",
+    "CMP-00058",
+    "CMP-01379",
+    "CMP-00459",
+    "CMP-01358",
+    "CMP-00042",
+    "CMP-00277",
+    "CMP-00730",
+    "CMP-01149",
+    "CMP-00074",
+    "CMP-01083",
+    "CMP-00349",
+    "CMP-01222",
+    "CMP-00801",
+    "CMP-00742",
+    "CMP-00339",
+    "CMP-00191",
+    "CMP-00794",
+    "CMP-00400",
+    "CMP-01394",
+    "CMP-01271",
+    "CMP-01221",
+    "CMP-00156",
+    "CMP-01119",
+    "CMP-01223",
+    "CMP-00329",
+    "CMP-01235",
+    "CMP-01299",
+    "CMP-00398",
+    "CMP-00602",
+    "CMP-01089",
+    "CMP-01366"
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "section": "summary",
+      "text": "A police impersonation scam ring operating from 2026-01-06 to 2026-08-01 targeted 149 victims across Nepal, impersonating 'Inspector Shrestha' and other officers from the Central Investigation Bureau to extort NPR 47,649,000 through 'digital arrest' threats. Victims were kept on hours-long video calls and pressured to pay security deposits into two Morivan Finance bank accounts and three IME Pay wallets.",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence matches victim count, loss, dates, scam type."
+    },
+    {
+      "id": "C2",
+      "section": "modus_operandi",
+      "text": "Caller initiates contact via WhatsApp or phone call claiming to be 'Inspector Shrestha' (or Officer Prakash, Rajendra, Ramesh Thapa) from the Central Investigation Bureau.",
+      "evidence": [
+        "F19",
+        "F22",
+        "F23",
+        "F24",
+        "CMP-00421",
+        "CMP-00146",
+        "CMP-00148",
+        "CMP-01147"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Names appear in complaints and examples show initiation via WhatsApp/phone."
+    },
+    {
+      "id": "C3",
+      "section": "modus_operandi",
+      "text": "Caller claims a parcel in the victim's name has been intercepted containing illegal items (drugs, banned substances) and threatens 'digital arrest' or physical arrest unless a security deposit is paid immediately.",
+      "evidence": [
+        "F4",
+        "CMP-00421",
+        "CMP-00146",
+        "CMP-00148",
+        "CMP-00098",
+        "CMP-01147",
+        "CMP-00711",
+        "CMP-00058"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Complaints describe parcel with illegal items and demand security deposit."
+    },
+    {
+      "id": "C4",
+      "section": "modus_operandi",
+      "text": "Caller keeps victim on continuous video call for hours, using pressure, threats, fake documents, and refusal to let victim hang up to induce fear and compliance.",
+      "evidence": [
+        "CMP-00421",
+        "CMP-00146",
+        "CMP-00148",
+        "CMP-00098",
+        "CMP-01147",
+        "CMP-00711",
+        "CMP-00058",
+        "CMP-01379",
+        "CMP-00459"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Multiple complaints mention hours-long video calls, pressure, refusal to hang up."
+    },
+    {
+      "id": "C5",
+      "section": "modus_operandi",
+      "text": "Victim is directed to transfer a security deposit to one of two Morivan Finance bank accounts (6562588153714732 held by 'Anil S.' or 9447364710276773 held by 'Sagar G.') or to an IME Pay wallet (969555426, 980555509, or 969555271).",
+      "evidence": [
+        "F8",
+        "F9",
+        "F15",
+        "F16",
+        "F17",
+        "CMP-00421",
+        "CMP-00148",
+        "CMP-00098",
+        "CMP-01147",
+        "CMP-00711",
+        "CMP-00166",
+        "CMP-01379",
+        "CMP-00459",
+        "CMP-01358",
+        "CMP-00156"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead data and complaint excerpts show transfers to specified accounts/wallets."
+    },
+    {
+      "id": "C6",
+      "section": "modus_operandi",
+      "text": "Calls originate from a rotating set of phone numbers (969555964, 968555656, 979555546, 982555175, 972555640, 989555737, 979555846, 972555040, 979555346, 969555764, 964555013, 979555586) often used in combination.",
+      "evidence": [
+        "F7",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F18",
+        "CMP-00421",
+        "CMP-00146",
+        "CMP-00098",
+        "CMP-00711",
+        "CMP-00166",
+        "CMP-00235",
+        "CMP-00058",
+        "CMP-01379",
+        "CMP-00459",
+        "CMP-01358"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead entries list each phone with counts; examples show their use in combination."
+    },
+    {
+      "id": "C7",
+      "section": "modus_operandi",
+      "text": "Victims across multiple districts (Kathmandu, Kaski, Kailali, Sunsari, Morang, Parsa, Chitwan, Rupandehi, Bhaktapur, Banke, Rupandehi, Lalitpur) are targeted over a seven-month period with median loss NPR 227,000 and maximum single loss NPR 890,500.",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "CMP-00421",
+        "CMP-00146",
+        "CMP-00148",
+        "CMP-00098",
+        "CMP-00813",
+        "CMP-01147",
+        "CMP-00711",
+        "CMP-00166",
+        "CMP-00235",
+        "CMP-00058",
+        "CMP-01379",
+        "CMP-00459",
+        "CMP-01358"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "District counts, median and max loss match evidence."
+    },
+    {
+      "id": "C8",
+      "section": "key_leads",
+      "text": "Appears in 45 complaints across the full operational period (2026-02-12 to 2026-07-09), most frequent phone identifier in the ring.",
+      "evidence": [
+        "F7",
+        "CMP-00711",
+        "CMP-00166",
+        "CMP-00398",
+        "CMP-00602"
+      ],
+      "lead": "Phone 969555964",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F7 shows 45 complaints; examples cite this number."
+    },
+    {
+      "id": "C9",
+      "section": "key_leads",
+      "text": "Appears in 43 complaints from the first incident (2026-01-06) to 2026-07-10; primary receiving account for security deposits.",
+      "evidence": [
+        "F8",
+        "F20",
+        "CMP-00421",
+        "CMP-00148",
+        "CMP-00711",
+        "CMP-00058",
+        "CMP-00459",
+        "CMP-01235",
+        "CMP-00602"
+      ],
+      "lead": "Bank account 6562588153714732 (Morivan Finance, holder Anil S.)",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F8 and complaint excerpts confirm 43 uses as primary account."
+    },
+    {
+      "id": "C10",
+      "section": "key_leads",
+      "text": "Appears in 43 complaints spanning the entire operation (2026-01-06 to 2026-08-01); second primary receiving account.",
+      "evidence": [
+        "F9",
+        "F21",
+        "CMP-01147",
+        "CMP-00166",
+        "CMP-01379",
+        "CMP-01358",
+        "CMP-00329",
+        "CMP-01223",
+        "CMP-01366"
+      ],
+      "lead": "Bank account 9447364710276773 (Morivan Finance, holder Sagar G.)",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F9 and complaint excerpts confirm 43 uses as secondary account."
+    },
+    {
+      "id": "C11",
+      "section": "key_leads",
+      "text": "Appears in 32 complaints (2026-01-23 to 2026-06-23), frequently paired with other lead numbers.",
+      "evidence": [
+        "F10",
+        "CMP-00098",
+        "CMP-00166",
+        "CMP-00459",
+        "CMP-01358"
+      ],
+      "lead": "Phone 968555656",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F10 shows 32 complaints; examples show pairing with other leads."
+    },
+    {
+      "id": "C12",
+      "section": "key_leads",
+      "text": "Appears in 31 complaints (2026-01-06 to 2026-05-27), used from the first day of operations.",
+      "evidence": [
+        "F11",
+        "CMP-00421",
+        "CMP-01147",
+        "CMP-00235"
+      ],
+      "lead": "Phone 979555546",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F11 shows 31 complaints from start date; examples confirm usage."
+    },
+    {
+      "id": "C13",
+      "section": "key_leads",
+      "text": "Appears in 30 complaints with the latest end date (2026-08-01), suggesting sustained use through the ring's final days.",
+      "evidence": [
+        "F12",
+        "CMP-01379",
+        "CMP-00329",
+        "CMP-01299",
+        "CMP-00398",
+        "CMP-01089",
+        "CMP-01366"
+      ],
+      "lead": "Phone 982555175",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F12 shows 30 complaints with end 2026-08-01; examples show later use."
+    },
+    {
+      "id": "C14",
+      "section": "key_leads",
+      "text": "Appears in 16 complaints (2026-01-25 to 2026-07-01), a primary wallet destination for IME Pay transfers.",
+      "evidence": [
+        "F15",
+        "CMP-00098"
+      ],
+      "lead": "Wallet 969555426 (IME Pay)",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F15 shows 16 complaints; example cites this wallet."
+    },
+    {
+      "id": "C15",
+      "section": "key_leads",
+      "text": "Appears in 13 complaints (2026-01-11 to 2026-05-29), early and consistent wallet identifier.",
+      "evidence": [
+        "F16",
+        "CMP-00146"
+      ],
+      "lead": "Wallet 980555509 (IME Pay)",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F16 shows 13 complaints; example cites this wallet."
+    },
+    {
+      "id": "C16",
+      "section": "key_leads",
+      "text": "Used in 101 of 152 complaints (66%), the primary impersonated identity across the ring's lifespan.",
+      "evidence": [
+        "F19",
+        "CMP-00421",
+        "CMP-00146",
+        "CMP-00148",
+        "CMP-00098",
+        "CMP-01147",
+        "CMP-00711",
+        "CMP-00166",
+        "CMP-00235",
+        "CMP-00058",
+        "CMP-01379",
+        "CMP-00459",
+        "CMP-01358"
+      ],
+      "lead": "Alias 'Inspector Shrestha'",
+      "rule_problems": [
+        "number 152 is not in the cited evidence",
+        "number 66 is not in the cited evidence"
+      ],
+      "status": "removed",
+      "reason": "number 152 is not in the cited evidence; number 66 is not in the cited evidence"
+    },
+    {
+      "id": "C17",
+      "section": "key_leads",
+      "text": "Named in 41 complaints as the account holder for the primary Morivan Finance account, linking identity to financial flow.",
+      "evidence": [
+        "F20",
+        "CMP-00421",
+        "CMP-00148",
+        "CMP-00711",
+        "CMP-00058",
+        "CMP-01235",
+        "CMP-00602"
+      ],
+      "lead": "Alias 'Anil S.' (account holder for 6562588153714732)",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F20 shows 41 complaints naming Anil S.; examples confirm."
+    },
+    {
+      "id": "C18",
+      "section": "key_leads",
+      "text": "Named in 40 complaints as the account holder for the second primary Morivan Finance account.",
+      "evidence": [
+        "F21",
+        "CMP-01379",
+        "CMP-01358",
+        "CMP-00329",
+        "CMP-01366"
+      ],
+      "lead": "Alias 'Sagar G.' (account holder for 9447364710276773)",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F21 shows 40 complaints naming Sagar G.; examples confirm."
+    },
+    {
+      "id": "C19",
+      "section": "recommended_actions",
+      "text": "Request call detail records (CDRs) and subscriber registration details for all 11 identified phone numbers (969555964, 968555656, 979555546, 982555175, 972555640, 989555737, 979555846, 972555040, 979555346, 969555764, 964555013, 979555586) from Nepal Telecommunications Authority and respective telecom operators.",
+      "evidence": [
+        "F7",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F18",
+        "CMP-00421",
+        "CMP-00098",
+        "CMP-00711",
+        "CMP-00166",
+        "CMP-00235",
+        "CMP-00058",
+        "CMP-01379",
+        "CMP-00459",
+        "CMP-01358"
+      ],
+      "rule_problems": [
+        "number 11 is not in the cited evidence"
+      ],
+      "status": "removed",
+      "reason": "number 11 is not in the cited evidence"
+    },
+    {
+      "id": "C20",
+      "section": "recommended_actions",
+      "text": "Request account holder KYC records, full transaction histories, and current balances for Morivan Finance accounts 6562588153714732 and 9447364710276773 from the bank and Nepal Rastra Bank.",
+      "evidence": [
+        "F8",
+        "F9",
+        "F20",
+        "F21",
+        "CMP-00421",
+        "CMP-00148",
+        "CMP-01147",
+        "CMP-00711",
+        "CMP-00166",
+        "CMP-01379",
+        "CMP-00058",
+        "CMP-00459",
+        "CMP-01358",
+        "CMP-00329",
+        "CMP-01235",
+        "CMP-00602",
+        "CMP-01223",
+        "CMP-01366"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence identifies the accounts and holders, supporting the KYC request."
+    },
+    {
+      "id": "C21",
+      "section": "recommended_actions",
+      "text": "Request wallet holder KYC, transaction logs, and current balances for IME Pay wallets 969555426, 980555509, and 969555271 from IME Pay / Fonepay.",
+      "evidence": [
+        "F15",
+        "F16",
+        "F17",
+        "CMP-00098",
+        "CMP-00146",
+        "CMP-00156"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence identifies the wallets and holders, supporting the KYC request."
+    },
+    {
+      "id": "C22",
+      "section": "recommended_actions",
+      "text": "Request subscriber information (KYC, registration address, ID documents) for all 11 phone numbers from the Department of Information Technology / NTA to identify the individuals controlling the numbers.",
+      "evidence": [
+        "F7",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F18"
+      ],
+      "rule_problems": [
+        "number 11 is not in the cited evidence"
+      ],
+      "status": "removed",
+      "reason": "number 11 is not in the cited evidence"
+    },
+    {
+      "id": "C23",
+      "section": "recommended_actions",
+      "text": "Trace onward fund flows from the two Morivan Finance accounts and three IME Pay wallets to identify cash-out points, mule accounts, or crypto off-ramps.",
+      "evidence": [
+        "F8",
+        "F9",
+        "F15",
+        "F16",
+        "F17"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence lists the accounts/wallets as leads, supporting tracing fund flows."
+    },
+    {
+      "id": "C24",
+      "section": "recommended_actions",
+      "text": "Interview the three predictor-linked complainants (CMP-00813, CMP-01119, CMP-01221) to determine if their cases share the same modus operandi and identifiers despite lacking direct identifier overlap.",
+      "evidence": [
+        "F25",
+        "CMP-00813",
+        "CMP-01119",
+        "CMP-01221"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F25 links the three complaints via predictor, supporting the interview recommendation."
+    }
+  ],
+  "open_questions": [
+    "Whether the three predictor-linked complaints (CMP-00813, CMP-01119, CMP-01221) are definitively part of this ring or represent a separate but similar operation.",
+    "The true identities of the account holders 'Anil S.' and 'Sagar G.' for the two Morivan Finance accounts, and whether they are complicit or identity-theft victims.",
+    "Who controls the 11 phone numbers and three IME Pay wallets, and whether they are operated by a single group or multiple coordinated cells."
+  ],
+  "writer": {
+    "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+    "parsed": true,
+    "calls": 2,
+    "cached_calls": 0,
+    "prompt_tokens": 22450,
+    "completion_tokens": 9726
+  },
+  "verification": {
+    "claims_written": 24,
+    "removed_by_rules": 3,
+    "removed_by_verifier": 0,
+    "kept": 21,
+    "supported_before_checks": 0.875,
+    "verifier": {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "calls": 1,
+      "cached_calls": 0,
+      "prompt_tokens": 26611,
+      "completion_tokens": 1487,
+      "parsed": true
+    }
+  },
+  "truth_check": {
+    "true_ring": "R25",
+    "key_leads_checked": 10,
+    "key_leads_correct": 10
+  }
+}

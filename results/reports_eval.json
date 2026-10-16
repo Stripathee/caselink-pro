@@ -1,0 +1,14 @@
+{
+  "writer": "nvidia/Nemotron-3-Ultra-550b-a55b",
+  "verifier": "nvidia/nemotron-3-super-120b-a12b",
+  "thinking": "low",
+  "reports": 3,
+  "claims_written": 61,
+  "removed_by_rules": 10,
+  "removed_by_verifier": 0,
+  "kept": 51,
+  "key_leads_checked": 18,
+  "key_leads_correct": 18,
+  "tokens_in": 135659,
+  "tokens_out": 31821
+}

@@ -1,0 +1,584 @@
+{
+  "ring": "RING-03",
+  "title": "Fake Foreign Employment Offer Scam Ring (RING-03)",
+  "facts": [
+    {
+      "id": "F1",
+      "text": "47 victims across 47 complaints; 0 possible repeat filings by the same victim.",
+      "victims": 47,
+      "complaints": 47
+    },
+    {
+      "id": "F2",
+      "text": "Total reported loss NPR 17,989,500 (repeat filings counted once); median loss per victim NPR 391,000; largest single loss NPR 456,000.",
+      "total": 17989500,
+      "median": 391000,
+      "largest": 456000
+    },
+    {
+      "id": "F3",
+      "text": "Active from 2026-04-06 to 2026-08-21 (incident dates)."
+    },
+    {
+      "id": "F4",
+      "text": "Scam type: Fake foreign employment offer (100% of complaints)."
+    },
+    {
+      "id": "F5",
+      "text": "Complaints by month: 2026-04: 4, 2026-05: 10, 2026-06: 12, 2026-07: 17, 2026-08: 4.",
+      "by_month": {
+        "2026-04": 4,
+        "2026-05": 10,
+        "2026-06": 12,
+        "2026-07": 17,
+        "2026-08": 4
+      }
+    },
+    {
+      "id": "F6",
+      "text": "Victims' districts: Kathmandu 12, Jhapa 7, Banke 5, Parsa 5, Kaski 5, Morang 4."
+    },
+    {
+      "id": "F7",
+      "text": "Lead: wallet 965555215 appears in 19 complaints, first seen 2026-04-06, last seen 2026-08-04.",
+      "lead": "965555215",
+      "lead_type": "wallet",
+      "count": 19
+    },
+    {
+      "id": "F8",
+      "text": "Lead: phone 965555596 appears in 17 complaints, first seen 2026-05-02, last seen 2026-08-03.",
+      "lead": "965555596",
+      "lead_type": "phone",
+      "count": 17
+    },
+    {
+      "id": "F9",
+      "text": "Lead: Facebook page novamir foreign jobs nepal appears in 14 complaints, first seen 2026-04-06, last seen 2026-08-03.",
+      "lead": "novamir foreign jobs nepal",
+      "lead_type": "facebook_page",
+      "count": 14
+    },
+    {
+      "id": "F10",
+      "text": "Lead: bank account 4158692322602563 appears in 13 complaints, first seen 2026-04-28, last seen 2026-07-29.",
+      "lead": "4158692322602563",
+      "lead_type": "bank_account",
+      "count": 13
+    },
+    {
+      "id": "F11",
+      "text": "Lead: phone 982555558 appears in 11 complaints, first seen 2026-04-20, last seen 2026-07-01.",
+      "lead": "982555558",
+      "lead_type": "phone",
+      "count": 11
+    },
+    {
+      "id": "F12",
+      "text": "Lead: phone 982555440 appears in 8 complaints, first seen 2026-06-21, last seen 2026-08-04.",
+      "lead": "982555440",
+      "lead_type": "phone",
+      "count": 8
+    },
+    {
+      "id": "F13",
+      "text": "Lead: phone 961555077 appears in 8 complaints, first seen 2026-04-06, last seen 2026-07-14.",
+      "lead": "961555077",
+      "lead_type": "phone",
+      "count": 8
+    },
+    {
+      "id": "F14",
+      "text": "Lead: phone 986555574 appears in 8 complaints, first seen 2026-04-15, last seen 2026-07-17.",
+      "lead": "986555574",
+      "lead_type": "phone",
+      "count": 8
+    },
+    {
+      "id": "F15",
+      "text": "Lead: phone 965555595 appears in 1 complaints, first seen 2026-07-16, last seen 2026-07-16.",
+      "lead": "965555595",
+      "lead_type": "phone",
+      "count": 1
+    },
+    {
+      "id": "F16",
+      "text": "Lead: phone 982555552 appears in 1 complaints, first seen 2026-06-24, last seen 2026-06-24.",
+      "lead": "982555552",
+      "lead_type": "phone",
+      "count": 1
+    },
+    {
+      "id": "F17",
+      "text": "Lead: phone 978555726 appears in 1 complaints, first seen 2026-08-21, last seen 2026-08-21.",
+      "lead": "978555726",
+      "lead_type": "phone",
+      "count": 1
+    },
+    {
+      "id": "F18",
+      "text": "Lead: phone 970555240 appears in 1 complaints, first seen 2026-06-14, last seen 2026-06-14.",
+      "lead": "970555240",
+      "lead_type": "phone",
+      "count": 1
+    },
+    {
+      "id": "F19",
+      "text": "Name used: \"Rajan\" appears in 35 complaints.",
+      "name": "Rajan"
+    },
+    {
+      "id": "F20",
+      "text": "Name used: \"Sorenta Manpower Services\" appears in 30 complaints.",
+      "name": "Sorenta Manpower Services"
+    },
+    {
+      "id": "F21",
+      "text": "Name used: \"Novamir Foreign Jobs Nepal\" appears in 2 complaints.",
+      "name": "Novamir Foreign Jobs Nepal"
+    },
+    {
+      "id": "F22",
+      "text": "Name used: \"Dhaiya\" appears in 1 complaints.",
+      "name": "Dhaiya"
+    },
+    {
+      "id": "F23",
+      "text": "Name used: \"Saathi\" appears in 1 complaints.",
+      "name": "Saathi"
+    },
+    {
+      "id": "F24",
+      "text": "Name used: \"Sagar\" appears in 1 complaints.",
+      "name": "Sagar"
+    },
+    {
+      "id": "F25",
+      "text": "6 complaints share no identifier with the ring and were linked by the link predictor (probabilities CMP-00362 1.00, CMP-00748 1.00, CMP-01210 0.97, CMP-00022 0.93, CMP-00993 0.66, CMP-00356 0.61)."
+    }
+  ],
+  "evidence_shown": [
+    "CMP-01436",
+    "CMP-00121",
+    "CMP-01419",
+    "CMP-01403",
+    "CMP-00510",
+    "CMP-01066",
+    "CMP-00507",
+    "CMP-00230",
+    "CMP-00612",
+    "CMP-00141",
+    "CMP-00829",
+    "CMP-00301",
+    "CMP-00993",
+    "CMP-01210",
+    "CMP-00505",
+    "CMP-00945",
+    "CMP-00356",
+    "CMP-00256",
+    "CMP-00357",
+    "CMP-00949",
+    "CMP-01287",
+    "CMP-01296",
+    "CMP-01200",
+    "CMP-01063",
+    "CMP-00485",
+    "CMP-00694",
+    "CMP-00634",
+    "CMP-01483",
+    "CMP-00748",
+    "CMP-00739",
+    "CMP-00713",
+    "CMP-00026",
+    "CMP-00019",
+    "CMP-01202",
+    "CMP-00362",
+    "CMP-01468",
+    "CMP-00130",
+    "CMP-00886",
+    "CMP-01425",
+    "CMP-00022"
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "section": "summary",
+      "text": "A ring operating from April to August 2026 targeted job seekers across at least six Nepali districts with fake factory-worker offers in Malaysia promising NPR 200,000 monthly salary. Victims were recruited via Viber groups and a Facebook page, then induced to pay stepwise fees (registration, insurance deposit, visa processing) to an IME Pay wallet and a Zentaro Bank account, after which the recruiters cited visa delays and cut contact. Forty-seven victims reported total losses of NPR 17,989,500 with a median loss of NPR 391,000.",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "rule_problems": [
+        "number 200,000 is not in the cited evidence",
+        "number 2,026 is not in the cited evidence"
+      ],
+      "status": "removed",
+      "reason": "number 200,000 is not in the cited evidence; number 2,026 is not in the cited evidence"
+    },
+    {
+      "id": "C2",
+      "section": "modus_operandi",
+      "text": "Advertise factory-worker jobs in Malaysia via Viber groups and the Facebook page \"novamir foreign jobs nepal\", naming the agency \"Sorenta Manpower Services\" and promising a monthly salary of NPR 200,000.",
+      "evidence": [
+        "CMP-01436",
+        "CMP-00121",
+        "CMP-01419",
+        "CMP-00612",
+        "F9",
+        "F20"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence explicitly matches claim details."
+    },
+    {
+      "id": "C3",
+      "section": "modus_operandi",
+      "text": "A recruiter using the name \"Rajan\" contacts victims via Messenger/Viber and phone numbers (e.g., 961555077, 982555558, 986555574, 965555596) and guides them through a step-by-step fee process.",
+      "evidence": [
+        "CMP-01436",
+        "CMP-00121",
+        "CMP-01419",
+        "CMP-01403",
+        "F13",
+        "F11",
+        "F14",
+        "F8",
+        "F19"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence shows Rajan contacts via Messenger/Viber and listed numbers, guiding fee process."
+    },
+    {
+      "id": "C4",
+      "section": "modus_operandi",
+      "text": "Victims are instructed to pay registration fee, insurance deposit, and visa processing fee totalling NPR 272,500–456,000 via IME Pay wallet 965555215 or Zentaro Bank account 4158692322602563 (held in the name \"Rajan G\").",
+      "evidence": [
+        "CMP-01436",
+        "CMP-01066",
+        "CMP-00507",
+        "CMP-01403",
+        "CMP-00510",
+        "CMP-00612",
+        "F7",
+        "F10"
+      ],
+      "rule_problems": [
+        "number 456,000 is not in the cited evidence",
+        "number 272,500 is not in the cited evidence"
+      ],
+      "status": "removed",
+      "reason": "number 456,000 is not in the cited evidence; number 272,500 is not in the cited evidence"
+    },
+    {
+      "id": "C5",
+      "section": "modus_operandi",
+      "text": "After receiving payments, the recruiters repeatedly claim visa processing delays, then cease all communication on the used phone numbers and wallet.",
+      "evidence": [
+        "CMP-01436",
+        "CMP-00121",
+        "CMP-01419",
+        "CMP-01403",
+        "CMP-00510",
+        "CMP-01066",
+        "CMP-00507"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence describes visa delay claims then cessation of communication after payment."
+    },
+    {
+      "id": "C6",
+      "section": "modus_operandi",
+      "text": "The Facebook page \"novamir foreign jobs nepal\" is referenced in multiple complaints as the public face of the offer, and victims report it becoming inactive after they pay.",
+      "evidence": [
+        "CMP-01436",
+        "CMP-00612",
+        "CMP-00130",
+        "CMP-00886",
+        "F9",
+        "F21"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence cites FB page and notes it becomes inactive after payments."
+    },
+    {
+      "id": "C7",
+      "section": "key_leads",
+      "text": "Appears in 19 complaints across the full activity period (2026-04-06 to 2026-08-04), receiving stepwise fee payments from victims.",
+      "evidence": [
+        "F7",
+        "CMP-01436",
+        "CMP-01403",
+        "CMP-01066",
+        "CMP-00507",
+        "CMP-00141",
+        "CMP-00829",
+        "CMP-00301",
+        "CMP-01202",
+        "CMP-01425"
+      ],
+      "lead": "IME Pay wallet 965555215",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead F7 and complaint excerpts show wallet used in 19 complaints for stepwise fees."
+    },
+    {
+      "id": "C8",
+      "section": "key_leads",
+      "text": "Used in 17 complaints from 2026-05-02 to 2026-08-03 as a primary contact number after payments are made.",
+      "evidence": [
+        "F8",
+        "CMP-01403",
+        "CMP-00612",
+        "CMP-01066",
+        "CMP-00141",
+        "CMP-00026",
+        "CMP-00019",
+        "CMP-01202",
+        "CMP-00130",
+        "CMP-00886"
+      ],
+      "lead": "Phone 965555596",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead F8 and complaints indicate phone used as primary contact after payments."
+    },
+    {
+      "id": "C9",
+      "section": "key_leads",
+      "text": "Receives victim payments in 13 complaints from 2026-04-28 to 2026-07-29, directly linking a bank account holder to the scheme.",
+      "evidence": [
+        "F10",
+        "CMP-01403",
+        "CMP-00510",
+        "CMP-00612",
+        "CMP-01468",
+        "CMP-00019",
+        "CMP-01468"
+      ],
+      "lead": "Zentaro Bank account 4158692322602563 (holder: Rajan G.)",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead F10 and complaints show bank account receiving payments linked to Rajan G."
+    },
+    {
+      "id": "C10",
+      "section": "key_leads",
+      "text": "Cited in 14 complaints as the public advertising front for the fake job offers, active from the first to the last week of the ring's operation.",
+      "evidence": [
+        "F9",
+        "CMP-01436",
+        "CMP-00612",
+        "CMP-00130",
+        "CMP-00886",
+        "F21"
+      ],
+      "lead": "Facebook page \"novamir foreign jobs nepal\"",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead F9 and complaints cite FB page as advertising front across operation period."
+    },
+    {
+      "id": "C11",
+      "section": "key_leads",
+      "text": "Named in 35 of 47 complaints as the primary point of contact, linking communications, wallet, and bank account to a single persona.",
+      "evidence": [
+        "F19",
+        "CMP-01436",
+        "CMP-00121",
+        "CMP-01419",
+        "CMP-01403",
+        "CMP-00510",
+        "CMP-01066",
+        "CMP-00507",
+        "CMP-00230",
+        "CMP-00141"
+      ],
+      "lead": "Recruiter name \"Rajan\" (also \"Rajan G.\" on bank account)",
+      "rule_problems": [
+        "number 47 is not in the cited evidence"
+      ],
+      "status": "removed",
+      "reason": "number 47 is not in the cited evidence"
+    },
+    {
+      "id": "C12",
+      "section": "key_leads",
+      "text": "Appears in 11 complaints from 2026-04-20 to 2026-07-01, used alongside the primary wallet and other numbers for victim communication.",
+      "evidence": [
+        "F11",
+        "CMP-01419",
+        "CMP-00507",
+        "CMP-00141",
+        "CMP-00829",
+        "CMP-00301"
+      ],
+      "lead": "Phone 982555558",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead F11 and complaints show phone used alongside wallet and other numbers."
+    },
+    {
+      "id": "C13",
+      "section": "recommended_actions",
+      "text": "Request transaction records and KYC data for IME Pay wallet 965555215 from the wallet provider (IME Pay) covering 2026-04-06 to 2026-08-04.",
+      "evidence": [
+        "F7",
+        "CMP-01436",
+        "CMP-01066",
+        "CMP-00507",
+        "CMP-00141",
+        "CMP-00829",
+        "CMP-00301",
+        "CMP-01202",
+        "CMP-01425"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence shows wallet appears in complaints; recommendation to request records is justified."
+    },
+    {
+      "id": "C14",
+      "section": "recommended_actions",
+      "text": "Request account holder details, transaction logs, and KYC for Zentaro Bank account 4158692322602563 (held in name \"Rajan G.\") for the period 2026-04-28 to 2026-07-29.",
+      "evidence": [
+        "F10",
+        "CMP-01403",
+        "CMP-00510",
+        "CMP-00612",
+        "CMP-01468",
+        "CMP-00019"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence shows bank account appears in complaints; recommendation to request details is justified."
+    },
+    {
+      "id": "C15",
+      "section": "recommended_actions",
+      "text": "Obtain call detail records (CDR) and subscriber information for phone numbers 965555596, 982555558, 982555440, 961555077, 986555574 from the relevant telecom operators for the active periods shown in the complaints.",
+      "evidence": [
+        "F8",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "CMP-01403",
+        "CMP-01419",
+        "CMP-00121",
+        "CMP-01066",
+        "CMP-00507",
+        "CMP-00612",
+        "CMP-00130",
+        "CMP-00886",
+        "CMP-01425"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead entries for each number match active periods; recommendation to obtain CDRs is justified."
+    },
+    {
+      "id": "C16",
+      "section": "recommended_actions",
+      "text": "Request preservation and disclosure of the Facebook page \"novamir foreign jobs nepal\" (content, admins, creation date, ad records) from Meta for the period 2026-04-06 to 2026-08-03.",
+      "evidence": [
+        "F9",
+        "CMP-01436",
+        "CMP-00612",
+        "CMP-00130",
+        "CMP-00886"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead F9 and complaints reference FB page; recommendation to preserve is justified."
+    },
+    {
+      "id": "C17",
+      "section": "recommended_actions",
+      "text": "Request Viber group metadata and message logs for the groups where job ads were posted (referenced in multiple complaints) from Viber/Rakuten to identify posters and administrators.",
+      "evidence": [
+        "CMP-01436",
+        "CMP-00121",
+        "CMP-01419",
+        "CMP-01403",
+        "CMP-00510",
+        "CMP-01066",
+        "CMP-00507",
+        "CMP-00230",
+        "CMP-00612"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Complaints describe job ads in Viber groups; recommendation to obtain metadata is justified."
+    },
+    {
+      "id": "C18",
+      "section": "recommended_actions",
+      "text": "Interview victims who paid via both wallet 965555215 and bank account 4158692322602563 (e.g., CMP-01066, CMP-00507, CMP-00612) to confirm whether \"Rajan\" and \"Rajan G.\" are presented as the same person.",
+      "evidence": [
+        "CMP-01066",
+        "CMP-00507",
+        "CMP-00612",
+        "F19",
+        "F10"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence shows both wallet and bank account linked to Rajan/Rajan G.; interviewing victims to confirm identity is justified."
+    }
+  ],
+  "open_questions": [
+    "Whether the six complaints linked only by the predictor algorithm (CMP-00362, CMP-00748, CMP-01210, CMP-00022, CMP-00993, CMP-00356) belong to the same operational network or are unrelated.",
+    "The true identities behind the names \"Rajan\"/\"Rajan G.\", \"Sorenta Manpower Services\", \"Novamir Foreign Jobs Nepal\", \"Dhaiya\", \"Saathi\", and \"Sagar\" — and whether they represent one group or multiple actors.",
+    "The ultimate destination of the funds received in wallet 965555215 and bank account 4158692322602563, and whether they were cashed out, transferred to other wallets/accounts, or used to purchase crypto/assets."
+  ],
+  "writer": {
+    "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+    "parsed": true,
+    "calls": 2,
+    "cached_calls": 0,
+    "prompt_tokens": 22264,
+    "completion_tokens": 8919
+  },
+  "verification": {
+    "claims_written": 18,
+    "removed_by_rules": 3,
+    "removed_by_verifier": 0,
+    "kept": 15,
+    "supported_before_checks": 0.8333,
+    "verifier": {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "calls": 1,
+      "cached_calls": 0,
+      "prompt_tokens": 20271,
+      "completion_tokens": 947,
+      "parsed": true
+    }
+  },
+  "truth_check": {
+    "true_ring": "R05",
+    "key_leads_checked": 5,
+    "key_leads_correct": 5
+  }
+}

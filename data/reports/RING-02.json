@@ -1,0 +1,629 @@
+{
+  "ring": "RING-02",
+  "title": "Nepal Police Cyber Bureau Impersonation Scam Ring (RING-02)",
+  "facts": [
+    {
+      "id": "F1",
+      "text": "49 victims across 49 complaints; 0 possible repeat filings by the same victim.",
+      "victims": 49,
+      "complaints": 49
+    },
+    {
+      "id": "F2",
+      "text": "Total reported loss NPR 33,880,600 (repeat filings counted once); median loss per victim NPR 688,500; largest single loss NPR 1,084,500.",
+      "total": 33880600,
+      "median": 688500,
+      "largest": 1084500
+    },
+    {
+      "id": "F3",
+      "text": "Active from 2026-02-28 to 2026-08-03 (incident dates)."
+    },
+    {
+      "id": "F4",
+      "text": "Scam type: Police or official impersonation ('digital arrest') (100% of complaints)."
+    },
+    {
+      "id": "F5",
+      "text": "Complaints by month: 2026-02: 1, 2026-03: 11, 2026-04: 6, 2026-05: 4, 2026-06: 16, 2026-07: 9, 2026-08: 2.",
+      "by_month": {
+        "2026-02": 1,
+        "2026-03": 11,
+        "2026-04": 6,
+        "2026-05": 4,
+        "2026-06": 16,
+        "2026-07": 9,
+        "2026-08": 2
+      }
+    },
+    {
+      "id": "F6",
+      "text": "Victims' districts: Kathmandu 13, Lalitpur 6, Bhaktapur 5, Jhapa 5, Parsa 3, Banke 3."
+    },
+    {
+      "id": "F7",
+      "text": "Lead: bank account 1654051531952058 appears in 16 complaints, first seen 2026-03-02, last seen 2026-08-03.",
+      "lead": "1654051531952058",
+      "lead_type": "bank_account",
+      "count": 16
+    },
+    {
+      "id": "F8",
+      "text": "Lead: phone 962555039 appears in 16 complaints, first seen 2026-04-03, last seen 2026-08-01.",
+      "lead": "962555039",
+      "lead_type": "phone",
+      "count": 16
+    },
+    {
+      "id": "F9",
+      "text": "Lead: bank account 4246095396218518 appears in 12 complaints, first seen 2026-02-28, last seen 2026-07-24.",
+      "lead": "4246095396218518",
+      "lead_type": "bank_account",
+      "count": 12
+    },
+    {
+      "id": "F10",
+      "text": "Lead: phone 973555395 appears in 12 complaints, first seen 2026-02-28, last seen 2026-04-01.",
+      "lead": "973555395",
+      "lead_type": "phone",
+      "count": 12
+    },
+    {
+      "id": "F11",
+      "text": "Lead: phone 965555229 appears in 11 complaints, first seen 2026-02-28, last seen 2026-06-17.",
+      "lead": "965555229",
+      "lead_type": "phone",
+      "count": 11
+    },
+    {
+      "id": "F12",
+      "text": "Lead: phone 965555953 appears in 9 complaints, first seen 2026-04-30, last seen 2026-06-29.",
+      "lead": "965555953",
+      "lead_type": "phone",
+      "count": 9
+    },
+    {
+      "id": "F13",
+      "text": "Lead: phone 965555810 appears in 7 complaints, first seen 2026-05-19, last seen 2026-07-25.",
+      "lead": "965555810",
+      "lead_type": "phone",
+      "count": 7
+    },
+    {
+      "id": "F14",
+      "text": "Lead: bank account 9986143410369711 appears in 7 complaints, first seen 2026-03-16, last seen 2026-07-25.",
+      "lead": "9986143410369711",
+      "lead_type": "bank_account",
+      "count": 7
+    },
+    {
+      "id": "F15",
+      "text": "Lead: wallet 964555220 appears in 4 complaints, first seen 2026-03-20, last seen 2026-08-01.",
+      "lead": "964555220",
+      "lead_type": "wallet",
+      "count": 4
+    },
+    {
+      "id": "F16",
+      "text": "Lead: phone 977555712 appears in 4 complaints, first seen 2026-06-14, last seen 2026-08-03.",
+      "lead": "977555712",
+      "lead_type": "phone",
+      "count": 4
+    },
+    {
+      "id": "F17",
+      "text": "Lead: wallet 964555120 appears in 1 complaints, first seen 2026-06-29, last seen 2026-06-29.",
+      "lead": "964555120",
+      "lead_type": "wallet",
+      "count": 1
+    },
+    {
+      "id": "F18",
+      "text": "Lead: phone 976555008 appears in 1 complaints, first seen 2026-06-07, last seen 2026-06-07.",
+      "lead": "976555008",
+      "lead_type": "phone",
+      "count": 1
+    },
+    {
+      "id": "F19",
+      "text": "Name used: \"Officer Shrestha\" appears in 33 complaints.",
+      "name": "Officer Shrestha"
+    },
+    {
+      "id": "F20",
+      "text": "Name used: \"Sagar G.\" appears in 14 complaints.",
+      "name": "Sagar G."
+    },
+    {
+      "id": "F21",
+      "text": "Name used: \"Bikash R.\" appears in 11 complaints.",
+      "name": "Bikash R."
+    },
+    {
+      "id": "F22",
+      "text": "Name used: \"Rekha S.\" appears in 7 complaints.",
+      "name": "Rekha S."
+    },
+    {
+      "id": "F23",
+      "text": "Name used: \"Officer Rajesh Thapa\" appears in 1 complaints.",
+      "name": "Officer Rajesh Thapa"
+    },
+    {
+      "id": "F24",
+      "text": "Name used: \"Officer Sharma\" appears in 1 complaints.",
+      "name": "Officer Sharma"
+    },
+    {
+      "id": "F25",
+      "text": "3 complaints share no identifier with the ring and were linked by the link predictor (probabilities CMP-00083 1.00, CMP-00747 1.00, CMP-00045 0.97)."
+    }
+  ],
+  "evidence_shown": [
+    "CMP-00010",
+    "CMP-00682",
+    "CMP-00574",
+    "CMP-01044",
+    "CMP-00381",
+    "CMP-01292",
+    "CMP-00154",
+    "CMP-01125",
+    "CMP-01377",
+    "CMP-00744",
+    "CMP-01414",
+    "CMP-00878",
+    "CMP-01450",
+    "CMP-00207",
+    "CMP-01259",
+    "CMP-01146",
+    "CMP-01431",
+    "CMP-01191",
+    "CMP-00326",
+    "CMP-00992",
+    "CMP-00747",
+    "CMP-00422",
+    "CMP-01180",
+    "CMP-00045",
+    "CMP-00031",
+    "CMP-01470",
+    "CMP-00352",
+    "CMP-00996",
+    "CMP-00621",
+    "CMP-00599",
+    "CMP-00083",
+    "CMP-00185",
+    "CMP-00546",
+    "CMP-01030",
+    "CMP-00518",
+    "CMP-00077",
+    "CMP-01313",
+    "CMP-00266",
+    "CMP-00244",
+    "CMP-00318"
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "section": "summary",
+      "text": "A ring of 49 victims across seven districts lost NPR 33,880,600 between February and August 2026 to callers impersonating Nepal Police Cyber Bureau officers who threatened \"digital arrest\" unless victims paid a \"refundable verification deposit\" to specified bank accounts or eSewa wallets. The operation uses a consistent set of phone numbers, bank accounts, wallet IDs, and officer aliases across 49 complaints.",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F15",
+        "F16",
+        "F19",
+        "F20",
+        "F21",
+        "F22"
+      ],
+      "rule_problems": [
+        "number 2,026 is not in the cited evidence"
+      ],
+      "status": "removed",
+      "reason": "number 2,026 is not in the cited evidence"
+    },
+    {
+      "id": "C2",
+      "section": "modus_operandi",
+      "text": "Caller impersonates a Nepal Police Cyber Bureau officer (e.g., \"Officer Shrestha\", \"Officer Sharma\", \"Officer Rajesh Thapa\") and claims the victim's citizenship ID was misused to open fraudulent bank accounts.",
+      "evidence": [
+        "CMP-00010",
+        "CMP-00682",
+        "CMP-00574",
+        "CMP-01292",
+        "CMP-00381",
+        "F19",
+        "F23",
+        "F24"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence shows callers impersonate officers and claim citizenship ID misuse."
+    },
+    {
+      "id": "C3",
+      "section": "modus_operandi",
+      "text": "Caller threatens imminent \"digital arrest\", court case, or asset freeze, and explicitly forbids the victim from telling family members (phrases such as \"garidina parivar lai\", \"parivar lai na bhanus\", \"dherai jaldi garna parchha\").",
+      "evidence": [
+        "CMP-00010",
+        "CMP-00682",
+        "CMP-00381",
+        "CMP-01292",
+        "CMP-00154",
+        "CMP-01377"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence includes threats of digital arrest/court and phrases forbidding family disclosure."
+    },
+    {
+      "id": "C4",
+      "section": "modus_operandi",
+      "text": "Caller demands a \"verification deposit\" or \"refundable verification deposit\" to clear the victim's name, claiming it will be returned after investigation.",
+      "evidence": [
+        "CMP-00010",
+        "CMP-00682",
+        "CMP-00574",
+        "CMP-01044",
+        "CMP-00381",
+        "CMP-01377",
+        "CMP-00744",
+        "CMP-01414"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence shows callers demand verification/refundable deposit to clear name."
+    },
+    {
+      "id": "C5",
+      "section": "modus_operandi",
+      "text": "Caller provides specific bank account details (Trelisa Bikas Bank a/c 1654051531952058 held by Sagar G.; Trelisa Bikas Bank a/c 4246095396218518 held by Bikash R.; Ovanta Bank a/c 9986143410369711 held by Rekha S.) or eSewa wallet IDs (964555220, 964555120) for immediate transfer via mobile banking or eSewa.",
+      "evidence": [
+        "CMP-00010",
+        "CMP-00682",
+        "CMP-00574",
+        "CMP-01044",
+        "CMP-00154",
+        "CMP-01125",
+        "CMP-00744",
+        "CMP-01414",
+        "F7",
+        "F9",
+        "F14",
+        "F15",
+        "F17",
+        "F20",
+        "F21",
+        "F22"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence lists specific bank accounts and eSewa wallet IDs used for transfers."
+    },
+    {
+      "id": "C6",
+      "section": "modus_operandi",
+      "text": "Caller instructs payment from specific phone numbers (e.g., 973555395, 965555229, 962555039, 965555953, 965555810, 977555712, 970555946, 976555008) and pressures immediate transfer; after payment the caller stops responding.",
+      "evidence": [
+        "CMP-00010",
+        "CMP-00682",
+        "CMP-01125",
+        "CMP-01377",
+        "CMP-00185",
+        "CMP-00546",
+        "CMP-01030",
+        "CMP-00518",
+        "CMP-00077",
+        "CMP-01313",
+        "CMP-00266",
+        "CMP-00244",
+        "CMP-00318",
+        "F8",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F16",
+        "F18"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence cites caller numbers and notes calls cease after payment."
+    },
+    {
+      "id": "C7",
+      "section": "modus_operandi",
+      "text": "Victim transfers amounts ranging from NPR 464,000 to NPR 1,084,500 (median NPR 688,500) and later realizes the police impersonation was a scam.",
+      "evidence": [
+        "CMP-00010",
+        "CMP-00682",
+        "CMP-00574",
+        "CMP-01044",
+        "CMP-01292",
+        "CMP-00154",
+        "CMP-01377",
+        "F2"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence provides transfer amounts and F2 gives median/range."
+    },
+    {
+      "id": "C8",
+      "section": "key_leads",
+      "text": "Appears in 16 complaints across the full activity period; primary receiving account for \"verification deposits\".",
+      "evidence": [
+        "F7",
+        "F20",
+        "CMP-00682",
+        "CMP-00574",
+        "CMP-01044",
+        "CMP-00381",
+        "CMP-01292",
+        "CMP-00999",
+        "CMP-01414",
+        "CMP-00518",
+        "CMP-00266",
+        "CMP-00318"
+      ],
+      "lead": "Bank account 1654051531952058 (Trelisa Bikas Bank, holder Sagar G.)",
+      "rule_problems": [
+        "cites a complaint outside this ring"
+      ],
+      "status": "removed",
+      "reason": "cites a complaint outside this ring"
+    },
+    {
+      "id": "C9",
+      "section": "key_leads",
+      "text": "Appears in 16 complaints from April to August 2026; used as a primary contact number for victims to send money.",
+      "evidence": [
+        "F8",
+        "CMP-00185",
+        "CMP-00546",
+        "CMP-01030",
+        "CMP-00518",
+        "CMP-00077",
+        "CMP-00244"
+      ],
+      "lead": "Phone 962555039",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F8 and complaint excerpts show 962555039 used in 16 complaints Apr‑Aug 2026."
+    },
+    {
+      "id": "C10",
+      "section": "key_leads",
+      "text": "Appears in 12 complaints from February to July 2026; second major receiving account linked to alias \"Bikash R.\".",
+      "evidence": [
+        "F9",
+        "F21",
+        "CMP-00010",
+        "CMP-000744",
+        "CMP-00077",
+        "CMP-01313"
+      ],
+      "lead": "Bank account 4246095396218518 (Trelisa Bikas Bank, holder Bikash R.)",
+      "rule_problems": [
+        "cites a complaint outside this ring"
+      ],
+      "status": "removed",
+      "reason": "cites a complaint outside this ring"
+    },
+    {
+      "id": "C11",
+      "section": "key_leads",
+      "text": "Appears in 12 complaints from February to April 2026; frequently the first caller ID shown to victims.",
+      "evidence": [
+        "F10",
+        "CMP-00010",
+        "CMP-00682",
+        "CMP-00574",
+        "CMP-01044",
+        "CMP-00381",
+        "CMP-01292",
+        "CMP-01125",
+        "CMP-00744",
+        "CMP-01414"
+      ],
+      "lead": "Phone 973555395",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F10 and excerpts show 973555395 in 12 complaints Feb‑Apr, often first ID."
+    },
+    {
+      "id": "C12",
+      "section": "key_leads",
+      "text": "Appears in 11 complaints from February to June 2026; used in tandem with 973555395 and 962555039.",
+      "evidence": [
+        "F11",
+        "CMP-00010",
+        "CMP-00682",
+        "CMP-00154",
+        "CMP-01377"
+      ],
+      "lead": "Phone 965555229",
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F11 and excerpts show 965555229 in 11 complaints Feb‑Jun, used with other numbers."
+    },
+    {
+      "id": "C13",
+      "section": "key_leads",
+      "text": "Used in 33 of 49 complaints; consistent persona across the ring's entire active period.",
+      "evidence": [
+        "F19",
+        "CMP-00010",
+        "CMP-00682",
+        "CMP-01044",
+        "CMP-00381",
+        "CMP-00154",
+        "CMP-01125",
+        "CMP-01377",
+        "CMP-00744",
+        "CMP-00077"
+      ],
+      "lead": "Alias \"Officer Shrestha\"",
+      "rule_problems": [
+        "number 49 is not in the cited evidence"
+      ],
+      "status": "removed",
+      "reason": "number 49 is not in the cited evidence"
+    },
+    {
+      "id": "C14",
+      "section": "recommended_actions",
+      "text": "Request subscriber information, call detail records, and location data for phone numbers 962555039, 973555395, 965555229, 965555953, 965555810, 977555712, 970555946, and 976555008 from the relevant telecom providers.",
+      "evidence": [
+        "F8",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F16",
+        "F18"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead entries indicate these numbers appear in many complaints, warranting subscriber info."
+    },
+    {
+      "id": "C15",
+      "section": "recommended_actions",
+      "text": "Request account holder KYC, transaction logs, and current balances for bank accounts 1654051531952058 (Trelisa Bikas Bank), 4246095396218518 (Trelisa Bikas Bank), and 9986143410369711 (Ovanta Bank) from the respective banks.",
+      "evidence": [
+        "F7",
+        "F9",
+        "F14",
+        "F20",
+        "F21",
+        "F22"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead entries show these bank accounts appear in numerous complaints, justifying KYC request."
+    },
+    {
+      "id": "C16",
+      "section": "recommended_actions",
+      "text": "Request wallet holder details and transaction histories for eSewa wallet IDs 964555220 and 964555120 from the eSewa wallet provider.",
+      "evidence": [
+        "F15",
+        "F17",
+        "CMP-01125",
+        "CMP-00546",
+        "CMP-00244"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Lead entries show eSewa wallets appear in complaints, supporting holder detail request."
+    },
+    {
+      "id": "C17",
+      "section": "recommended_actions",
+      "text": "Coordinate with Nepal Police Cyber Bureau to verify whether any officers named \"Officer Shrestha\", \"Officer Sharma\", or \"Officer Rajesh Thapa\" are or were legitimate personnel.",
+      "evidence": [
+        "F19",
+        "F23",
+        "F24",
+        "CMP-00574",
+        "CMP-01292"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F19, F23, F24 show officer names appear in complaints, needing verification."
+    },
+    {
+      "id": "C18",
+      "section": "recommended_actions",
+      "text": "Interview a sample of victims to capture voice descriptions, call timing patterns, and any additional identifiers (e.g., background sounds, callback numbers) not recorded in complaints.",
+      "evidence": [
+        "CMP-00010",
+        "CMP-00682",
+        "CMP-00381",
+        "CMP-00744"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "Evidence includes voice tone, background noise, and callback details suitable for victim interviews."
+    },
+    {
+      "id": "C19",
+      "section": "recommended_actions",
+      "text": "Request transaction tracing from the banks and wallet provider for the specific victim transfer amounts and timestamps listed in the 49 complaints to map fund flows and identify cash-out points.",
+      "evidence": [
+        "F1",
+        "F2",
+        "CMP-00010",
+        "CMP-00682",
+        "CMP-00574",
+        "CMP-01044",
+        "CMP-01125",
+        "CMP-00185",
+        "CMP-00546"
+      ],
+      "rule_problems": [],
+      "verifier": "supported",
+      "status": "kept",
+      "reason": "F1, F2 and complaint snippets provide amounts/timestamps enabling transaction tracing."
+    }
+  ],
+  "open_questions": [
+    "Whether the bank accounts (1654051531952058, 4246095396218518, 9986143410369711) and wallets (964555220, 964555120) are controlled by the named individuals (Sagar G., Bikash R., Rekha S.) or are mule accounts opened with stolen identities.",
+    "Whether the phone numbers used (962555039, 973555395, 965555229, 965555953, 965555810, 977555712, 970555946, 976555008) are registered to the same individuals, are VoIP numbers, or are frequently swapped SIMs.",
+    "Whether the three complaints linked only by the predictor (CMP-00083, CMP-00747, CMP-00045) share operational infrastructure (phones, accounts, wallets, scripts) with the core 46 complaints."
+  ],
+  "writer": {
+    "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+    "parsed": true,
+    "calls": 2,
+    "cached_calls": 0,
+    "prompt_tokens": 22802,
+    "completion_tokens": 9695
+  },
+  "verification": {
+    "claims_written": 19,
+    "removed_by_rules": 4,
+    "removed_by_verifier": 0,
+    "kept": 15,
+    "supported_before_checks": 0.7895,
+    "verifier": {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "calls": 1,
+      "cached_calls": 0,
+      "prompt_tokens": 21261,
+      "completion_tokens": 1047,
+      "parsed": true
+    }
+  },
+  "truth_check": {
+    "true_ring": "R22",
+    "key_leads_checked": 3,
+    "key_leads_correct": 3
+  }
+}
